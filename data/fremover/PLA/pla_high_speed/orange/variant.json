@@ -1,0 +1,9 @@
+{
+  "id": "orange",
+  "name": "Orange",
+  "color_hex": "#F4663F",
+  "discontinued": false,
+  "traits": {
+    "high_flow": true
+  }
+}
