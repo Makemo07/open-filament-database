@@ -1,0 +1,9 @@
+{
+  "id": "wine",
+  "name": "Wine",
+  "color_hex": "#704041",
+  "discontinued": false,
+  "traits": {
+    "high_flow": true
+  }
+}
