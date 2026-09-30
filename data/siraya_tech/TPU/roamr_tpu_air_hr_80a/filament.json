@@ -1,0 +1,11 @@
+{
+  "id": "roamr_tpu_air_hr_80a",
+  "name": "Roamr TPU Air HR 80A",
+  "diameter_tolerance": 0.03,
+  "density": 1.05,
+  "shore_hardness_a": 80,
+  "min_print_temperature": 235,
+  "max_print_temperature": 270,
+  "min_bed_temperature": 35,
+  "max_bed_temperature": 50
+}
