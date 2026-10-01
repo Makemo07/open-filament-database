@@ -1,0 +1,11 @@
+{
+  "id": "flex_tpu_air",
+  "name": "Flex TPU Air 85A",
+  "diameter_tolerance": 0.02,
+  "density": 1.15,
+  "shore_hardness_a": 85,
+  "min_print_temperature": 220,
+  "max_print_temperature": 260,
+  "min_bed_temperature": 30,
+  "max_bed_temperature": 60
+}
