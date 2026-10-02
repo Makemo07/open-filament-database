@@ -1,17 +1,19 @@
 """
-Apply Fiber / High-Flow Traits Script.
+Apply Fiber / High-Flow / Foaming Traits Script.
 
-Detects carbon-fiber (CF), glass-fiber (GF) and high-flow / high-speed (HF)
-filaments from their material/filament/variant names and ensures each matching
+Detects carbon-fiber (CF), glass-fiber (GF), high-flow / high-speed (HF) and
+lightweight / foaming (LW) filaments from their material/filament/variant names and ensures each matching
 variant carries the correct traits:
 
     CF  ->  contains_carbon_fiber = true, abrasive = true
     GF  ->  contains_glass_fiber  = true, abrasive = true
     HF  ->  high_flow            = true
+    LW  ->  foaming              = true
 
 Carbon- and glass-fiber composites are physically abrasive (they need a
 hardened nozzle), so ``abrasive`` is set alongside the fibre trait. High-flow
-(often marketed as "high speed") lines get the ``high_flow`` trait.
+(often marketed as "high speed") lines get the ``high_flow`` trait, and
+lightweight lines (LW, Aero, Foamy, UltraFoam) get ``foaming``.
 
 Detection is name-based and reads from, for each variant:
   - the material folder (e.g. PA6) and filament folder (e.g. cf_pla)
@@ -190,6 +192,7 @@ class Stats:
     cf_detected: int = 0
     gf_detected: int = 0
     hf_detected: int = 0
+    lw_detected: int = 0
     traits_added: dict[str, int] = field(default_factory=dict)
     flipped_from_false: int = 0
 
@@ -204,6 +207,7 @@ class Stats:
             "cf_detected": self.cf_detected,
             "gf_detected": self.gf_detected,
             "hf_detected": self.hf_detected,
+            "lw_detected": self.lw_detected,
             "traits_added": dict(sorted(self.traits_added.items())),
             "flipped_from_false": self.flipped_from_false,
         }
@@ -378,6 +382,8 @@ class ApplyFiberTraitsScript(BaseScript):
             stats.gf_detected += 1
         if "HF" in codes:
             stats.hf_detected += 1
+        if "LW" in codes:
+            stats.lw_detected += 1
 
         # Traits this variant should have set to true.
         wanted: set[str] = set()
@@ -421,7 +427,7 @@ class ApplyFiberTraitsScript(BaseScript):
         self.log("=" * 60)
         self.log(f"Variants scanned:  {stats.variants_scanned}")
         self.log(
-            f"Detected  CF/GF/HF: {stats.cf_detected} / {stats.gf_detected} / {stats.hf_detected}"
+            f"Detected  CF/GF/HF/LW: {stats.cf_detected} / {stats.gf_detected} / {stats.hf_detected} / {stats.lw_detected}"
         )
         self.log(f"Variants {'to modify' if dry_run else 'modified'}: {stats.variants_modified}")
         if stats.flipped_from_false:

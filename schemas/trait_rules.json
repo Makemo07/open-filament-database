@@ -47,6 +47,20 @@
             "note": "Often marketed as high-speed. 719/720 matching variants already carry it."
         },
         {
+            "id": "foaming",
+            "code": "LW",
+            "pattern": "(?:^|[^a-z])aero(?![a-z])|(?:^|[^a-z])lw(?![a-z])|light[\\s_+-]?weight|(?:^|[^a-z])(?:ultra)?foam(?:ing|y)?(?![a-z])",
+            "traits": [
+                "foaming"
+            ],
+            "applies_to": [
+                "suggest",
+                "validate",
+                "backfill"
+            ],
+            "note": "Lightweight / active-foaming filaments (LW-PLA, Aero, Foamy, UltraFoam) expand when printed hot, by definition. 39/90 matching variants already carried it; the other 51 were backfilled. Bare 'air' is deliberately not matched (too generic; Overture PLA Air already carries the trait)."
+        },
+        {
             "id": "bicolor",
             "pattern": "bi[\\s_+-]?colou?r",
             "traits": [

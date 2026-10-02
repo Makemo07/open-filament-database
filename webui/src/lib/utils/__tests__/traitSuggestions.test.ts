@@ -20,9 +20,9 @@ describe('buildTraitRules', () => {
 		expect(rules.map((r) => r.id)).toContain('carbon_fiber');
 	});
 
-	it('only the fiber/high-flow rules are enforced by the validator and backfill', () => {
+	it('only the fiber/high-flow/foaming rules are enforced by the validator and backfill', () => {
 		const enforced = rules.filter((r) => r.appliesTo.has('validate')).map((r) => r.id);
-		expect(enforced).toEqual(['carbon_fiber', 'glass_fiber', 'high_flow']);
+		expect(enforced).toEqual(['carbon_fiber', 'glass_fiber', 'high_flow', 'foaming']);
 	});
 
 	// The table is deliberately decoupled from the schema that defines traits, so this
@@ -72,6 +72,19 @@ describe('detectSuggestedTraits', () => {
 		expect(detect('PETG', 'petg_hf', 'Black')).toEqual(['high_flow']);
 		expect(detect('TPU', '95a_hf', 'White')).toEqual(['high_flow']);
 		expect(detect('PLA', 'pla_premium_highspeed', 'Blue')).toEqual(['high_flow']);
+	});
+
+	it('detects foaming from aero / lw / light weight / foam names', () => {
+		expect(detect('PLA', 'aero', 'White')).toEqual(['foaming']);
+		expect(detect('PLA', 'lw_pla', 'Black')).toEqual(['foaming']);
+		expect(detect('ASA', 'asa_light_weight', 'White')).toEqual(['foaming']);
+		expect(detect('TPU', 'filaflex_95_foamy', 'Red')).toEqual(['foaming']);
+		expect(detect('PLA', 'lw_pla_ultrafoam', 'Pure Red')).toEqual(['foaming']);
+		expect(detect('ASA', 'apollox_foaming', 'Black')).toEqual(['foaming']);
+	});
+
+	it('does not match foam inside a colour name', () => {
+		expect(detect('PLA', 'pla', 'Seafoam Green')).toEqual([]);
 	});
 
 	it('combines rules when a filament matches several', () => {
