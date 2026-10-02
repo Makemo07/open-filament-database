@@ -20,9 +20,9 @@ describe('buildTraitRules', () => {
 		expect(rules.map((r) => r.id)).toContain('carbon_fiber');
 	});
 
-	it('only the fiber/high-flow/foaming rules are enforced by the validator and backfill', () => {
+	it('only the fiber/high-flow rules are enforced by the validator and backfill', () => {
 		const enforced = rules.filter((r) => r.appliesTo.has('validate')).map((r) => r.id);
-		expect(enforced).toEqual(['carbon_fiber', 'glass_fiber', 'high_flow', 'foaming']);
+		expect(enforced).toEqual(['carbon_fiber', 'glass_fiber', 'high_flow']);
 	});
 
 	// The table is deliberately decoupled from the schema that defines traits, so this

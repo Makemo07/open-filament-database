@@ -522,4 +522,4 @@ def test_only_definitional_rules_are_enforced():
     from ofd.scripts.apply_fiber_traits import VALIDATE, load_trait_rules
 
     enforced = [r.id for r in load_trait_rules() if VALIDATE in r.applies_to]
-    assert enforced == ["carbon_fiber", "glass_fiber", "high_flow", "foaming"]
+    assert enforced == ["carbon_fiber", "glass_fiber", "high_flow"]

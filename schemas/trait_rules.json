@@ -54,11 +54,9 @@
                 "foaming"
             ],
             "applies_to": [
-                "suggest",
-                "validate",
-                "backfill"
+                "suggest"
             ],
-            "note": "Lightweight / active-foaming filaments (LW-PLA, Aero, Foamy, UltraFoam) expand when printed hot, by definition. 39/90 matching variants already carried it; the other 51 were backfilled. Bare 'air' is deliberately not matched (too generic; Overture PLA Air already carries the trait)."
+            "note": "Lightweight filaments sold as LW / Aero / Foamy / UltraFoam usually foam actively when printed hot, but not all: Polymaker PolyLite LW-PLA is pre-foamed during manufacturing and does not expand in the nozzle. Not true by definition, so suggest only. Bare 'air' is deliberately not matched (too generic)."
         },
         {
             "id": "bicolor",
