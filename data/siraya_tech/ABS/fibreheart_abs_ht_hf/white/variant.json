@@ -1,0 +1,10 @@
+{
+  "uuid": "",
+  "id": "white",
+  "name": "White",
+  "color_hex": "#FFFFFF",
+  "traits": {
+    "high_temperature": true,
+    "high_flow": true
+  }
+}

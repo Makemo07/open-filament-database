@@ -1,0 +1,9 @@
+{
+  "uuid": "",
+  "id": "black",
+  "name": "Noir",
+  "color_hex": "#000000",
+  "traits": {
+    "foaming": true
+  }
+}
