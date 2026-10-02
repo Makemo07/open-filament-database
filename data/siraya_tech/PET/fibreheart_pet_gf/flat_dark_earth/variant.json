@@ -1,0 +1,9 @@
+{
+  "id": "flat_dark_earth",
+  "name": "Flat Dark Earth",
+  "color_hex": "#7C6240",
+  "traits": {
+    "abrasive": true,
+    "contains_glass_fiber": true
+  }
+}
