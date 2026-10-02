@@ -1,0 +1,9 @@
+{
+  "id": "avocado_green",
+  "name": "Avocado Green",
+  "color_hex": "#BCE194",
+  "discontinued": false,
+  "traits": {
+    "matte": true
+  }
+}
