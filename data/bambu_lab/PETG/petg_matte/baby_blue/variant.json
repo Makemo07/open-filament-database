@@ -1,0 +1,9 @@
+{
+  "id": "baby_blue",
+  "name": "Baby Blue",
+  "color_hex": "#B9D9EB",
+  "discontinued": false,
+  "traits": {
+    "matte": true
+  }
+}

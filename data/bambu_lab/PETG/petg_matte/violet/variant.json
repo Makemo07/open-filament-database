@@ -1,0 +1,9 @@
+{
+  "id": "violet",
+  "name": "Violet",
+  "color_hex": "#A7A4E0",
+  "discontinued": false,
+  "traits": {
+    "matte": true
+  }
+}
