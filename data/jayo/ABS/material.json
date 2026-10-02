@@ -1,0 +1,13 @@
+{
+  "material": "ABS",
+  "material_class": "FFF",
+  "default_slicer_settings": {
+    "anycubicslicer": {
+      "bed_temp": 60,
+      "first_layer_bed_temp": 60,
+      "first_layer_nozzle_temp": 225,
+      "nozzle_temp": 225,
+      "profile_name": "Easy ABS"
+    }
+  }
+}
