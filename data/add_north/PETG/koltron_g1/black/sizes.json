@@ -36,7 +36,8 @@
         "store_id": "add_north",
         "url": "https://addnorth.com/product/Koltron%20G1/Koltron%20G1%20-%202.85mm%20-%20100g%20-%20Black"
       }
-    ]
+    ],
+    "gtin": "7340182903168"
   },
   {
     "uuid": "f8c94827-568b-4697-9be9-e2e91f7934cb",
@@ -49,6 +50,7 @@
         "store_id": "add_north",
         "url": "https://addnorth.com/product/Koltron%20G1/Koltron%20G1%20-%202.85mm%20-%20250g%20-%20Black"
       }
-    ]
+    ],
+    "gtin": "7340182903076"
   }
 ]
