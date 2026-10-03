@@ -5,5 +5,15 @@
     "diameter": 1.75,
     "gtin": "6938936709688",
     "article_number": "PA02003"
+  },
+  {
+    "filament_weight": 3000,
+    "diameter": 1.75,
+    "gtin": "6938936712459"
+  },
+  {
+    "filament_weight": 1000,
+    "diameter": 2.85,
+    "gtin": "6938936711049"
   }
 ]

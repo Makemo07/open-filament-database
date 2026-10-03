@@ -22,5 +22,10 @@
         "url": "https://us.polymaker.com/products/fiberon-pa612-cf"
       }
     ]
+  },
+  {
+    "filament_weight": 1000,
+    "diameter": 1.75,
+    "gtin": "6938936718376"
   }
 ]
