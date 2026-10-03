@@ -4,5 +4,30 @@
     "filament_weight": 1000,
     "diameter": 1.75,
     "gtin": "9010241063000"
+  },
+  {
+    "filament_weight": 2500,
+    "diameter": 1.75,
+    "gtin": "9010241064007"
+  },
+  {
+    "filament_weight": 10000,
+    "diameter": 1.75,
+    "gtin": "9010241065004"
+  },
+  {
+    "filament_weight": 1000,
+    "diameter": 2.85,
+    "gtin": "9010241073009"
+  },
+  {
+    "filament_weight": 2500,
+    "diameter": 2.85,
+    "gtin": "9010241074006"
+  },
+  {
+    "filament_weight": 10000,
+    "diameter": 2.85,
+    "gtin": "9010241075003"
   }
 ]
