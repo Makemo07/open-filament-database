@@ -16,13 +16,13 @@
     "uuid": "7bfa9464-2c14-4e88-9213-83c71c14611b",
     "filament_weight": 1000,
     "diameter": 1.75,
+    "gtin": "5903175659606",
     "article_number": "80899",
     "purchase_links": [
       {
         "store_id": "spectrum",
         "url": "https://shop.spectrumfilaments.com/product-eng-1496-Filament-Pastello-PLA-1-75mm-HOLLAND-RED-1kg.html"
       }
-    ],
-    "gtin": "5903175659606"
+    ]
   }
 ]

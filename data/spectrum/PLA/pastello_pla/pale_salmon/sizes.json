@@ -16,13 +16,13 @@
     "uuid": "3415ecde-6453-45df-90d2-21cbf0e2139a",
     "filament_weight": 1000,
     "diameter": 1.75,
+    "gtin": "5903175654908",
     "article_number": "80710",
     "purchase_links": [
       {
         "store_id": "spectrum",
         "url": "https://shop.spectrumfilaments.com/product-eng-1494-Filament-Pastello-PLA-1-75mm-PALE-SALMON-1kg.html"
       }
-    ],
-    "gtin": "5903175654908"
+    ]
   }
 ]

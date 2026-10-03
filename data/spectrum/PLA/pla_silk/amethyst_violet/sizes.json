@@ -16,13 +16,13 @@
     "uuid": "ee01a8ea-215d-46dd-8ce2-dba19a5df24d",
     "filament_weight": 1000,
     "diameter": 1.75,
+    "gtin": "5903175652737",
     "article_number": "80512",
     "purchase_links": [
       {
         "store_id": "spectrum",
         "url": "https://shop.spectrumfilaments.com/product-eng-1299-Filament-Spectrum-SILK-PLA-1-75mm-AMETHYST-VIOLET-1kg.html"
       }
-    ],
-    "gtin": "5903175652737"
+    ]
   }
 ]

@@ -18,12 +18,12 @@
     "diameter": 2.85,
     "empty_spool_weight": 207,
     "spool_core_diameter": 53,
+    "gtin": "7340182903090",
     "purchase_links": [
       {
         "store_id": "add_north",
         "url": "https://addnorth.com/product/Addbor%20N25/Addbor%20N25%20-%202.85mm%20-%20750g%20-%20Anthracite"
       }
-    ],
-    "gtin": "7340182903090"
+    ]
   }
 ]

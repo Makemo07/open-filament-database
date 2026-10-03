@@ -16,13 +16,13 @@
     "uuid": "6fc91eee-bcc8-4472-bca7-62f6ce28840b",
     "filament_weight": 1000,
     "diameter": 1.75,
+    "gtin": "5903175654892",
     "article_number": "80709",
     "purchase_links": [
       {
         "store_id": "spectrum",
         "url": "https://shop.spectrumfilaments.com/product-eng-1493-Filament-Pastello-PLA-1-75mm-PINK-PASTEL-1kg.html"
       }
-    ],
-    "gtin": "5903175654892"
+    ]
   }
 ]

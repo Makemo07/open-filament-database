@@ -16,13 +16,13 @@
     "uuid": "b67aedbf-38ac-4b20-9373-5ebc62d2b539",
     "filament_weight": 1000,
     "diameter": 1.75,
+    "gtin": "5903175654977",
     "article_number": "80717",
     "purchase_links": [
       {
         "store_id": "spectrum",
         "url": "https://shop.spectrumfilaments.com/product-eng-1502-Filament-Spectrum-PCTG-CF10-1-75mm-1kg.html"
       }
-    ],
-    "gtin": "5903175654977"
+    ]
   }
 ]

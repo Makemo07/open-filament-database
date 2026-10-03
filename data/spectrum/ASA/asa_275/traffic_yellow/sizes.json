@@ -16,13 +16,13 @@
     "uuid": "bacf6983-9428-4749-b48c-178ed78868f3",
     "filament_weight": 1000,
     "diameter": 1.75,
+    "gtin": "5903175652676",
     "article_number": "80509",
     "purchase_links": [
       {
         "store_id": "spectrum",
         "url": "https://shop.spectrumfilaments.com/product-eng-1296-Filament-Spectrum-ASA-275-1-75mm-TRAFFIC-YELLOW-1kg-RAL-1023.html"
       }
-    ],
-    "gtin": "5903175652676"
+    ]
   }
 ]
