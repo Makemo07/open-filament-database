@@ -8,7 +8,8 @@
         "store_id": "polymaker",
         "url": "https://us.polymaker.com/products/fiberon-pps-gf20"
       }
-    ]
+    ],
+    "gtin": "6938936716488"
   },
   {
     "uuid": "1fd9442d-a895-4926-9a8b-78d2ca1d7cf4",
@@ -19,6 +20,7 @@
         "store_id": "polymaker",
         "url": "https://us.polymaker.com/products/fiberon-pps-gf20"
       }
-    ]
+    ],
+    "gtin": "6938936716471"
   }
 ]
