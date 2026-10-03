@@ -8,13 +8,13 @@
     "container_width": 66,
     "container_outer_diameter": 200,
     "container_hole_diameter": 55,
+    "gtin": "6938936715467",
     "purchase_links": [
       {
         "store_id": "polymaker",
         "url": "https://us.polymaker.com/products/panchroma-satin"
       }
-    ],
-    "gtin": "6938936715467"
+    ]
   },
   {
     "uuid": "d41bf065-0293-4ec7-8560-b59ecc99524d",

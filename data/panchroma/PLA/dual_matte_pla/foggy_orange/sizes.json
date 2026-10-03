@@ -9,6 +9,7 @@
     "container_width": 66,
     "container_outer_diameter": 200,
     "container_hole_diameter": 55,
+    "gtin": "6938936715832",
     "article_number": "CA04045",
     "discontinued": false,
     "purchase_links": [
@@ -16,7 +17,6 @@
         "store_id": "polymaker",
         "url": "https://us.polymaker.com/products/panchroma-dual-matte?variant=43613087825977?"
       }
-    ],
-    "gtin": "6938936715832"
+    ]
   }
 ]

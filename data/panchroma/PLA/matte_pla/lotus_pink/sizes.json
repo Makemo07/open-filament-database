@@ -8,13 +8,13 @@
     "container_width": 66,
     "container_outer_diameter": 200,
     "container_hole_diameter": 55,
+    "gtin": "6938936714545",
     "purchase_links": [
       {
         "store_id": "polymaker",
         "url": "https://us.polymaker.com/products/panchroma-matte"
       }
-    ],
-    "gtin": "6938936714545"
+    ]
   },
   {
     "uuid": "ade4b591-d6a4-4f09-b5dd-bea25f170cce",

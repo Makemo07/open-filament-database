@@ -6,13 +6,13 @@
     "spool_refill": false,
     "empty_spool_weight": 140,
     "spool_core_diameter": 100,
+    "gtin": "6938936707318",
     "discontinued": false,
     "purchase_links": [
       {
         "store_id": "polymaker",
         "url": "https://shop.polymaker.com/en-gb/products/polymaker-pla-pro"
       }
-    ],
-    "gtin": "6938936707318"
+    ]
   }
 ]
