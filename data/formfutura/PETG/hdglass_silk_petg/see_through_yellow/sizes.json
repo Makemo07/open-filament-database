@@ -5,6 +5,7 @@
     "diameter": 1.75,
     "spool_refill": false,
     "empty_spool_weight": 165,
+    "gtin": "8718924473177",
     "article_number": "HDGL-175STYL-00750",
     "discontinued": false,
     "purchase_links": [
@@ -12,8 +13,7 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/hdglass"
       }
-    ],
-    "gtin": "8718924473177"
+    ]
   },
   {
     "uuid": "88aafd19-9f85-4b6c-a0c4-09652f1c10af",
@@ -21,6 +21,7 @@
     "diameter": 2.85,
     "spool_refill": false,
     "empty_spool_weight": 165,
+    "gtin": "8718924473184",
     "article_number": "HDGL-285STYL-00750",
     "discontinued": false,
     "purchase_links": [
@@ -28,7 +29,6 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/hdglass"
       }
-    ],
-    "gtin": "8718924473184"
+    ]
   }
 ]

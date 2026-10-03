@@ -5,6 +5,7 @@
     "diameter": 1.75,
     "spool_refill": false,
     "empty_spool_weight": 165,
+    "gtin": "8718924476093",
     "article_number": "HDGL-175BLGY-00750",
     "discontinued": false,
     "purchase_links": [
@@ -12,8 +13,7 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/hdglass"
       }
-    ],
-    "gtin": "8718924476093"
+    ]
   },
   {
     "uuid": "c0001a29-e35b-4a33-bb8a-7ee8b064912f",
@@ -21,6 +21,7 @@
     "diameter": 1.75,
     "spool_refill": false,
     "empty_spool_weight": 625,
+    "gtin": "8718924477601",
     "article_number": "HDGL-175BLGY-02300",
     "discontinued": false,
     "purchase_links": [
@@ -28,8 +29,7 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/hdglass"
       }
-    ],
-    "gtin": "8718924477601"
+    ]
   },
   {
     "uuid": "dbc33580-672a-4546-b13b-ef4d4447d82b",
@@ -37,6 +37,7 @@
     "diameter": 1.75,
     "spool_refill": false,
     "empty_spool_weight": 785,
+    "gtin": "8718924477595",
     "article_number": "HDGL-175BLGY-04500",
     "discontinued": false,
     "purchase_links": [
@@ -44,8 +45,7 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/hdglass"
       }
-    ],
-    "gtin": "8718924477595"
+    ]
   },
   {
     "uuid": "443856b1-14de-4f94-b6b8-4e63e1ac6a9f",
@@ -53,6 +53,7 @@
     "diameter": 1.75,
     "spool_refill": false,
     "empty_spool_weight": 1040,
+    "gtin": "8718924478080",
     "article_number": "HDGL-175BLGY-08000",
     "discontinued": false,
     "purchase_links": [
@@ -60,8 +61,7 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/hdglass"
       }
-    ],
-    "gtin": "8718924478080"
+    ]
   },
   {
     "uuid": "ea245e7a-1069-4ddb-9534-d5270fcd8415",
@@ -69,6 +69,7 @@
     "diameter": 2.85,
     "spool_refill": false,
     "empty_spool_weight": 165,
+    "gtin": "8718924476109",
     "article_number": "HDGL-285BLGY-00750",
     "discontinued": false,
     "purchase_links": [
@@ -76,8 +77,7 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/hdglass"
       }
-    ],
-    "gtin": "8718924476109"
+    ]
   },
   {
     "uuid": "f6360b61-610e-482c-a086-a14602e8ffd3",
@@ -85,6 +85,7 @@
     "diameter": 2.85,
     "spool_refill": false,
     "empty_spool_weight": 625,
+    "gtin": "8718924477618",
     "article_number": "HDGL-285BLGY-02300",
     "discontinued": false,
     "purchase_links": [
@@ -92,8 +93,7 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/hdglass"
       }
-    ],
-    "gtin": "8718924477618"
+    ]
   },
   {
     "uuid": "b23af21b-79f2-46e4-a175-80eeb8c7aff7",
@@ -101,6 +101,7 @@
     "diameter": 2.85,
     "spool_refill": false,
     "empty_spool_weight": 785,
+    "gtin": "8718924477373",
     "article_number": "HDGL-285BLGY-04500",
     "discontinued": false,
     "purchase_links": [
@@ -108,8 +109,7 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/hdglass"
       }
-    ],
-    "gtin": "8718924477373"
+    ]
   },
   {
     "uuid": "e8341d9c-daa2-4995-aa45-08e01d023acb",
@@ -117,6 +117,7 @@
     "diameter": 2.85,
     "spool_refill": false,
     "empty_spool_weight": 1040,
+    "gtin": "8718924478097",
     "article_number": "HDGL-285BLGY-08000",
     "discontinued": false,
     "purchase_links": [
@@ -124,7 +125,6 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/hdglass"
       }
-    ],
-    "gtin": "8718924478097"
+    ]
   }
 ]

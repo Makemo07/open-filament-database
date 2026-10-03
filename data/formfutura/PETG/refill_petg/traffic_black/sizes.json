@@ -5,6 +5,7 @@
     "diameter": 1.75,
     "spool_refill": true,
     "empty_spool_weight": 20,
+    "gtin": "8720629063355",
     "article_number": "RFPE-175TBLK-00750",
     "discontinued": false,
     "purchase_links": [
@@ -12,8 +13,7 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/refill-petg"
       }
-    ],
-    "gtin": "8720629063355"
+    ]
   },
   {
     "uuid": "4f8e06d5-ee8c-479f-9cf9-0ca156d08f3e",
@@ -21,6 +21,7 @@
     "diameter": 1.75,
     "spool_refill": true,
     "empty_spool_weight": 40,
+    "gtin": "8720847058942",
     "article_number": "RFPE-175TBLK-02000",
     "discontinued": false,
     "purchase_links": [
@@ -28,7 +29,6 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/refill-petg"
       }
-    ],
-    "gtin": "8720847058942"
+    ]
   }
 ]

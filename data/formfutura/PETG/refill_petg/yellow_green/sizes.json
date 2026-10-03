@@ -5,6 +5,7 @@
     "diameter": 1.75,
     "spool_refill": true,
     "empty_spool_weight": 20,
+    "gtin": "8720847058850",
     "article_number": "RFPE-175YLGN-00750",
     "discontinued": false,
     "purchase_links": [
@@ -12,7 +13,6 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/refill-petg"
       }
-    ],
-    "gtin": "8720847058850"
+    ]
   }
 ]

@@ -5,6 +5,7 @@
     "diameter": 1.75,
     "spool_refill": true,
     "empty_spool_weight": 20,
+    "gtin": "8720629067919",
     "article_number": "ATGF-175BLCK-C0500",
     "discontinued": false,
     "purchase_links": [
@@ -12,8 +13,7 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/athenax-gf10"
       }
-    ],
-    "gtin": "8720629067919"
+    ]
   },
   {
     "uuid": "2068f1ca-89fc-47b6-92cc-2bc4e3ae450f",
@@ -21,6 +21,7 @@
     "diameter": 1.75,
     "spool_refill": false,
     "empty_spool_weight": 165,
+    "gtin": "8720629067902",
     "article_number": "ATGF-175BLCK-01000",
     "discontinued": false,
     "purchase_links": [
@@ -28,8 +29,7 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/athenax-gf10"
       }
-    ],
-    "gtin": "8720629067902"
+    ]
   },
   {
     "uuid": "3047b13b-4886-4148-bc7e-78abcdc45a58",
@@ -37,6 +37,7 @@
     "diameter": 1.75,
     "spool_refill": true,
     "empty_spool_weight": 20,
+    "gtin": "8720629067926",
     "article_number": "ATGF-175BLCK-C1000",
     "discontinued": false,
     "purchase_links": [
@@ -44,8 +45,7 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/athenax-gf10"
       }
-    ],
-    "gtin": "8720629067926"
+    ]
   },
   {
     "uuid": "3e52f62e-c872-4260-862a-62914a195543",
@@ -53,6 +53,7 @@
     "diameter": 1.75,
     "spool_refill": true,
     "empty_spool_weight": 40,
+    "gtin": "8720629067933",
     "article_number": "ATGF-175BLCK-C2000",
     "discontinued": false,
     "purchase_links": [
@@ -60,7 +61,6 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/athenax-gf10"
       }
-    ],
-    "gtin": "8720629067933"
+    ]
   }
 ]

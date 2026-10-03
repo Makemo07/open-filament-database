@@ -5,6 +5,7 @@
     "diameter": 1.75,
     "spool_refill": false,
     "empty_spool_weight": 165,
+    "gtin": "8718924471746",
     "article_number": "EHPS-175DBLU-00750",
     "discontinued": false,
     "purchase_links": [
@@ -12,8 +13,7 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/easyfil-hips"
       }
-    ],
-    "gtin": "8718924471746"
+    ]
   },
   {
     "uuid": "0925bc28-ba26-4646-bea9-711cd25c6b90",
@@ -21,6 +21,7 @@
     "diameter": 2.85,
     "spool_refill": false,
     "empty_spool_weight": 165,
+    "gtin": "8718924471753",
     "article_number": "EHPS-285DBLU-00750",
     "discontinued": false,
     "purchase_links": [
@@ -28,7 +29,6 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/easyfil-hips"
       }
-    ],
-    "gtin": "8718924471753"
+    ]
   }
 ]

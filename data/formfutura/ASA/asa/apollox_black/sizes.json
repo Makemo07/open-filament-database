@@ -5,6 +5,7 @@
     "diameter": 1.75,
     "spool_refill": false,
     "empty_spool_weight": 165,
+    "gtin": "8718924476277",
     "article_number": "APOX-175BLCK-00750",
     "discontinued": false,
     "purchase_links": [
@@ -12,8 +13,7 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/apollox"
       }
-    ],
-    "gtin": "8718924476277"
+    ]
   },
   {
     "uuid": "0aabf170-8f30-4ce2-9ef2-b4da7c625f2d",
@@ -21,6 +21,7 @@
     "diameter": 1.75,
     "spool_refill": true,
     "empty_spool_weight": 20,
+    "gtin": "8720629068459",
     "article_number": "APOX-175BLCK-B1000",
     "discontinued": false,
     "purchase_links": [
@@ -28,8 +29,7 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/apollox"
       }
-    ],
-    "gtin": "8720629068459"
+    ]
   },
   {
     "uuid": "c19e0271-cd01-40f6-adc6-c04be1a59816",
@@ -37,6 +37,7 @@
     "diameter": 1.75,
     "spool_refill": false,
     "empty_spool_weight": 625,
+    "gtin": "8718924477694",
     "article_number": "APOX-175BLCK-02300",
     "discontinued": false,
     "purchase_links": [
@@ -44,8 +45,7 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/apollox"
       }
-    ],
-    "gtin": "8718924477694"
+    ]
   },
   {
     "uuid": "4bc77bb4-7f5f-4a37-b4fd-a3aa9279036a",
@@ -53,6 +53,7 @@
     "diameter": 1.75,
     "spool_refill": false,
     "empty_spool_weight": 785,
+    "gtin": "8718924477717",
     "article_number": "APOX-175BLCK-04500",
     "discontinued": false,
     "purchase_links": [
@@ -60,8 +61,7 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/apollox"
       }
-    ],
-    "gtin": "8718924477717"
+    ]
   },
   {
     "uuid": "cde8a7bf-8954-49ed-9cec-969fd31ef5e5",
@@ -69,6 +69,7 @@
     "diameter": 1.75,
     "spool_refill": false,
     "empty_spool_weight": 1040,
+    "gtin": "8718924479445",
     "article_number": "APOX-175BLCK-08000",
     "discontinued": false,
     "purchase_links": [
@@ -76,8 +77,7 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/apollox"
       }
-    ],
-    "gtin": "8718924479445"
+    ]
   },
   {
     "uuid": "8ca9f208-e08d-4e3b-af60-241a66b2abc5",
@@ -85,6 +85,7 @@
     "diameter": 2.85,
     "spool_refill": false,
     "empty_spool_weight": 165,
+    "gtin": "8718924476284",
     "article_number": "APOX-285BLCK-00750",
     "discontinued": false,
     "purchase_links": [
@@ -92,8 +93,7 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/apollox"
       }
-    ],
-    "gtin": "8718924476284"
+    ]
   },
   {
     "uuid": "c308c785-d9e5-437c-aa46-b2904f223a5a",
@@ -101,6 +101,7 @@
     "diameter": 2.85,
     "spool_refill": false,
     "empty_spool_weight": 625,
+    "gtin": "8718924477700",
     "article_number": "APOX-285BLCK-02300",
     "discontinued": false,
     "purchase_links": [
@@ -108,8 +109,7 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/apollox"
       }
-    ],
-    "gtin": "8718924477700"
+    ]
   },
   {
     "uuid": "e6f0ff7d-0594-4e8f-932d-a0ea05bb990d",
@@ -117,6 +117,7 @@
     "diameter": 2.85,
     "spool_refill": false,
     "empty_spool_weight": 785,
+    "gtin": "8718924477724",
     "article_number": "APOX-285BLCK-04500",
     "discontinued": false,
     "purchase_links": [
@@ -124,8 +125,7 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/apollox"
       }
-    ],
-    "gtin": "8718924477724"
+    ]
   },
   {
     "uuid": "eed81018-a80f-4c49-8cb7-b74bd430fd1e",
@@ -133,6 +133,7 @@
     "diameter": 2.85,
     "spool_refill": false,
     "empty_spool_weight": 1040,
+    "gtin": "8718924479452",
     "article_number": "APOX-285BLCK-08000",
     "discontinued": false,
     "purchase_links": [
@@ -140,7 +141,6 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/apollox"
       }
-    ],
-    "gtin": "8718924479452"
+    ]
   }
 ]

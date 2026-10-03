@@ -5,6 +5,7 @@
     "diameter": 1.75,
     "spool_refill": false,
     "empty_spool_weight": 165,
+    "gtin": "8720847053251",
     "article_number": "PTGE-175SQGY-01000",
     "discontinued": false,
     "purchase_links": [
@@ -12,8 +13,7 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/easyfil-epetg"
       }
-    ],
-    "gtin": "8720847053251"
+    ]
   },
   {
     "uuid": "0aa9908a-56de-4fdc-88bf-8506c84d033a",
@@ -21,6 +21,7 @@
     "diameter": 1.75,
     "spool_refill": false,
     "empty_spool_weight": 625,
+    "gtin": "8720847053596",
     "article_number": "PTGE-175SQGY-02300",
     "discontinued": false,
     "purchase_links": [
@@ -28,8 +29,7 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/easyfil-epetg"
       }
-    ],
-    "gtin": "8720847053596"
+    ]
   },
   {
     "uuid": "293bf4f5-64eb-4a98-a479-0b9c46447d4a",
@@ -37,6 +37,7 @@
     "diameter": 1.75,
     "spool_refill": false,
     "empty_spool_weight": 785,
+    "gtin": "8720847053930",
     "article_number": "PTGE-175SQGY-04500",
     "discontinued": false,
     "purchase_links": [
@@ -44,8 +45,7 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/easyfil-epetg"
       }
-    ],
-    "gtin": "8720847053930"
+    ]
   },
   {
     "uuid": "ebde3a82-1541-40c7-a4d3-0fd4a0cf8751",
@@ -53,6 +53,7 @@
     "diameter": 1.75,
     "spool_refill": false,
     "empty_spool_weight": 1040,
+    "gtin": "8720847054272",
     "article_number": "PTGE-175SQGY-08000",
     "discontinued": false,
     "purchase_links": [
@@ -60,8 +61,7 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/easyfil-epetg"
       }
-    ],
-    "gtin": "8720847054272"
+    ]
   },
   {
     "uuid": "43c620e6-faf1-412f-8140-c32280ef0bcc",
@@ -69,6 +69,7 @@
     "diameter": 2.85,
     "spool_refill": false,
     "empty_spool_weight": 165,
+    "gtin": "8720847057655",
     "article_number": "PTGE-285SQGY-01000",
     "discontinued": false,
     "purchase_links": [
@@ -76,8 +77,7 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/easyfil-epetg"
       }
-    ],
-    "gtin": "8720847057655"
+    ]
   },
   {
     "uuid": "3648f425-78c4-4a9a-b16b-bf046dafac04",
@@ -85,6 +85,7 @@
     "diameter": 2.85,
     "spool_refill": false,
     "empty_spool_weight": 625,
+    "gtin": "8720847057990",
     "article_number": "PTGE-285SQGY-02300",
     "discontinued": false,
     "purchase_links": [
@@ -92,8 +93,7 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/easyfil-epetg"
       }
-    ],
-    "gtin": "8720847057990"
+    ]
   },
   {
     "uuid": "d88749f0-c8cb-4613-a234-e0b7de856c16",
@@ -101,6 +101,7 @@
     "diameter": 2.85,
     "spool_refill": false,
     "empty_spool_weight": 785,
+    "gtin": "8720847058331",
     "article_number": "PTGE-285SQGY-04500",
     "discontinued": false,
     "purchase_links": [
@@ -108,8 +109,7 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/easyfil-epetg"
       }
-    ],
-    "gtin": "8720847058331"
+    ]
   },
   {
     "uuid": "9e2e0a19-ddb4-474b-b377-d84ad68ce6c8",
@@ -117,6 +117,7 @@
     "diameter": 2.85,
     "spool_refill": false,
     "empty_spool_weight": 1040,
+    "gtin": "8720847058676",
     "article_number": "PTGE-285SQGY-08000",
     "discontinued": false,
     "purchase_links": [
@@ -124,7 +125,6 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/easyfil-epetg"
       }
-    ],
-    "gtin": "8720847058676"
+    ]
   }
 ]

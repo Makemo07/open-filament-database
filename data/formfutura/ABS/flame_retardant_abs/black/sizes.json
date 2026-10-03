@@ -20,6 +20,7 @@
     "diameter": 1.75,
     "spool_refill": false,
     "empty_spool_weight": 625,
+    "gtin": "8718924477304",
     "article_number": "APFR-175BLCK-02300",
     "discontinued": false,
     "purchase_links": [
@@ -27,8 +28,7 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/abspro-flame-retardant"
       }
-    ],
-    "gtin": "8718924477304"
+    ]
   },
   {
     "uuid": "c14b18bb-5c64-45ad-8d15-042036d34125",
@@ -36,6 +36,7 @@
     "diameter": 1.75,
     "spool_refill": false,
     "empty_spool_weight": 785,
+    "gtin": "8718924479964",
     "article_number": "APFR-175BLCK-04500",
     "discontinued": false,
     "purchase_links": [
@@ -43,8 +44,7 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/abspro-flame-retardant"
       }
-    ],
-    "gtin": "8718924479964"
+    ]
   },
   {
     "uuid": "d733b3c1-21a0-4af1-a708-c243b7753b09",
@@ -52,6 +52,7 @@
     "diameter": 2.85,
     "spool_refill": false,
     "empty_spool_weight": 140,
+    "gtin": "8718924475546",
     "article_number": "APFR-285BLCK-00500",
     "discontinued": false,
     "purchase_links": [
@@ -59,7 +60,6 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/abspro-flame-retardant"
       }
-    ],
-    "gtin": "8718924475546"
+    ]
   }
 ]

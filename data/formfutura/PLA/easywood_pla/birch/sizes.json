@@ -5,6 +5,7 @@
     "diameter": 1.75,
     "spool_refill": false,
     "empty_spool_weight": 140,
+    "gtin": "8718924475805",
     "article_number": "EWOD-175BRCH-00500",
     "discontinued": false,
     "purchase_links": [
@@ -12,8 +13,7 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/easywood"
       }
-    ],
-    "gtin": "8718924475805"
+    ]
   },
   {
     "uuid": "1f29f49f-5638-4e14-884b-be77a075dcfa",
@@ -21,6 +21,7 @@
     "diameter": 1.75,
     "spool_refill": false,
     "empty_spool_weight": 625,
+    "gtin": "8718924478134",
     "article_number": "EWOD-175BRCH-02300",
     "discontinued": false,
     "purchase_links": [
@@ -28,8 +29,7 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/easywood"
       }
-    ],
-    "gtin": "8718924478134"
+    ]
   },
   {
     "uuid": "430f63c0-7dad-4c49-abea-74cf7b7fbeb9",
@@ -37,6 +37,7 @@
     "diameter": 1.75,
     "spool_refill": false,
     "empty_spool_weight": 785,
+    "gtin": "8719956552045",
     "article_number": "EWOD-175BRCH-04500",
     "discontinued": false,
     "purchase_links": [
@@ -44,8 +45,7 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/easywood"
       }
-    ],
-    "gtin": "8719956552045"
+    ]
   },
   {
     "uuid": "25aa081a-4620-4bd2-95c0-cbde5e892bd5",
@@ -53,6 +53,7 @@
     "diameter": 1.75,
     "spool_refill": false,
     "empty_spool_weight": 1040,
+    "gtin": "8719956553837",
     "article_number": "EWOD-175BRCH-08000",
     "discontinued": false,
     "purchase_links": [
@@ -60,8 +61,7 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/easywood"
       }
-    ],
-    "gtin": "8719956553837"
+    ]
   },
   {
     "uuid": "9ff91cde-c491-4414-916f-4358ac64308a",
@@ -69,6 +69,7 @@
     "diameter": 2.85,
     "spool_refill": false,
     "empty_spool_weight": 140,
+    "gtin": "8718924475812",
     "article_number": "EWOD-285BRCH-00500",
     "discontinued": false,
     "purchase_links": [
@@ -76,8 +77,7 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/easywood"
       }
-    ],
-    "gtin": "8718924475812"
+    ]
   },
   {
     "uuid": "3e06ae29-d794-480f-8431-3875a8911f66",
@@ -85,6 +85,7 @@
     "diameter": 2.85,
     "spool_refill": false,
     "empty_spool_weight": 625,
+    "gtin": "8718924478141",
     "article_number": "EWOD-285BRCH-02300",
     "discontinued": false,
     "purchase_links": [
@@ -92,7 +93,6 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/easywood"
       }
-    ],
-    "gtin": "8718924478141"
+    ]
   }
 ]

@@ -5,6 +5,7 @@
     "diameter": 1.75,
     "spool_refill": false,
     "empty_spool_weight": 140,
+    "gtin": "8718924473078",
     "article_number": "EWOD-175OLVE-00500",
     "discontinued": false,
     "purchase_links": [
@@ -12,8 +13,7 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/easywood"
       }
-    ],
-    "gtin": "8718924473078"
+    ]
   },
   {
     "uuid": "3f790c80-125a-4abb-bd3f-3a78aaaed7a1",
@@ -21,6 +21,7 @@
     "diameter": 1.75,
     "spool_refill": false,
     "empty_spool_weight": 625,
+    "gtin": "8718924478196",
     "article_number": "EWOD-175OLVE-02300",
     "discontinued": false,
     "purchase_links": [
@@ -28,8 +29,7 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/easywood"
       }
-    ],
-    "gtin": "8718924478196"
+    ]
   },
   {
     "uuid": "e337e2f6-262b-4a9d-b84f-f09ddfd9deaf",
@@ -37,6 +37,7 @@
     "diameter": 2.85,
     "spool_refill": false,
     "empty_spool_weight": 140,
+    "gtin": "8718924473085",
     "article_number": "EWOD-285OLVE-00500",
     "discontinued": false,
     "purchase_links": [
@@ -44,8 +45,7 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/easywood"
       }
-    ],
-    "gtin": "8718924473085"
+    ]
   },
   {
     "uuid": "5ecc31b2-d9f3-4ab4-ac56-a708f94e5ee0",
@@ -53,6 +53,7 @@
     "diameter": 2.85,
     "spool_refill": false,
     "empty_spool_weight": 625,
+    "gtin": "8718924478202",
     "article_number": "EWOD-285OLVE-02300",
     "discontinued": false,
     "purchase_links": [
@@ -60,7 +61,6 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/easywood"
       }
-    ],
-    "gtin": "8718924478202"
+    ]
   }
 ]

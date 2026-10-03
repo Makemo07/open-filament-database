@@ -5,6 +5,7 @@
     "diameter": 1.75,
     "spool_refill": false,
     "empty_spool_weight": 140,
+    "gtin": "8720629064161",
     "article_number": "SX63-175BLCK-00500",
     "discontinued": false,
     "purchase_links": [
@@ -12,8 +13,7 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/styx-pa6-gf30"
       }
-    ],
-    "gtin": "8720629064161"
+    ]
   },
   {
     "uuid": "c9d36d7e-7258-41b2-a57d-68c34298b8fb",
@@ -21,6 +21,7 @@
     "diameter": 1.75,
     "spool_refill": false,
     "empty_spool_weight": 625,
+    "gtin": "8720629064178",
     "article_number": "SX63-175BLCK-02300",
     "discontinued": false,
     "purchase_links": [
@@ -28,8 +29,7 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/styx-pa6-gf30"
       }
-    ],
-    "gtin": "8720629064178"
+    ]
   },
   {
     "uuid": "31060625-0e07-42f9-a167-c343129d555f",
@@ -37,6 +37,7 @@
     "diameter": 1.75,
     "spool_refill": false,
     "empty_spool_weight": 785,
+    "gtin": "8720629064185",
     "article_number": "SX63-175BLCK-04500",
     "discontinued": false,
     "purchase_links": [
@@ -44,8 +45,7 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/styx-pa6-gf30"
       }
-    ],
-    "gtin": "8720629064185"
+    ]
   },
   {
     "uuid": "e196801e-a837-430a-af24-70e94c59ed27",
@@ -53,6 +53,7 @@
     "diameter": 1.75,
     "spool_refill": false,
     "empty_spool_weight": 1040,
+    "gtin": "8720629064192",
     "article_number": "SX63-175BLCK-08000",
     "discontinued": false,
     "purchase_links": [
@@ -60,7 +61,6 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/styx-pa6-gf30"
       }
-    ],
-    "gtin": "8720629064192"
+    ]
   }
 ]

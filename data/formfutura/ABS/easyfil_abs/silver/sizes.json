@@ -5,6 +5,7 @@
     "diameter": 1.75,
     "spool_refill": false,
     "empty_spool_weight": 165,
+    "gtin": "8718924471586",
     "article_number": "EABS-175SLVR-00750",
     "discontinued": false,
     "purchase_links": [
@@ -12,8 +13,7 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/easyfil-abs"
       }
-    ],
-    "gtin": "8718924471586"
+    ]
   },
   {
     "uuid": "d422b099-1192-4e05-88a9-db489db826fa",
@@ -21,6 +21,7 @@
     "diameter": 2.85,
     "spool_refill": false,
     "empty_spool_weight": 165,
+    "gtin": "8718924471593",
     "article_number": "EABS-285SLVR-00750",
     "discontinued": false,
     "purchase_links": [
@@ -28,7 +29,6 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/easyfil-abs"
       }
-    ],
-    "gtin": "8718924471593"
+    ]
   }
 ]

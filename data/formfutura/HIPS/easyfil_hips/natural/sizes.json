@@ -5,6 +5,7 @@
     "diameter": 1.75,
     "spool_refill": false,
     "empty_spool_weight": 165,
+    "gtin": "8718924472200",
     "article_number": "EHPS-175NTRL-00750",
     "discontinued": false,
     "purchase_links": [
@@ -12,8 +13,7 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/easyfil-hips"
       }
-    ],
-    "gtin": "8718924472200"
+    ]
   },
   {
     "uuid": "10973bd4-3ee6-4b17-9f90-b65dc878709e",
@@ -21,6 +21,7 @@
     "diameter": 1.75,
     "spool_refill": false,
     "empty_spool_weight": 600,
+    "gtin": "8718924478981",
     "article_number": "EHPS-175NTRL-02000",
     "discontinued": false,
     "purchase_links": [
@@ -28,7 +29,6 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/easyfil-hips"
       }
-    ],
-    "gtin": "8718924478981"
+    ]
   }
 ]

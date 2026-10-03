@@ -5,6 +5,7 @@
     "diameter": 1.75,
     "spool_refill": false,
     "empty_spool_weight": 165,
+    "gtin": "8720847053152",
     "article_number": "PTGE-175BLIL-01000",
     "discontinued": false,
     "purchase_links": [
@@ -12,8 +13,7 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/easyfil-epetg"
       }
-    ],
-    "gtin": "8720847053152"
+    ]
   },
   {
     "uuid": "1ba933e9-9174-4f11-9bcc-ecff1dad9819",
@@ -21,6 +21,7 @@
     "diameter": 1.75,
     "spool_refill": false,
     "empty_spool_weight": 625,
+    "gtin": "8720847053497",
     "article_number": "PTGE-175BLIL-02300",
     "discontinued": false,
     "purchase_links": [
@@ -28,7 +29,6 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/easyfil-epetg"
       }
-    ],
-    "gtin": "8720847053497"
+    ]
   }
 ]

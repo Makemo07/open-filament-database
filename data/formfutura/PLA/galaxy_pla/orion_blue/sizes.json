@@ -5,6 +5,7 @@
     "diameter": 1.75,
     "spool_refill": false,
     "empty_spool_weight": 165,
+    "gtin": "8719956550522",
     "article_number": "GPLA-175OBLU-00750",
     "discontinued": false,
     "purchase_links": [
@@ -12,8 +13,7 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/galaxy-pla"
       }
-    ],
-    "gtin": "8719956550522"
+    ]
   },
   {
     "uuid": "d6f32683-bff0-4935-b028-b3cdb5428c11",
@@ -21,6 +21,7 @@
     "diameter": 1.75,
     "spool_refill": false,
     "empty_spool_weight": 625,
+    "gtin": "8719956558702",
     "article_number": "GPLA-175OBLU-02300",
     "discontinued": false,
     "purchase_links": [
@@ -28,8 +29,7 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/galaxy-pla"
       }
-    ],
-    "gtin": "8719956558702"
+    ]
   },
   {
     "uuid": "de0ade53-d47d-4538-aa18-3cdf677d88b2",
@@ -37,6 +37,7 @@
     "diameter": 2.85,
     "spool_refill": false,
     "empty_spool_weight": 165,
+    "gtin": "8719956550539",
     "article_number": "GPLA-285OBLU-00750",
     "discontinued": false,
     "purchase_links": [
@@ -44,7 +45,6 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/galaxy-pla"
       }
-    ],
-    "gtin": "8719956550539"
+    ]
   }
 ]

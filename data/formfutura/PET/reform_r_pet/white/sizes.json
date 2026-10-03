@@ -5,6 +5,7 @@
     "diameter": 1.75,
     "spool_refill": false,
     "empty_spool_weight": 165,
+    "gtin": "8719956557071",
     "article_number": "RPET-175WHTE-01000",
     "discontinued": false,
     "purchase_links": [
@@ -12,8 +13,7 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/reform-rpet"
       }
-    ],
-    "gtin": "8719956557071"
+    ]
   },
   {
     "uuid": "8d348dd9-a307-4e9f-955c-561557c3ca26",
@@ -21,6 +21,7 @@
     "diameter": 1.75,
     "spool_refill": false,
     "empty_spool_weight": 625,
+    "gtin": "8719956557088",
     "article_number": "RPET-175WHTE-02300",
     "discontinued": false,
     "purchase_links": [
@@ -28,8 +29,7 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/reform-rpet"
       }
-    ],
-    "gtin": "8719956557088"
+    ]
   },
   {
     "uuid": "caa7b23a-4402-4966-8484-87057c727b6d",
@@ -37,6 +37,7 @@
     "diameter": 1.75,
     "spool_refill": false,
     "empty_spool_weight": 705,
+    "gtin": "8719956557095",
     "article_number": "RPET-175WHTE-03500",
     "discontinued": false,
     "purchase_links": [
@@ -44,8 +45,7 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/reform-rpet"
       }
-    ],
-    "gtin": "8719956557095"
+    ]
   },
   {
     "uuid": "cf7072d0-b037-4e9e-85a5-d1ba77e93690",
@@ -53,6 +53,7 @@
     "diameter": 1.75,
     "spool_refill": false,
     "empty_spool_weight": 785,
+    "gtin": "8719956557101",
     "article_number": "RPET-175WHTE-04500",
     "discontinued": false,
     "purchase_links": [
@@ -60,8 +61,7 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/reform-rpet"
       }
-    ],
-    "gtin": "8719956557101"
+    ]
   },
   {
     "uuid": "8779a732-fa39-4115-8c53-963fa9b673e5",
@@ -69,6 +69,7 @@
     "diameter": 2.85,
     "spool_refill": false,
     "empty_spool_weight": 165,
+    "gtin": "8719956557156",
     "article_number": "RPET-285WHTE-01000",
     "discontinued": false,
     "purchase_links": [
@@ -76,8 +77,7 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/reform-rpet"
       }
-    ],
-    "gtin": "8719956557156"
+    ]
   },
   {
     "uuid": "a404cd46-7590-40e3-a156-fe9b8fc22581",

@@ -5,6 +5,7 @@
     "diameter": 1.75,
     "spool_refill": false,
     "empty_spool_weight": 140,
+    "gtin": "8718924473092",
     "article_number": "CRBF-175BLCK-00500",
     "discontinued": false,
     "purchase_links": [
@@ -12,8 +13,7 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/carbonfil"
       }
-    ],
-    "gtin": "8718924473092"
+    ]
   },
   {
     "uuid": "25ec5531-5c2b-41dc-ac50-4cf794e4c4e8",
@@ -21,6 +21,7 @@
     "diameter": 1.75,
     "spool_refill": false,
     "empty_spool_weight": 625,
+    "gtin": "8718924477915",
     "article_number": "CRBF-175BLCK-02300",
     "discontinued": false,
     "purchase_links": [
@@ -28,8 +29,7 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/carbonfil"
       }
-    ],
-    "gtin": "8718924477915"
+    ]
   },
   {
     "uuid": "cfcf272b-8ba7-4ad3-9761-928dea051b53",
@@ -37,6 +37,7 @@
     "diameter": 1.75,
     "spool_refill": false,
     "empty_spool_weight": 785,
+    "gtin": "8719956550928",
     "article_number": "CRBF-175BLCK-04500",
     "discontinued": false,
     "purchase_links": [
@@ -44,8 +45,7 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/carbonfil"
       }
-    ],
-    "gtin": "8719956550928"
+    ]
   },
   {
     "uuid": "41b4202f-f912-4281-bde2-692addddeeb8",
@@ -53,6 +53,7 @@
     "diameter": 1.75,
     "spool_refill": false,
     "empty_spool_weight": 1040,
+    "gtin": "8719956550935",
     "article_number": "CRBF-175BLCK-08000",
     "discontinued": false,
     "purchase_links": [
@@ -60,8 +61,7 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/carbonfil"
       }
-    ],
-    "gtin": "8719956550935"
+    ]
   },
   {
     "uuid": "4bc0d15c-afff-492a-ad45-383e8296b60f",
@@ -69,6 +69,7 @@
     "diameter": 2.85,
     "spool_refill": false,
     "empty_spool_weight": 140,
+    "gtin": "8718924473108",
     "article_number": "CRBF-285BLCK-00500",
     "discontinued": false,
     "purchase_links": [
@@ -76,8 +77,7 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/carbonfil"
       }
-    ],
-    "gtin": "8718924473108"
+    ]
   },
   {
     "uuid": "24aeb520-a0e7-44a6-a9c2-7e8b9038fd01",
@@ -85,6 +85,7 @@
     "diameter": 2.85,
     "spool_refill": false,
     "empty_spool_weight": 625,
+    "gtin": "8718924477380",
     "article_number": "CRBF-285BLCK-02300",
     "discontinued": false,
     "purchase_links": [
@@ -92,7 +93,6 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/carbonfil"
       }
-    ],
-    "gtin": "8718924477380"
+    ]
   }
 ]

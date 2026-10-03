@@ -5,6 +5,7 @@
     "diameter": 1.75,
     "spool_refill": false,
     "empty_spool_weight": 165,
+    "gtin": "8719956557255",
     "article_number": "RPET-175DBLU-00750",
     "discontinued": false,
     "purchase_links": [
@@ -12,8 +13,7 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/reform-rpet"
       }
-    ],
-    "gtin": "8719956557255"
+    ]
   },
   {
     "uuid": "bd623dad-b79b-4075-a983-ec96f8840a56",
@@ -21,6 +21,7 @@
     "diameter": 1.75,
     "spool_refill": false,
     "empty_spool_weight": 165,
+    "gtin": "8718924479711",
     "article_number": "RPET-175DBLU-01000",
     "discontinued": false,
     "purchase_links": [
@@ -28,8 +29,7 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/reform-rpet"
       }
-    ],
-    "gtin": "8718924479711"
+    ]
   },
   {
     "uuid": "2d198c66-7d63-4f1f-a559-921a4e173296",
@@ -37,6 +37,7 @@
     "diameter": 1.75,
     "spool_refill": false,
     "empty_spool_weight": 625,
+    "gtin": "8719956550966",
     "article_number": "RPET-175DBLU-02300",
     "discontinued": false,
     "purchase_links": [
@@ -44,8 +45,7 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/reform-rpet"
       }
-    ],
-    "gtin": "8719956550966"
+    ]
   },
   {
     "uuid": "145da5f7-e876-49c4-b83a-fb4f1f7a281a",
@@ -98,6 +98,7 @@
     "diameter": 2.85,
     "spool_refill": false,
     "empty_spool_weight": 165,
+    "gtin": "8718924478820",
     "article_number": "RPET-285DBLU-01000",
     "discontinued": false,
     "purchase_links": [
@@ -105,8 +106,7 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/reform-rpet"
       }
-    ],
-    "gtin": "8718924478820"
+    ]
   },
   {
     "uuid": "89927175-18bd-411e-bee2-31701bbc9643",
@@ -114,6 +114,7 @@
     "diameter": 2.85,
     "spool_refill": false,
     "empty_spool_weight": 625,
+    "gtin": "8719956550904",
     "article_number": "RPET-285DBLU-02300",
     "discontinued": false,
     "purchase_links": [
@@ -121,8 +122,7 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/reform-rpet"
       }
-    ],
-    "gtin": "8719956550904"
+    ]
   },
   {
     "uuid": "8db4284c-4c3f-4dd4-8217-cb8d4a7f9c29",
@@ -130,6 +130,7 @@
     "diameter": 2.85,
     "spool_refill": false,
     "empty_spool_weight": 705,
+    "gtin": "8719956551062",
     "article_number": "RPET-285DBLU-03500",
     "discontinued": false,
     "purchase_links": [
@@ -137,8 +138,7 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/reform-rpet"
       }
-    ],
-    "gtin": "8719956551062"
+    ]
   },
   {
     "uuid": "c78b4c2c-50f5-498b-b1c2-7e3eaf4835ef",
@@ -146,6 +146,7 @@
     "diameter": 2.85,
     "spool_refill": false,
     "empty_spool_weight": 785,
+    "gtin": "8719956553639",
     "article_number": "RPET-285DBLU-04500",
     "discontinued": false,
     "purchase_links": [
@@ -153,7 +154,6 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/reform-rpet"
       }
-    ],
-    "gtin": "8719956553639"
+    ]
   }
 ]

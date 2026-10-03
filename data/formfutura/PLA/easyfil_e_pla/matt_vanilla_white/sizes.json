@@ -5,6 +5,7 @@
     "diameter": 1.75,
     "spool_refill": false,
     "empty_spool_weight": 165,
+    "gtin": "8720629064468",
     "article_number": "PLAE-175MTVW-01000",
     "discontinued": false,
     "purchase_links": [
@@ -12,8 +13,7 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/easyfil-epla"
       }
-    ],
-    "gtin": "8720629064468"
+    ]
   },
   {
     "uuid": "d5d5aab2-fe67-4cee-ad80-04f7cc70dda9",
@@ -21,6 +21,7 @@
     "diameter": 1.75,
     "spool_refill": false,
     "empty_spool_weight": 625,
+    "gtin": "8720629064475",
     "article_number": "PLAE-175MTVW-02300",
     "discontinued": false,
     "purchase_links": [
@@ -28,7 +29,6 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/easyfil-epla"
       }
-    ],
-    "gtin": "8720629064475"
+    ]
   }
 ]

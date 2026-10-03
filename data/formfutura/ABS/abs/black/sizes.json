@@ -20,6 +20,7 @@
     "diameter": 1.75,
     "spool_refill": false,
     "empty_spool_weight": 625,
+    "gtin": "8719956555350",
     "article_number": "APRO-175BLCK-02300",
     "discontinued": false,
     "purchase_links": [
@@ -27,7 +28,6 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/abspro"
       }
-    ],
-    "gtin": "8719956555350"
+    ]
   }
 ]

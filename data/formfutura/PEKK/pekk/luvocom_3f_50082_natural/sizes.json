@@ -20,6 +20,7 @@
     "diameter": 1.75,
     "spool_refill": false,
     "empty_spool_weight": 140,
+    "gtin": "8719956556593",
     "article_number": "PEKK-175NTRL-00500",
     "discontinued": false,
     "purchase_links": [
@@ -27,7 +28,6 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/luvocom-3f-pekk-50082"
       }
-    ],
-    "gtin": "8719956556593"
+    ]
   }
 ]

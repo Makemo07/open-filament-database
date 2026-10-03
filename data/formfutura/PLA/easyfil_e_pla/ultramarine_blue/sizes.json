@@ -5,6 +5,7 @@
     "diameter": 1.75,
     "spool_refill": false,
     "empty_spool_weight": 165,
+    "gtin": "8720847050809",
     "article_number": "PLAE-175UBLU-01000",
     "discontinued": false,
     "purchase_links": [
@@ -12,8 +13,7 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/easyfil-epla"
       }
-    ],
-    "gtin": "8720847050809"
+    ]
   },
   {
     "uuid": "014af02d-9a17-4f8a-b450-23cfac3a2e2e",
@@ -21,6 +21,7 @@
     "diameter": 1.75,
     "spool_refill": true,
     "empty_spool_weight": 20,
+    "gtin": "8720629068404",
     "article_number": "PLAE-175UBLU-B1000",
     "discontinued": false,
     "purchase_links": [
@@ -28,8 +29,7 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/easyfil-epla"
       }
-    ],
-    "gtin": "8720629068404"
+    ]
   },
   {
     "uuid": "9c5c5307-d90b-4237-97e9-77755fb504f5",
@@ -37,6 +37,7 @@
     "diameter": 1.75,
     "spool_refill": false,
     "empty_spool_weight": 625,
+    "gtin": "8720847051349",
     "article_number": "PLAE-175UBLU-02300",
     "discontinued": false,
     "purchase_links": [
@@ -44,8 +45,7 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/easyfil-epla"
       }
-    ],
-    "gtin": "8720847051349"
+    ]
   },
   {
     "uuid": "7504246c-bf5e-43e8-9078-34e26c90ccc1",
@@ -53,6 +53,7 @@
     "diameter": 1.75,
     "spool_refill": false,
     "empty_spool_weight": 785,
+    "gtin": "8720847051882",
     "article_number": "PLAE-175UBLU-04500",
     "discontinued": false,
     "purchase_links": [
@@ -60,8 +61,7 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/easyfil-epla"
       }
-    ],
-    "gtin": "8720847051882"
+    ]
   },
   {
     "uuid": "aa3c23fa-9f06-48f7-a87a-9caee08b5aa5",
@@ -69,6 +69,7 @@
     "diameter": 1.75,
     "spool_refill": false,
     "empty_spool_weight": 1040,
+    "gtin": "8720847052421",
     "article_number": "PLAE-175UBLU-08000",
     "discontinued": false,
     "purchase_links": [
@@ -76,7 +77,6 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/easyfil-epla"
       }
-    ],
-    "gtin": "8720847052421"
+    ]
   }
 ]

@@ -5,6 +5,7 @@
     "diameter": 1.75,
     "spool_refill": true,
     "empty_spool_weight": 20,
+    "gtin": "8720629068275",
     "article_number": "AXFR-175TWHT-C0500",
     "discontinued": false,
     "purchase_links": [
@@ -12,8 +13,7 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/apollox-flame-retardant"
       }
-    ],
-    "gtin": "8720629068275"
+    ]
   },
   {
     "uuid": "04e11685-4ab6-4725-af61-24928591e0e7",
@@ -21,6 +21,7 @@
     "diameter": 1.75,
     "spool_refill": true,
     "empty_spool_weight": 20,
+    "gtin": "8720629068268",
     "article_number": "AXFR-175TWHT-B1000",
     "discontinued": false,
     "purchase_links": [
@@ -28,7 +29,6 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/apollox-flame-retardant"
       }
-    ],
-    "gtin": "8720629068268"
+    ]
   }
 ]

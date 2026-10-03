@@ -5,6 +5,7 @@
     "diameter": 1.75,
     "spool_refill": false,
     "empty_spool_weight": 140,
+    "gtin": "8720574297706",
     "article_number": "PHCF-175BLCK-00500",
     "discontinued": false,
     "purchase_links": [
@@ -12,8 +13,7 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/filaments/luvocom-3f-paht-cf-9891"
       }
-    ],
-    "gtin": "8720574297706"
+    ]
   },
   {
     "uuid": "44eef386-0899-405a-83d1-3d7d92db9efe",
@@ -21,6 +21,7 @@
     "diameter": 1.75,
     "spool_refill": false,
     "empty_spool_weight": 165,
+    "gtin": "8718924470428",
     "article_number": "PHCF-175BLCK-01000",
     "discontinued": false,
     "purchase_links": [
@@ -28,8 +29,7 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/filaments/luvocom-3f-paht-cf-9891"
       }
-    ],
-    "gtin": "8718924470428"
+    ]
   },
   {
     "uuid": "8172702f-e420-40de-816c-4a649b881e67",
@@ -37,6 +37,7 @@
     "diameter": 1.75,
     "spool_refill": false,
     "empty_spool_weight": 625,
+    "gtin": "8718924470442",
     "article_number": "PHCF-175BLCK-02300",
     "discontinued": false,
     "purchase_links": [
@@ -44,8 +45,7 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/filaments/luvocom-3f-paht-cf-9891"
       }
-    ],
-    "gtin": "8718924470442"
+    ]
   },
   {
     "uuid": "4130a9d3-ff29-425a-bcb0-f43d8f94445a",
@@ -53,6 +53,7 @@
     "diameter": 2.85,
     "spool_refill": false,
     "empty_spool_weight": 100,
+    "gtin": "8720574297690",
     "article_number": "PHCF-285BLCK-00200",
     "discontinued": false,
     "purchase_links": [
@@ -60,8 +61,7 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/filaments/luvocom-3f-paht-cf-9891"
       }
-    ],
-    "gtin": "8720574297690"
+    ]
   },
   {
     "uuid": "75045ebf-99de-4f79-a66b-4d5b60182b74",
@@ -69,6 +69,7 @@
     "diameter": 2.85,
     "spool_refill": false,
     "empty_spool_weight": 140,
+    "gtin": "8720574297713",
     "article_number": "PHCF-285BLCK-00500",
     "discontinued": false,
     "purchase_links": [
@@ -76,7 +77,6 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/filaments/luvocom-3f-paht-cf-9891"
       }
-    ],
-    "gtin": "8720574297713"
+    ]
   }
 ]

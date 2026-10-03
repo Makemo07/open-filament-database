@@ -5,6 +5,7 @@
     "diameter": 1.75,
     "spool_refill": false,
     "empty_spool_weight": 165,
+    "gtin": "8719956553455",
     "article_number": "RPET-175ORAN-01000",
     "discontinued": false,
     "purchase_links": [
@@ -12,8 +13,7 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/reform-rpet"
       }
-    ],
-    "gtin": "8719956553455"
+    ]
   },
   {
     "uuid": "58e49c0b-ddf8-45eb-9552-02ca6c0edeb7",
@@ -21,6 +21,7 @@
     "diameter": 1.75,
     "spool_refill": false,
     "empty_spool_weight": 625,
+    "gtin": "8720574293494",
     "article_number": "RPET-175ORAN-02300",
     "discontinued": false,
     "purchase_links": [
@@ -28,8 +29,7 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/reform-rpet"
       }
-    ],
-    "gtin": "8720574293494"
+    ]
   },
   {
     "uuid": "a709a7cb-9c75-482e-9bf4-8701c4c2332a",
@@ -82,6 +82,7 @@
     "diameter": 2.85,
     "spool_refill": false,
     "empty_spool_weight": 165,
+    "gtin": "8719956553462",
     "article_number": "RPET-285ORAN-01000",
     "discontinued": false,
     "purchase_links": [
@@ -89,8 +90,7 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/reform-rpet"
       }
-    ],
-    "gtin": "8719956553462"
+    ]
   },
   {
     "uuid": "aa5254c4-df77-4814-91fc-8b78546cd8be",
@@ -98,6 +98,7 @@
     "diameter": 2.85,
     "spool_refill": false,
     "empty_spool_weight": 625,
+    "gtin": "8720574293593",
     "article_number": "RPET-285ORAN-02300",
     "discontinued": false,
     "purchase_links": [
@@ -105,8 +106,7 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/reform-rpet"
       }
-    ],
-    "gtin": "8720574293593"
+    ]
   },
   {
     "uuid": "5a87cbec-fc09-46dd-987a-894aa54f11ba",
@@ -114,6 +114,7 @@
     "diameter": 2.85,
     "spool_refill": false,
     "empty_spool_weight": 705,
+    "gtin": "8720574297461",
     "article_number": "RPET-285ORAN-03500",
     "discontinued": false,
     "purchase_links": [
@@ -121,8 +122,7 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/reform-rpet"
       }
-    ],
-    "gtin": "8720574297461"
+    ]
   },
   {
     "uuid": "aa0e507e-8225-4352-b1f6-d5d3e3d8f93a",
@@ -130,6 +130,7 @@
     "diameter": 2.85,
     "spool_refill": false,
     "empty_spool_weight": 785,
+    "gtin": "8720574290813",
     "article_number": "RPET-285ORAN-04500",
     "discontinued": false,
     "purchase_links": [
@@ -137,7 +138,6 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/reform-rpet"
       }
-    ],
-    "gtin": "8720574290813"
+    ]
   }
 ]

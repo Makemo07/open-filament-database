@@ -5,6 +5,7 @@
     "diameter": 1.75,
     "spool_refill": true,
     "empty_spool_weight": 20,
+    "gtin": "8720629068312",
     "article_number": "PGFR-175TWHT-B0500",
     "discontinued": false,
     "purchase_links": [
@@ -12,8 +13,7 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/premium-petg-flame-retardant"
       }
-    ],
-    "gtin": "8720629068312"
+    ]
   },
   {
     "uuid": "d688b8e9-716b-45d4-94f9-d889445f0b17",
@@ -21,6 +21,7 @@
     "diameter": 1.75,
     "spool_refill": true,
     "empty_spool_weight": 20,
+    "gtin": "8720629068305",
     "article_number": "PGFR-175TWHT-B1000",
     "discontinued": false,
     "purchase_links": [
@@ -28,7 +29,6 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/premium-petg-flame-retardant"
       }
-    ],
-    "gtin": "8720629068305"
+    ]
   }
 ]

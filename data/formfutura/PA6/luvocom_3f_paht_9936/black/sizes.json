@@ -5,6 +5,7 @@
     "diameter": 1.75,
     "spool_refill": false,
     "empty_spool_weight": 140,
+    "gtin": "8720574297621",
     "article_number": "PH99-175BLCK-00500",
     "discontinued": false,
     "purchase_links": [
@@ -12,8 +13,7 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/luvocom-3f-paht-9936"
       }
-    ],
-    "gtin": "8720574297621"
+    ]
   },
   {
     "uuid": "b14aacc0-0ab1-40ae-8e13-78dea71b0c63",
@@ -21,6 +21,7 @@
     "diameter": 2.85,
     "spool_refill": false,
     "empty_spool_weight": 100,
+    "gtin": "8720574297614",
     "article_number": "PH99-285BLCK-00200",
     "discontinued": false,
     "purchase_links": [
@@ -28,8 +29,7 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/luvocom-3f-paht-9936"
       }
-    ],
-    "gtin": "8720574297614"
+    ]
   },
   {
     "uuid": "59a523dd-3f13-4590-9a66-a0b291e77c07",
@@ -37,6 +37,7 @@
     "diameter": 2.85,
     "spool_refill": false,
     "empty_spool_weight": 140,
+    "gtin": "8720574297638",
     "article_number": "PH99-285BLCK-00500",
     "discontinued": false,
     "purchase_links": [
@@ -44,7 +45,6 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/luvocom-3f-paht-9936"
       }
-    ],
-    "gtin": "8720574297638"
+    ]
   }
 ]

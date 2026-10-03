@@ -5,6 +5,7 @@
     "diameter": 1.75,
     "spool_refill": false,
     "empty_spool_weight": 165,
+    "gtin": "8718924470503",
     "article_number": "RTIT-175WHTE-01000",
     "discontinued": false,
     "purchase_links": [
@@ -12,8 +13,7 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/reform-rtitan"
       }
-    ],
-    "gtin": "8718924470503"
+    ]
   },
   {
     "uuid": "1bb3b1ae-8c15-4b4c-9c68-a09ed947e4b6",
@@ -21,6 +21,7 @@
     "diameter": 1.75,
     "spool_refill": false,
     "empty_spool_weight": 625,
+    "gtin": "8720574290950",
     "article_number": "RTIT-175WHTE-02300",
     "discontinued": false,
     "purchase_links": [
@@ -28,8 +29,7 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/reform-rtitan"
       }
-    ],
-    "gtin": "8720574290950"
+    ]
   },
   {
     "uuid": "18af4979-18da-4d5b-9ebb-c158094d33aa",
@@ -37,6 +37,7 @@
     "diameter": 1.75,
     "spool_refill": false,
     "empty_spool_weight": 705,
+    "gtin": "8720574297416",
     "article_number": "RTIT-175WHTE-03500",
     "discontinued": false,
     "purchase_links": [
@@ -44,8 +45,7 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/reform-rtitan"
       }
-    ],
-    "gtin": "8720574297416"
+    ]
   },
   {
     "uuid": "f841df9e-4e87-4767-a8a9-ae2a8021521d",
@@ -53,6 +53,7 @@
     "diameter": 1.75,
     "spool_refill": false,
     "empty_spool_weight": 785,
+    "gtin": "8720574290967",
     "article_number": "RTIT-175WHTE-04500",
     "discontinued": false,
     "purchase_links": [
@@ -60,8 +61,7 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/reform-rtitan"
       }
-    ],
-    "gtin": "8720574290967"
+    ]
   },
   {
     "uuid": "e6bd0de4-722d-4647-a1b5-856d62e92ecc",
@@ -69,6 +69,7 @@
     "diameter": 2.85,
     "spool_refill": false,
     "empty_spool_weight": 165,
+    "gtin": "8718924470510",
     "article_number": "RTIT-285WHTE-01000",
     "discontinued": false,
     "purchase_links": [
@@ -76,8 +77,7 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/reform-rtitan"
       }
-    ],
-    "gtin": "8718924470510"
+    ]
   },
   {
     "uuid": "89649e2c-a5a3-411f-a289-df62d78b5e35",
@@ -85,6 +85,7 @@
     "diameter": 2.85,
     "spool_refill": false,
     "empty_spool_weight": 705,
+    "gtin": "8720574297591",
     "article_number": "RTIT-285WHTE-03500",
     "discontinued": false,
     "purchase_links": [
@@ -92,8 +93,7 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/reform-rtitan"
       }
-    ],
-    "gtin": "8720574297591"
+    ]
   },
   {
     "uuid": "76670812-9508-4577-b9d3-e60e0386ce5c",
@@ -101,6 +101,7 @@
     "diameter": 2.85,
     "spool_refill": false,
     "empty_spool_weight": 785,
+    "gtin": "8720574290998",
     "article_number": "RTIT-285WHTE-04500",
     "discontinued": false,
     "purchase_links": [
@@ -108,7 +109,6 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/reform-rtitan"
       }
-    ],
-    "gtin": "8720574290998"
+    ]
   }
 ]

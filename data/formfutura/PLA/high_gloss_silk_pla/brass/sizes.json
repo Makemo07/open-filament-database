@@ -5,6 +5,7 @@
     "diameter": 1.75,
     "spool_refill": false,
     "empty_spool_weight": 165,
+    "gtin": "8720847059352",
     "article_number": "HPLA-175BRSS-00750",
     "discontinued": false,
     "purchase_links": [
@@ -12,8 +13,7 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/high-gloss-pla"
       }
-    ],
-    "gtin": "8720847059352"
+    ]
   },
   {
     "uuid": "3821434b-b148-4bc5-b654-2022787940dd",
@@ -21,6 +21,7 @@
     "diameter": 1.75,
     "spool_refill": false,
     "empty_spool_weight": 625,
+    "gtin": "8720847059321",
     "article_number": "HPLA-175BRSS-02300",
     "discontinued": false,
     "purchase_links": [
@@ -28,7 +29,6 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/high-gloss-pla"
       }
-    ],
-    "gtin": "8720847059321"
+    ]
   }
 ]

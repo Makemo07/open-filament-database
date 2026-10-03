@@ -5,6 +5,7 @@
     "diameter": 1.75,
     "spool_refill": false,
     "empty_spool_weight": 200,
+    "gtin": "8720847069078",
     "article_number": "BPLA-175MTWH-01000",
     "discontinued": false,
     "purchase_links": [
@@ -12,8 +13,7 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/bulk-pla"
       }
-    ],
-    "gtin": "8720847069078"
+    ]
   },
   {
     "uuid": "e189d5a9-7769-4286-a1a0-107b47764ed9",
@@ -21,6 +21,7 @@
     "diameter": 1.75,
     "spool_refill": false,
     "empty_spool_weight": 625,
+    "gtin": "8720847069085",
     "article_number": "BPLA-175MTWH-02300",
     "discontinued": false,
     "purchase_links": [
@@ -28,7 +29,6 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/bulk-pla"
       }
-    ],
-    "gtin": "8720847069085"
+    ]
   }
 ]

@@ -5,6 +5,7 @@
     "diameter": 1.75,
     "spool_refill": false,
     "empty_spool_weight": 165,
+    "gtin": "8718924476192",
     "article_number": "TITX-175GREY-00750",
     "discontinued": false,
     "purchase_links": [
@@ -12,8 +13,7 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/titanx"
       }
-    ],
-    "gtin": "8718924476192"
+    ]
   },
   {
     "uuid": "1d7c2a0b-9a40-4551-b646-91955848306e",
@@ -21,6 +21,7 @@
     "diameter": 1.75,
     "spool_refill": false,
     "empty_spool_weight": 625,
+    "gtin": "8718924470718",
     "article_number": "TITX-175GREY-02300",
     "discontinued": false,
     "purchase_links": [
@@ -28,8 +29,7 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/titanx"
       }
-    ],
-    "gtin": "8718924470718"
+    ]
   },
   {
     "uuid": "dd33db9d-83dc-4351-8d61-492c2c5fe2d9",
@@ -37,6 +37,7 @@
     "diameter": 1.75,
     "spool_refill": false,
     "empty_spool_weight": 785,
+    "gtin": "8720574291759",
     "article_number": "TITX-175GREY-04500",
     "discontinued": false,
     "purchase_links": [
@@ -44,8 +45,7 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/titanx"
       }
-    ],
-    "gtin": "8720574291759"
+    ]
   },
   {
     "uuid": "80d45ecc-0c3a-4f26-803d-69c2820a92db",
@@ -53,6 +53,7 @@
     "diameter": 1.75,
     "spool_refill": false,
     "empty_spool_weight": 1040,
+    "gtin": "8719956550829",
     "article_number": "TITX-175GREY-08000",
     "discontinued": false,
     "purchase_links": [
@@ -60,8 +61,7 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/titanx"
       }
-    ],
-    "gtin": "8719956550829"
+    ]
   },
   {
     "uuid": "221a06bd-b322-4e8f-a340-94580e4fd54c",
@@ -69,6 +69,7 @@
     "diameter": 2.85,
     "spool_refill": false,
     "empty_spool_weight": 165,
+    "gtin": "8718924476208",
     "article_number": "TITX-285GREY-00750",
     "discontinued": false,
     "purchase_links": [
@@ -76,7 +77,6 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/titanx"
       }
-    ],
-    "gtin": "8718924476208"
+    ]
   }
 ]

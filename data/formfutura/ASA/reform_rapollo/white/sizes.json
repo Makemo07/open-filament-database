@@ -5,6 +5,7 @@
     "diameter": 1.75,
     "spool_refill": false,
     "empty_spool_weight": 165,
+    "gtin": "8720629060743",
     "article_number": "RAPO-175WHTE-01000",
     "discontinued": false,
     "purchase_links": [
@@ -12,8 +13,7 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/reform-rapollo"
       }
-    ],
-    "gtin": "8720629060743"
+    ]
   },
   {
     "uuid": "ac5ceeb9-8134-4869-ad1e-ecbe25a03b00",
@@ -21,6 +21,7 @@
     "diameter": 1.75,
     "spool_refill": false,
     "empty_spool_weight": 625,
+    "gtin": "8720629060750",
     "article_number": "RAPO-175WHTE-02300",
     "discontinued": false,
     "purchase_links": [
@@ -28,8 +29,7 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/reform-rapollo"
       }
-    ],
-    "gtin": "8720629060750"
+    ]
   },
   {
     "uuid": "9150302b-d242-439f-a156-a957630cca59",
@@ -37,6 +37,7 @@
     "diameter": 1.75,
     "spool_refill": false,
     "empty_spool_weight": 700,
+    "gtin": "8720629060774",
     "article_number": "RAPO-175WHTE-03500",
     "discontinued": false,
     "purchase_links": [
@@ -44,8 +45,7 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/reform-rapollo"
       }
-    ],
-    "gtin": "8720629060774"
+    ]
   },
   {
     "uuid": "253b402b-a940-4bc1-824b-552a3d666f06",
@@ -53,6 +53,7 @@
     "diameter": 1.75,
     "spool_refill": false,
     "empty_spool_weight": 785,
+    "gtin": "8720629060781",
     "article_number": "RAPO-175WHTE-04500",
     "discontinued": false,
     "purchase_links": [
@@ -60,8 +61,7 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/reform-rapollo"
       }
-    ],
-    "gtin": "8720629060781"
+    ]
   },
   {
     "uuid": "9b3543be-3206-4d7e-9f68-e69c78a84f43",
@@ -69,6 +69,7 @@
     "diameter": 2.85,
     "spool_refill": false,
     "empty_spool_weight": 165,
+    "gtin": "8720629060828",
     "article_number": "RAPO-285WHTE-01000",
     "discontinued": false,
     "purchase_links": [
@@ -76,8 +77,7 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/reform-rapollo"
       }
-    ],
-    "gtin": "8720629060828"
+    ]
   },
   {
     "uuid": "162a7f6a-150e-4e3c-ac7c-08b57405817e",
@@ -85,6 +85,7 @@
     "diameter": 2.85,
     "spool_refill": false,
     "empty_spool_weight": 625,
+    "gtin": "8720629060835",
     "article_number": "RAPO-285WHTE-02300",
     "discontinued": false,
     "purchase_links": [
@@ -92,8 +93,7 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/reform-rapollo"
       }
-    ],
-    "gtin": "8720629060835"
+    ]
   },
   {
     "uuid": "ec5e5a78-5281-4455-8b1f-17cdd692fc75",
@@ -101,6 +101,7 @@
     "diameter": 2.85,
     "spool_refill": false,
     "empty_spool_weight": 700,
+    "gtin": "8720629060859",
     "article_number": "RAPO-285WHTE-03500",
     "discontinued": false,
     "purchase_links": [
@@ -108,8 +109,7 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/reform-rapollo"
       }
-    ],
-    "gtin": "8720629060859"
+    ]
   },
   {
     "uuid": "2632fe19-bae2-4a78-a05f-6a93a25275ad",
@@ -117,6 +117,7 @@
     "diameter": 2.85,
     "spool_refill": false,
     "empty_spool_weight": 785,
+    "gtin": "8720629060866",
     "article_number": "RAPO-285WHTE-04500",
     "discontinued": false,
     "purchase_links": [
@@ -124,7 +125,6 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/reform-rapollo"
       }
-    ],
-    "gtin": "8720629060866"
+    ]
   }
 ]

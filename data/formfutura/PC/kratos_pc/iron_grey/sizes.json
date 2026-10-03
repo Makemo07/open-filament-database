@@ -5,6 +5,7 @@
     "diameter": 1.75,
     "spool_refill": false,
     "empty_spool_weight": 165,
+    "gtin": "8720629067681",
     "article_number": "KTPC-175IGRY-00750",
     "discontinued": false,
     "purchase_links": [
@@ -12,8 +13,7 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/kratos-pc"
       }
-    ],
-    "gtin": "8720629067681"
+    ]
   },
   {
     "uuid": "c1aebfb9-7291-44b8-8d7d-19a9149c6e48",
@@ -21,6 +21,7 @@
     "diameter": 1.75,
     "spool_refill": false,
     "empty_spool_weight": 625,
+    "gtin": "8720629067698",
     "article_number": "KTPC-175IGRY-02300",
     "discontinued": false,
     "purchase_links": [
@@ -28,7 +29,6 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/kratos-pc"
       }
-    ],
-    "gtin": "8720629067698"
+    ]
   }
 ]

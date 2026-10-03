@@ -5,6 +5,7 @@
     "diameter": 1.75,
     "spool_refill": false,
     "empty_spool_weight": 165,
+    "gtin": "8720629067704",
     "article_number": "ATAX-175CLEA-01000",
     "discontinued": false,
     "purchase_links": [
@@ -12,8 +13,7 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/athenax"
       }
-    ],
-    "gtin": "8720629067704"
+    ]
   },
   {
     "uuid": "fed303c3-35aa-4790-8413-c520fe18ea68",
@@ -21,6 +21,7 @@
     "diameter": 1.75,
     "spool_refill": true,
     "empty_spool_weight": 20,
+    "gtin": "8720629067728",
     "article_number": "ATAX-175CLEA-C1000",
     "discontinued": false,
     "purchase_links": [
@@ -28,8 +29,7 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/athenax"
       }
-    ],
-    "gtin": "8720629067728"
+    ]
   },
   {
     "uuid": "acfc4160-5618-4eee-8408-d7667ca337ca",
@@ -37,6 +37,7 @@
     "diameter": 1.75,
     "spool_refill": true,
     "empty_spool_weight": 40,
+    "gtin": "8720629067735",
     "article_number": "ATAX-175CLEA-C2000",
     "discontinued": false,
     "purchase_links": [
@@ -44,8 +45,7 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/athenax"
       }
-    ],
-    "gtin": "8720629067735"
+    ]
   },
   {
     "uuid": "cc9c5e5e-9f13-4a6a-b41a-a9ac335bf559",
@@ -53,6 +53,7 @@
     "diameter": 1.75,
     "spool_refill": false,
     "empty_spool_weight": 625,
+    "gtin": "8720629067711",
     "article_number": "ATAX-175CLEA-02300",
     "discontinued": false,
     "purchase_links": [
@@ -60,8 +61,7 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/athenax"
       }
-    ],
-    "gtin": "8720629067711"
+    ]
   },
   {
     "uuid": "baecc5fb-f9b9-4af1-8eae-a4a07e0671da",
@@ -69,6 +69,7 @@
     "diameter": 1.75,
     "spool_refill": false,
     "empty_spool_weight": 1040,
+    "gtin": "8720629068480",
     "article_number": "ATAX-175CLEA-08000",
     "discontinued": false,
     "purchase_links": [
@@ -76,7 +77,6 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/athenax"
       }
-    ],
-    "gtin": "8720629068480"
+    ]
   }
 ]

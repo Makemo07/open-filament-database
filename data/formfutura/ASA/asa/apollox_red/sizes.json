@@ -5,6 +5,7 @@
     "diameter": 1.75,
     "spool_refill": false,
     "empty_spool_weight": 165,
+    "gtin": "8718924476376",
     "article_number": "APOX-175REDC-00750",
     "discontinued": false,
     "purchase_links": [
@@ -12,8 +13,7 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/apollox"
       }
-    ],
-    "gtin": "8718924476376"
+    ]
   },
   {
     "uuid": "b3fff8b1-25c1-426d-800b-9361a245591a",
@@ -21,6 +21,7 @@
     "diameter": 1.75,
     "spool_refill": false,
     "empty_spool_weight": 625,
+    "gtin": "8718924479865",
     "article_number": "APOX-175REDC-02300",
     "discontinued": false,
     "purchase_links": [
@@ -28,7 +29,6 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/apollox"
       }
-    ],
-    "gtin": "8718924479865"
+    ]
   }
 ]
