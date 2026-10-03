@@ -15,5 +15,7 @@
         "superslicer": {
             "profile_name": "Extrudr DuraPro ASA"
         }
-    }
+    },
+    "data_sheet_url": "https://s3.extrudr.com/extrudr-media/datasheets/tds/tds-en/durapro-asa-TDS-en.pdf",
+    "safety_sheet_url": "https://s3.extrudr.com/extrudr-media/datasheets/msds/msds-en/durapro-asa-MSDS-en.pdf"
 }

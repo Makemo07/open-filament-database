@@ -15,5 +15,7 @@
         "superslicer": {
             "profile_name": "Extrudr PETG"
         }
-    }
+    },
+    "data_sheet_url": "https://s3.extrudr.com/extrudr-media/datasheets/tds/tds-en/petg-TDS-en.pdf",
+    "safety_sheet_url": "https://s3.extrudr.com/extrudr-media/datasheets/msds/msds-en/petg-MSDS-en.pdf"
 }
