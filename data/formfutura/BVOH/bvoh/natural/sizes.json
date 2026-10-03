@@ -12,7 +12,8 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/bvoh"
       }
-    ]
+    ],
+    "gtin": "8719956555299"
   },
   {
     "uuid": "9a9d7b7e-1481-4d0b-bed0-afb629037591",
@@ -27,7 +28,8 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/bvoh"
       }
-    ]
+    ],
+    "gtin": "8719956555312"
   },
   {
     "uuid": "098cddb1-c050-4910-b688-5ad172cbe8d5",
@@ -42,7 +44,8 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/bvoh"
       }
-    ]
+    ],
+    "gtin": "8718924474945"
   },
   {
     "uuid": "c47d1592-e53e-4b77-bdce-c17f4fc57794",
@@ -57,7 +60,8 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/bvoh"
       }
-    ]
+    ],
+    "gtin": "8719956555305"
   },
   {
     "uuid": "8cc8c315-3fd3-4690-9943-f5dfad6db0af",
@@ -72,6 +76,7 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/bvoh"
       }
-    ]
+    ],
+    "gtin": "8719956555329"
   }
 ]

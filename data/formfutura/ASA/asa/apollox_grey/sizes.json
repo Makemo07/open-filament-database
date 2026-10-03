@@ -12,7 +12,8 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/apollox"
       }
-    ]
+    ],
+    "gtin": "8718924476338"
   },
   {
     "uuid": "9c9db0b2-85f9-4b44-b8ba-114cf96a84be",
@@ -27,7 +28,8 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/apollox"
       }
-    ]
+    ],
+    "gtin": "8718924479858"
   },
   {
     "uuid": "b17d906b-069e-4fd9-959f-38ba1ba59a4c",
@@ -42,7 +44,8 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/apollox"
       }
-    ]
+    ],
+    "gtin": "8719956554407"
   },
   {
     "uuid": "d20559a8-4c60-4fd3-a0db-e1e427289060",
@@ -57,6 +60,7 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/apollox"
       }
-    ]
+    ],
+    "gtin": "8718924479483"
   }
 ]

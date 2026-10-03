@@ -12,7 +12,8 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/abspro"
       }
-    ]
+    ],
+    "gtin": "8718924471418"
   },
   {
     "uuid": "d49823a5-1cad-4097-bbdf-6972ac928313",
@@ -27,7 +28,8 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/abspro"
       }
-    ]
+    ],
+    "gtin": "8718924476888"
   },
   {
     "uuid": "b0e81731-c45b-4bfc-860f-d6019fedf1be",
@@ -42,6 +44,7 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/abspro"
       }
-    ]
+    ],
+    "gtin": "8718924471432"
   }
 ]

@@ -12,7 +12,8 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/easywood"
       }
-    ]
+    ],
+    "gtin": "8718924475805"
   },
   {
     "uuid": "1f29f49f-5638-4e14-884b-be77a075dcfa",
@@ -27,7 +28,8 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/easywood"
       }
-    ]
+    ],
+    "gtin": "8718924478134"
   },
   {
     "uuid": "430f63c0-7dad-4c49-abea-74cf7b7fbeb9",
@@ -42,7 +44,8 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/easywood"
       }
-    ]
+    ],
+    "gtin": "8719956552045"
   },
   {
     "uuid": "25aa081a-4620-4bd2-95c0-cbde5e892bd5",
@@ -57,7 +60,8 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/easywood"
       }
-    ]
+    ],
+    "gtin": "8719956553837"
   },
   {
     "uuid": "9ff91cde-c491-4414-916f-4358ac64308a",
@@ -72,7 +76,8 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/easywood"
       }
-    ]
+    ],
+    "gtin": "8718924475812"
   },
   {
     "uuid": "3e06ae29-d794-480f-8431-3875a8911f66",
@@ -87,6 +92,7 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/easywood"
       }
-    ]
+    ],
+    "gtin": "8718924478141"
   }
 ]

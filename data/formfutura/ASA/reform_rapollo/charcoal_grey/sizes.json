@@ -12,7 +12,8 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/reform-rapollo"
       }
-    ]
+    ],
+    "gtin": "8720629060590"
   },
   {
     "uuid": "33310389-2cff-476c-abc3-faab663d8a1e",
@@ -27,7 +28,8 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/reform-rapollo"
       }
-    ]
+    ],
+    "gtin": "8720629060620"
   },
   {
     "uuid": "fe3eb15b-4119-43dc-b74f-be3c96a98f43",
@@ -42,7 +44,8 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/reform-rapollo"
       }
-    ]
+    ],
+    "gtin": "8720629060651"
   },
   {
     "uuid": "c8c5ea74-4625-4683-b827-d45e7e27d074",
@@ -57,6 +60,7 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/reform-rapollo"
       }
-    ]
+    ],
+    "gtin": "8720629060675"
   }
 ]

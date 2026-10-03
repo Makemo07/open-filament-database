@@ -12,7 +12,8 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/athenax-cf10"
       }
-    ]
+    ],
+    "gtin": "8720629067872"
   },
   {
     "uuid": "5c1a769f-3a2f-4f07-841d-8a88942656c0",
@@ -27,7 +28,8 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/athenax-cf10"
       }
-    ]
+    ],
+    "gtin": "8720629067865"
   },
   {
     "uuid": "1eddfe6b-56b4-4781-97a2-590358a672bd",
@@ -42,7 +44,8 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/athenax-cf10"
       }
-    ]
+    ],
+    "gtin": "8720629067889"
   },
   {
     "uuid": "689fc652-1e4f-42fd-bb84-a08864285999",
@@ -57,6 +60,7 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/athenax-cf10"
       }
-    ]
+    ],
+    "gtin": "8720629067896"
   }
 ]

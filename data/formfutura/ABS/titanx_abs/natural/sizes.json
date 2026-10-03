@@ -12,7 +12,8 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/titanx"
       }
-    ]
+    ],
+    "gtin": "8718924476178"
   },
   {
     "uuid": "541273de-8c49-4ed0-84a8-9542290a67fc",
@@ -27,7 +28,8 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/titanx"
       }
-    ]
+    ],
+    "gtin": "8718924477977"
   },
   {
     "uuid": "057c5554-c31d-4629-a2ee-1e38fca1b847",
@@ -42,7 +44,8 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/titanx"
       }
-    ]
+    ],
+    "gtin": "8718924478011"
   },
   {
     "uuid": "f3bfcaec-f5b5-4443-ad8b-21e69afc26fc",
@@ -57,7 +60,8 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/titanx"
       }
-    ]
+    ],
+    "gtin": "8718924476185"
   },
   {
     "uuid": "8890888c-69b3-4b8d-87fd-c467c05dd18b",
@@ -72,7 +76,8 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/titanx"
       }
-    ]
+    ],
+    "gtin": "8718924477984"
   },
   {
     "uuid": "f19e769d-d526-458a-b618-5353887040ce",
@@ -87,6 +92,7 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/titanx"
       }
-    ]
+    ],
+    "gtin": "8718924478028"
   }
 ]

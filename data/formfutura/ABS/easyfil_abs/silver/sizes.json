@@ -12,7 +12,8 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/easyfil-abs"
       }
-    ]
+    ],
+    "gtin": "8718924471586"
   },
   {
     "uuid": "d422b099-1192-4e05-88a9-db489db826fa",
@@ -27,6 +28,7 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/easyfil-abs"
       }
-    ]
+    ],
+    "gtin": "8718924471593"
   }
 ]

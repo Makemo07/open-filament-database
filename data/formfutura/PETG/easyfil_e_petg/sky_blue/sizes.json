@@ -12,7 +12,8 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/easyfil-epetg"
       }
-    ]
+    ],
+    "gtin": "8720847053206"
   },
   {
     "uuid": "8f086755-8b30-4f1d-9872-f16750d6ec1b",
@@ -27,7 +28,8 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/easyfil-epetg"
       }
-    ]
+    ],
+    "gtin": "8720847053541"
   },
   {
     "uuid": "c6bc0fff-b65a-419b-be9e-7a1fa7f1aa41",
@@ -42,7 +44,8 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/easyfil-epetg"
       }
-    ]
+    ],
+    "gtin": "8720847053886"
   },
   {
     "uuid": "485a0bb5-80b2-4f39-9345-69721ea3ba94",
@@ -57,6 +60,7 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/easyfil-epetg"
       }
-    ]
+    ],
+    "gtin": "8720847054227"
   }
 ]

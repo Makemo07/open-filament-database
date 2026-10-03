@@ -27,7 +27,8 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/abspro-flame-retardant"
       }
-    ]
+    ],
+    "gtin": "8718924477304"
   },
   {
     "uuid": "c14b18bb-5c64-45ad-8d15-042036d34125",
@@ -42,7 +43,8 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/abspro-flame-retardant"
       }
-    ]
+    ],
+    "gtin": "8718924479964"
   },
   {
     "uuid": "d733b3c1-21a0-4af1-a708-c243b7753b09",
@@ -57,6 +59,7 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/abspro-flame-retardant"
       }
-    ]
+    ],
+    "gtin": "8718924475546"
   }
 ]

@@ -12,7 +12,8 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/kratos-pc"
       }
-    ]
+    ],
+    "gtin": "8720629067629"
   },
   {
     "uuid": "f3e2ecc5-7fd4-49bf-aee8-dae0ac4cd968",
@@ -27,6 +28,7 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/kratos-pc"
       }
-    ]
+    ],
+    "gtin": "8720629067636"
   }
 ]

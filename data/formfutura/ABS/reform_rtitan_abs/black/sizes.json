@@ -12,7 +12,8 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/reform-rtitan"
       }
-    ]
+    ],
+    "gtin": "8718924478622"
   },
   {
     "uuid": "7cfc8cf2-dea7-4355-9d62-3594f2baf8c5",
@@ -27,7 +28,8 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/reform-rtitan"
       }
-    ]
+    ],
+    "gtin": "8720574290899"
   },
   {
     "uuid": "2f261ca6-6931-4061-9834-da33cf128416",
@@ -42,7 +44,8 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/reform-rtitan"
       }
-    ]
+    ],
+    "gtin": "8720574297409"
   },
   {
     "uuid": "ab52e8e4-b6e7-425a-9ef8-cf35f7ebedb8",
@@ -57,7 +60,8 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/reform-rtitan"
       }
-    ]
+    ],
+    "gtin": "8720574290905"
   },
   {
     "uuid": "b6fabfaf-e326-41a0-a045-f1f01c992652",
@@ -72,6 +76,7 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/reform-rtitan"
       }
-    ]
+    ],
+    "gtin": "8720574290936"
   }
 ]

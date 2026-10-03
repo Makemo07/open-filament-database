@@ -12,7 +12,8 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/easyfil-epla"
       }
-    ]
+    ],
+    "gtin": "8720847050809"
   },
   {
     "uuid": "014af02d-9a17-4f8a-b450-23cfac3a2e2e",
@@ -27,7 +28,8 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/easyfil-epla"
       }
-    ]
+    ],
+    "gtin": "8720629068404"
   },
   {
     "uuid": "9c5c5307-d90b-4237-97e9-77755fb504f5",
@@ -42,7 +44,8 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/easyfil-epla"
       }
-    ]
+    ],
+    "gtin": "8720847051349"
   },
   {
     "uuid": "7504246c-bf5e-43e8-9078-34e26c90ccc1",
@@ -57,7 +60,8 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/easyfil-epla"
       }
-    ]
+    ],
+    "gtin": "8720847051882"
   },
   {
     "uuid": "aa3c23fa-9f06-48f7-a87a-9caee08b5aa5",
@@ -72,6 +76,7 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/easyfil-epla"
       }
-    ]
+    ],
+    "gtin": "8720847052421"
   }
 ]

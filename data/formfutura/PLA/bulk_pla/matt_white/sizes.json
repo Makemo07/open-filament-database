@@ -12,7 +12,8 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/bulk-pla"
       }
-    ]
+    ],
+    "gtin": "8720847069078"
   },
   {
     "uuid": "e189d5a9-7769-4286-a1a0-107b47764ed9",
@@ -27,6 +28,7 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/bulk-pla"
       }
-    ]
+    ],
+    "gtin": "8720847069085"
   }
 ]
