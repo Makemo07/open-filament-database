@@ -4,5 +4,11 @@
     "filament_weight": 1000,
     "diameter": 1.75,
     "gtin": "5903175655042"
+  },
+  {
+    "filament_weight": 1000,
+    "diameter": 1.75,
+    "spool_refill": true,
+    "gtin": "5905991404354"
   }
 ]

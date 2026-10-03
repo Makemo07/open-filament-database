@@ -11,5 +11,11 @@
         "url": "https://shop.spectrumfilaments.com/product-eng-503-Filament-Spectrum-PLA-Premium-1-75mm-DRAGON-RED-1kg.html"
       }
     ]
+  },
+  {
+    "filament_weight": 1000,
+    "diameter": 1.75,
+    "spool_refill": true,
+    "gtin": "5905991404446"
   }
 ]
