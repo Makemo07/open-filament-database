@@ -6,6 +6,7 @@
     "spool_refill": false,
     "empty_spool_weight": 140,
     "spool_core_diameter": 100,
-    "discontinued": false
+    "discontinued": false,
+    "gtin": "6938936717997"
   }
 ]

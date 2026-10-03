@@ -8,7 +8,8 @@
         "store_id": "polymaker",
         "url": "https://us.polymaker.com/products/polysmooth"
       }
-    ]
+    ],
+    "gtin": "6938936710783"
   },
   {
     "uuid": "8f4e4619-be69-45f1-95e0-0602297a1763",
@@ -19,6 +20,7 @@
         "store_id": "polymaker",
         "url": "https://us.polymaker.com/products/polysmooth"
       }
-    ]
+    ],
+    "gtin": "6938936711995"
   }
 ]
