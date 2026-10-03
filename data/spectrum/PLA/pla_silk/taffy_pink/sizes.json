@@ -10,7 +10,8 @@
         "store_id": "spectrum",
         "url": "https://shop.spectrumfilaments.com/product-eng-1898-Filament-Spectrum-ReFill-PLA-SILK-1-75mm-TAFFY-PINK-1kg.html"
       }
-    ]
+    ],
+    "spool_refill": true
   },
   {
     "uuid": "e9f034f1-a47d-488c-ba6b-402584be8f0f",

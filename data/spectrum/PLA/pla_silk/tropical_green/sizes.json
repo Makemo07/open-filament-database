@@ -10,7 +10,8 @@
         "store_id": "spectrum",
         "url": "https://shop.spectrumfilaments.com/product-eng-1899-Filament-Spectrum-ReFill-PLA-SILK-1-75mm-TROPICAL-GREEN-1kg.html"
       }
-    ]
+    ],
+    "spool_refill": true
   },
   {
     "uuid": "0b57a192-b504-41b0-bcb2-49669e5fa645",
