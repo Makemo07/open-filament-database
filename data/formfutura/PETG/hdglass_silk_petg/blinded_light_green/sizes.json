@@ -12,7 +12,8 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/hdglass"
       }
-    ]
+    ],
+    "gtin": "8718924476925"
   },
   {
     "uuid": "ebc50d9a-deb8-49c1-b2f0-3a62ca76949d",
@@ -27,6 +28,7 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/hdglass"
       }
-    ]
+    ],
+    "gtin": "8718924476963"
   }
 ]

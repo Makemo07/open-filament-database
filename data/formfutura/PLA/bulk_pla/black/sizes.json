@@ -12,7 +12,8 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/bulk-pla"
       }
-    ]
+    ],
+    "gtin": "8720847069351"
   },
   {
     "uuid": "aaccab26-1ab6-4723-8772-fcec639f76e7",
@@ -27,7 +28,8 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/bulk-pla"
       }
-    ]
+    ],
+    "gtin": "8720847069368"
   },
   {
     "uuid": "057eb2a0-ac2d-4eb7-98f7-ae480af8cf2d",
@@ -42,7 +44,8 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/bulk-pla"
       }
-    ]
+    ],
+    "gtin": "8720847069375"
   },
   {
     "uuid": "ba9a1f58-079e-44c3-b5f7-c3a9ed1773ec",
@@ -57,6 +60,7 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/bulk-pla"
       }
-    ]
+    ],
+    "gtin": "8720847069382"
   }
 ]

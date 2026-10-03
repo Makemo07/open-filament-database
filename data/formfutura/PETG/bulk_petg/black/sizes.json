@@ -12,7 +12,8 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/bulk-petg"
       }
-    ]
+    ],
+    "gtin": "8720847069016"
   },
   {
     "uuid": "78ea0b65-9cf6-422b-82c9-3a5c3502ec61",
@@ -27,7 +28,8 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/bulk-petg"
       }
-    ]
+    ],
+    "gtin": "8720847069023"
   },
   {
     "uuid": "068739fb-7437-4af4-812f-e738be56b7c8",
@@ -42,7 +44,8 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/bulk-petg"
       }
-    ]
+    ],
+    "gtin": "8720847069030"
   },
   {
     "uuid": "38fdfee7-1d40-4b08-9974-f6246d4f5ed1",
@@ -57,6 +60,7 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/bulk-petg"
       }
-    ]
+    ],
+    "gtin": "8720847069047"
   }
 ]

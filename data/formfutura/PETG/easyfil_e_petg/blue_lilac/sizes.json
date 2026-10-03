@@ -12,7 +12,8 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/easyfil-epetg"
       }
-    ]
+    ],
+    "gtin": "8720847053152"
   },
   {
     "uuid": "1ba933e9-9174-4f11-9bcc-ecff1dad9819",
@@ -27,6 +28,7 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/easyfil-epetg"
       }
-    ]
+    ],
+    "gtin": "8720847053497"
   }
 ]

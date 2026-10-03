@@ -12,7 +12,8 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/apollox-kevlar"
       }
-    ]
+    ],
+    "gtin": "8720629065663"
   },
   {
     "uuid": "9e5a817a-fb15-4f13-b54e-011c936033f1",
@@ -27,7 +28,8 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/apollox-kevlar"
       }
-    ]
+    ],
+    "gtin": "8720629065670"
   },
   {
     "uuid": "75e768d9-1773-4e6c-a9f7-2a381ee3a53f",
@@ -42,7 +44,8 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/apollox-kevlar"
       }
-    ]
+    ],
+    "gtin": "8720629065687"
   },
   {
     "uuid": "19c0ad76-1776-4b19-96d8-0703212f5063",
@@ -57,6 +60,7 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/apollox-kevlar"
       }
-    ]
+    ],
+    "gtin": "8720629065694"
   }
 ]

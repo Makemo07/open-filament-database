@@ -12,7 +12,8 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/easyfil-hips"
       }
-    ]
+    ],
+    "gtin": "8718924471685"
   },
   {
     "uuid": "5dde6495-6ba6-4536-9798-22a556c77945",
@@ -27,7 +28,8 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/easyfil-hips"
       }
-    ]
+    ],
+    "gtin": "8720629069999"
   },
   {
     "uuid": "105e6e1e-18ed-446c-a727-fff85660343c",
@@ -42,6 +44,7 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/easyfil-hips"
       }
-    ]
+    ],
+    "gtin": "8718924471692"
   }
 ]

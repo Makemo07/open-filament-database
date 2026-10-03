@@ -12,7 +12,8 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/styx-pa6-gf30"
       }
-    ]
+    ],
+    "gtin": "8720629064161"
   },
   {
     "uuid": "c9d36d7e-7258-41b2-a57d-68c34298b8fb",
@@ -27,7 +28,8 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/styx-pa6-gf30"
       }
-    ]
+    ],
+    "gtin": "8720629064178"
   },
   {
     "uuid": "31060625-0e07-42f9-a167-c343129d555f",
@@ -42,7 +44,8 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/styx-pa6-gf30"
       }
-    ]
+    ],
+    "gtin": "8720629064185"
   },
   {
     "uuid": "e196801e-a837-430a-af24-70e94c59ed27",
@@ -57,6 +60,7 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/styx-pa6-gf30"
       }
-    ]
+    ],
+    "gtin": "8720629064192"
   }
 ]

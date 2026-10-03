@@ -12,7 +12,8 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/reform-rpet"
       }
-    ]
+    ],
+    "gtin": "8720574290608"
   },
   {
     "uuid": "07543525-a3e9-4146-bb3d-6d5704b90291",
@@ -27,7 +28,8 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/reform-rpet"
       }
-    ]
+    ],
+    "gtin": "8720629063065"
   },
   {
     "uuid": "24ad69cf-953a-47bc-ac9b-bba7d6496133",
@@ -57,7 +59,8 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/reform-rpet"
       }
-    ]
+    ],
+    "gtin": "8720629063102"
   },
   {
     "uuid": "403470a2-30d3-4299-a694-2963bcb72291",
@@ -72,7 +75,8 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/reform-rpet"
       }
-    ]
+    ],
+    "gtin": "8720574290622"
   },
   {
     "uuid": "bbcb4986-0556-4e49-a1ad-74cb5f444d11",
@@ -87,6 +91,7 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/reform-rpet"
       }
-    ]
+    ],
+    "gtin": "8720629063188"
   }
 ]

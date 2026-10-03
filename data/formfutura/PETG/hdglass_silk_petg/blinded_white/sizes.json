@@ -12,7 +12,8 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/hdglass"
       }
-    ]
+    ],
+    "gtin": "8718924473252"
   },
   {
     "uuid": "dfde2cc6-473d-4116-b2eb-87c047077be2",
@@ -27,7 +28,8 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/hdglass"
       }
-    ]
+    ],
+    "gtin": "8718924477342"
   },
   {
     "uuid": "f683ce74-d5c0-414e-a58d-405abdc3e9c6",
@@ -42,7 +44,8 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/hdglass"
       }
-    ]
+    ],
+    "gtin": "8718924477359"
   },
   {
     "uuid": "e8d56502-61da-437b-b06a-e9ebe54d9e19",
@@ -57,7 +60,8 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/hdglass"
       }
-    ]
+    ],
+    "gtin": "8718924478103"
   },
   {
     "uuid": "db475d17-c0ff-4e84-aaa8-172ac4ce2e9d",
@@ -72,7 +76,8 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/hdglass"
       }
-    ]
+    ],
+    "gtin": "8718924473269"
   },
   {
     "uuid": "ca6722b3-e8e9-460f-a19b-26cdc1940ebf",
@@ -87,7 +92,8 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/hdglass"
       }
-    ]
+    ],
+    "gtin": "8718924477311"
   },
   {
     "uuid": "9c2c7605-5b10-448c-a22f-70d9f708928c",
@@ -102,7 +108,8 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/hdglass"
       }
-    ]
+    ],
+    "gtin": "8718924475744"
   },
   {
     "uuid": "ce38b058-8204-4230-93c5-b464de7b29dc",
@@ -117,6 +124,7 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/hdglass"
       }
-    ]
+    ],
+    "gtin": "8718924477465"
   }
 ]

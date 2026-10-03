@@ -12,7 +12,8 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/apollox-foaming"
       }
-    ]
+    ],
+    "gtin": "8720847069924"
   },
   {
     "uuid": "2c743b22-a220-4e48-9180-ef55d1533321",
@@ -27,7 +28,8 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/apollox-foaming"
       }
-    ]
+    ],
+    "gtin": "8720847069917"
   },
   {
     "uuid": "deae0cca-4e22-4ecc-8ad6-51c94c8fca84",
@@ -42,6 +44,7 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/apollox-foaming"
       }
-    ]
+    ],
+    "gtin": "8720847069931"
   }
 ]

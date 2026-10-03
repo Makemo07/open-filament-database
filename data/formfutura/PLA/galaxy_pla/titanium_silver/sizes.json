@@ -12,7 +12,8 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/galaxy-pla"
       }
-    ]
+    ],
+    "gtin": "8719956550720"
   },
   {
     "uuid": "e21bbfa3-17bf-4c7f-93a8-a562c34baa86",
@@ -27,6 +28,7 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/galaxy-pla"
       }
-    ]
+    ],
+    "gtin": "8719956551543"
   }
 ]

@@ -12,7 +12,8 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/apollox"
       }
-    ]
+    ],
+    "gtin": "8718924476390"
   },
   {
     "uuid": "6eff1fe2-2594-4378-ad0e-a39ab4d5fa77",
@@ -27,6 +28,7 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/apollox"
       }
-    ]
+    ],
+    "gtin": "8718924479889"
   }
 ]

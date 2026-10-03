@@ -12,7 +12,8 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/carbonfil-cf03"
       }
-    ]
+    ],
+    "gtin": "8720847060747"
   },
   {
     "uuid": "82d0287d-56d0-4ab9-9db3-b8e4cdcaee93",
@@ -27,7 +28,8 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/carbonfil-cf03"
       }
-    ]
+    ],
+    "gtin": "8720847060754"
   },
   {
     "uuid": "ae4f8736-c60d-43c9-adf3-0dee85caf753",
@@ -42,6 +44,7 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/carbonfil-cf03"
       }
-    ]
+    ],
+    "gtin": "8720847060761"
   }
 ]

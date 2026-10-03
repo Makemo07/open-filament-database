@@ -12,7 +12,8 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/easyfil-epetg"
       }
-    ]
+    ],
+    "gtin": "8720847053251"
   },
   {
     "uuid": "0aa9908a-56de-4fdc-88bf-8506c84d033a",
@@ -27,7 +28,8 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/easyfil-epetg"
       }
-    ]
+    ],
+    "gtin": "8720847053596"
   },
   {
     "uuid": "293bf4f5-64eb-4a98-a479-0b9c46447d4a",
@@ -42,7 +44,8 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/easyfil-epetg"
       }
-    ]
+    ],
+    "gtin": "8720847053930"
   },
   {
     "uuid": "ebde3a82-1541-40c7-a4d3-0fd4a0cf8751",
@@ -57,7 +60,8 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/easyfil-epetg"
       }
-    ]
+    ],
+    "gtin": "8720847054272"
   },
   {
     "uuid": "43c620e6-faf1-412f-8140-c32280ef0bcc",
@@ -72,7 +76,8 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/easyfil-epetg"
       }
-    ]
+    ],
+    "gtin": "8720847057655"
   },
   {
     "uuid": "3648f425-78c4-4a9a-b16b-bf046dafac04",
@@ -87,7 +92,8 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/easyfil-epetg"
       }
-    ]
+    ],
+    "gtin": "8720847057990"
   },
   {
     "uuid": "d88749f0-c8cb-4613-a234-e0b7de856c16",
@@ -102,7 +108,8 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/easyfil-epetg"
       }
-    ]
+    ],
+    "gtin": "8720847058331"
   },
   {
     "uuid": "9e2e0a19-ddb4-474b-b377-d84ad68ce6c8",
@@ -117,6 +124,7 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/easyfil-epetg"
       }
-    ]
+    ],
+    "gtin": "8720847058676"
   }
 ]

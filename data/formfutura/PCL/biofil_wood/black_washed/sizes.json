@@ -12,7 +12,8 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/biofil-wood"
       }
-    ]
+    ],
+    "gtin": "8720629065816"
   },
   {
     "uuid": "5c321b07-22a3-4067-a1c7-13bca0b8f385",
@@ -27,6 +28,7 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/biofil-wood"
       }
-    ]
+    ],
+    "gtin": "8720629065823"
   }
 ]
