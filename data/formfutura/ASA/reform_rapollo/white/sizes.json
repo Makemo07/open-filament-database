@@ -126,5 +126,17 @@
         "url": "https://www.formfutura.com/reform-rapollo"
       }
     ]
+  },
+  {
+    "filament_weight": 250,
+    "diameter": 1.75,
+    "gtin": "8720629060736",
+    "article_number": "RAPO-175WHTE-00250"
+  },
+  {
+    "filament_weight": 250,
+    "diameter": 2.85,
+    "gtin": "8720629060811",
+    "article_number": "RAPO-285WHTE-00250"
   }
 ]

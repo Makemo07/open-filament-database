@@ -4,5 +4,11 @@
     "filament_weight": 1000,
     "diameter": 1.75,
     "gtin": "8718924471869"
+  },
+  {
+    "filament_weight": 250,
+    "diameter": 2.85,
+    "gtin": "8720574296037",
+    "article_number": "PPLA-285AGRN-00250"
   }
 ]

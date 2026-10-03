@@ -30,5 +30,11 @@
         "url": "https://www.formfutura.com/easyfil-epla"
       }
     ]
+  },
+  {
+    "filament_weight": 250,
+    "diameter": 1.75,
+    "gtin": "8720847050069",
+    "article_number": "PLAE-175SIYL-00250"
   }
 ]

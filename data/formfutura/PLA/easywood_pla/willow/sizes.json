@@ -62,5 +62,17 @@
         "url": "https://www.formfutura.com/easywood"
       }
     ]
+  },
+  {
+    "filament_weight": 250,
+    "diameter": 1.75,
+    "gtin": "8720574298093",
+    "article_number": "EWOD-175WLLW-00250"
+  },
+  {
+    "filament_weight": 250,
+    "diameter": 2.85,
+    "gtin": "8720574298109",
+    "article_number": "EWOD-285WLLW-00250"
   }
 ]

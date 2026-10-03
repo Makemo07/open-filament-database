@@ -30,5 +30,11 @@
         "url": "https://www.formfutura.com/easyfil-epetg"
       }
     ]
+  },
+  {
+    "filament_weight": 250,
+    "diameter": 1.75,
+    "gtin": "8720847053015",
+    "article_number": "PTGE-175TORA-00250"
   }
 ]

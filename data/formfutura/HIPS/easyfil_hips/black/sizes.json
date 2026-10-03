@@ -46,5 +46,11 @@
         "url": "https://www.formfutura.com/easyfil-hips"
       }
     ]
+  },
+  {
+    "filament_weight": 250,
+    "diameter": 2.85,
+    "gtin": "8720574299571",
+    "article_number": "EHPS-285BLCK-00250"
   }
 ]

@@ -110,5 +110,11 @@
         "url": "https://www.formfutura.com/apollox"
       }
     ]
+  },
+  {
+    "filament_weight": 250,
+    "diameter": 2.85,
+    "gtin": "8720574297836",
+    "article_number": "APOX-285WHTE-00250"
   }
 ]

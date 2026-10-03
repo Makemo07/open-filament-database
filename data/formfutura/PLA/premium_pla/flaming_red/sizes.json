@@ -4,5 +4,29 @@
     "filament_weight": 1000,
     "diameter": 1.75,
     "gtin": "8718924471821"
+  },
+  {
+    "filament_weight": 2300,
+    "diameter": 1.75,
+    "gtin": "8718924472996",
+    "article_number": "PPLA-175FRED-02300"
+  },
+  {
+    "filament_weight": 250,
+    "diameter": 2.85,
+    "gtin": "8720574295993",
+    "article_number": "PPLA-285FRED-00250"
+  },
+  {
+    "filament_weight": 1000,
+    "diameter": 2.85,
+    "gtin": "8718924472019",
+    "article_number": "PPLA-285FRED-01000"
+  },
+  {
+    "filament_weight": 2300,
+    "diameter": 2.85,
+    "gtin": "8718924473009",
+    "article_number": "PPLA-285FRED-02300"
   }
 ]

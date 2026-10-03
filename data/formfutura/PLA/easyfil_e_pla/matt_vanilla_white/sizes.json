@@ -30,5 +30,11 @@
         "url": "https://www.formfutura.com/easyfil-epla"
       }
     ]
+  },
+  {
+    "filament_weight": 1000,
+    "diameter": 2.85,
+    "gtin": "8720629064512",
+    "article_number": "PLAE-285MTVW-01000"
   }
 ]

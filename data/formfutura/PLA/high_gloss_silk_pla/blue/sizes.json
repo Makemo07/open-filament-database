@@ -46,5 +46,17 @@
         "url": "https://www.formfutura.com/high-gloss-pla"
       }
     ]
+  },
+  {
+    "filament_weight": 250,
+    "diameter": 1.75,
+    "gtin": "8720574291995",
+    "article_number": "HPLA-175BLUE-00250"
+  },
+  {
+    "filament_weight": 250,
+    "diameter": 2.85,
+    "gtin": "8720574292046",
+    "article_number": "HPLA-285BLUE-00250"
   }
 ]

@@ -3,5 +3,23 @@
     "uuid": "97966e9e-2076-4962-9a19-a40d65950a47",
     "filament_weight": 1000,
     "diameter": 1.75
+  },
+  {
+    "filament_weight": 500,
+    "diameter": 1.75,
+    "gtin": "8718924478417",
+    "article_number": "STNF-175PCLY-00500"
+  },
+  {
+    "filament_weight": 2000,
+    "diameter": 1.75,
+    "gtin": "8719956553172",
+    "article_number": "STNF-175PCLY-02000"
+  },
+  {
+    "filament_weight": 500,
+    "diameter": 2.85,
+    "gtin": "8718924478424",
+    "article_number": "STNF-285PCLY-00500"
   }
 ]

@@ -3,5 +3,29 @@
     "uuid": "41a59348-3e95-41c3-abb1-4c1f82042e61",
     "filament_weight": 1000,
     "diameter": 1.75
+  },
+  {
+    "filament_weight": 750,
+    "diameter": 1.75,
+    "gtin": "8718924471128",
+    "article_number": "EPLA-175SLVR-00750"
+  },
+  {
+    "filament_weight": 250,
+    "diameter": 2.85,
+    "gtin": "8720574294859",
+    "article_number": "EPLA-285SLVR-00250"
+  },
+  {
+    "filament_weight": 750,
+    "diameter": 2.85,
+    "gtin": "8718924471135",
+    "article_number": "EPLA-285SLVR-00750"
+  },
+  {
+    "filament_weight": 2300,
+    "diameter": 2.85,
+    "gtin": "8718924478837",
+    "article_number": "EPLA-285SLVR-02300"
   }
 ]

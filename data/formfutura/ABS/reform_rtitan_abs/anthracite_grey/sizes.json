@@ -94,5 +94,17 @@
         "url": "https://www.formfutura.com/reform-rtitan"
       }
     ]
+  },
+  {
+    "filament_weight": 250,
+    "diameter": 1.75,
+    "gtin": "8720629060897",
+    "article_number": "RTIT-175ATGY-00250"
+  },
+  {
+    "filament_weight": 250,
+    "diameter": 2.85,
+    "gtin": "8720629060903",
+    "article_number": "RTIT-285ATGY-00250"
   }
 ]

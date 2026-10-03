@@ -30,5 +30,11 @@
         "url": "https://www.formfutura.com/easyfil-abs"
       }
     ]
+  },
+  {
+    "filament_weight": 250,
+    "diameter": 2.85,
+    "gtin": "8720574294514",
+    "article_number": "EABS-285SLVR-00250"
   }
 ]
