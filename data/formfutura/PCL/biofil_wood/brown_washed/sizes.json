@@ -1,7 +1,7 @@
 [
   {
     "uuid": "acb4b3a2-60a7-490c-888a-0e17a6ffcc60",
-    "filament_weight": 1000,
+    "filament_weight": 500,
     "diameter": 1.75,
     "spool_refill": true,
     "empty_spool_weight": 20,
@@ -12,7 +12,8 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/biofil-wood"
       }
-    ]
+    ],
+    "gtin": "8720629065793"
   },
   {
     "uuid": "66e7b4c4-b4b4-4cbd-826c-27cd7d86e9c2",
