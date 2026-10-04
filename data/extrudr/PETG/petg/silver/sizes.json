@@ -6,11 +6,13 @@
     "gtin": "9010241023080"
   },
   {
+    "uuid": "b0c47182-57e4-4340-a36e-8c272d8afc9f",
     "filament_weight": 2500,
     "diameter": 1.75,
     "gtin": "9010241024087"
   },
   {
+    "uuid": "efe0640b-f673-4e30-9fb2-0734a1eb2ddc",
     "filament_weight": 10000,
     "diameter": 1.75,
     "gtin": "9010241025084"

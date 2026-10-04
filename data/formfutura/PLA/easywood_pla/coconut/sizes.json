@@ -96,12 +96,14 @@
     ]
   },
   {
+    "uuid": "9e864287-5a73-47e9-91ce-2d09184ebac8",
     "filament_weight": 250,
     "diameter": 1.75,
     "gtin": "8720574298161",
     "article_number": "EWOD-175COCO-00250"
   },
   {
+    "uuid": "5b4767ff-640a-4575-bb05-23d8131fc1c9",
     "filament_weight": 250,
     "diameter": 2.85,
     "gtin": "8720574298154",

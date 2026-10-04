@@ -5,6 +5,7 @@
     "diameter": 1.75,
     "spool_refill": true,
     "empty_spool_weight": 20,
+    "gtin": "8720629065793",
     "article_number": "BFWD-175BRNW-00500",
     "discontinued": false,
     "purchase_links": [
@@ -12,8 +13,7 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/biofil-wood"
       }
-    ],
-    "gtin": "8720629065793"
+    ]
   },
   {
     "uuid": "66e7b4c4-b4b4-4cbd-826c-27cd7d86e9c2",

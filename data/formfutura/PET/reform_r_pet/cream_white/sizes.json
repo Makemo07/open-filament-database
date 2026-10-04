@@ -79,12 +79,14 @@
     ]
   },
   {
+    "uuid": "2e2dc704-6c71-44db-a7b5-8891390ca19b",
     "filament_weight": 250,
     "diameter": 1.75,
     "gtin": "8720574293395",
     "article_number": "RPET-175CWHT-00250"
   },
   {
+    "uuid": "cbf93eb5-8852-4595-809f-c3399f6689ca",
     "filament_weight": 250,
     "diameter": 2.85,
     "gtin": "8720574293401",

@@ -128,12 +128,14 @@
     ]
   },
   {
+    "uuid": "67d26a28-904d-4ea8-a8d3-5d053d8eac43",
     "filament_weight": 250,
     "diameter": 1.75,
     "gtin": "8720629060736",
     "article_number": "RAPO-175WHTE-00250"
   },
   {
+    "uuid": "0f6f3c74-f91e-41d7-acff-2de6c14b2145",
     "filament_weight": 250,
     "diameter": 2.85,
     "gtin": "8720629060811",

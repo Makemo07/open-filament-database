@@ -64,12 +64,14 @@
     ]
   },
   {
+    "uuid": "9b8a85b0-2443-4554-a721-ca6d2821156c",
     "filament_weight": 250,
     "diameter": 1.75,
     "gtin": "8720574298093",
     "article_number": "EWOD-175WLLW-00250"
   },
   {
+    "uuid": "1f5f111b-3cfa-45ab-8484-dedb79d6f511",
     "filament_weight": 250,
     "diameter": 2.85,
     "gtin": "8720574298109",

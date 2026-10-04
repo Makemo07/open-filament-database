@@ -32,12 +32,14 @@
     ]
   },
   {
+    "uuid": "a933300b-7ff8-41c1-9580-122d97666dde",
     "filament_weight": 250,
     "diameter": 1.75,
     "gtin": "8720574295467",
     "article_number": "HDGL-175FORS-00250"
   },
   {
+    "uuid": "5373fdf1-a180-4745-9dda-357f5505e99f",
     "filament_weight": 250,
     "diameter": 2.85,
     "gtin": "8720574295405",

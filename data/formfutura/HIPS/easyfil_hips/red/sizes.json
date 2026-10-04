@@ -32,12 +32,14 @@
     ]
   },
   {
+    "uuid": "1bba86c9-fcfd-4fac-a580-65bcbbf1c662",
     "filament_weight": 250,
     "diameter": 1.75,
     "gtin": "8720574299649",
     "article_number": "EHPS-175REDC-00250"
   },
   {
+    "uuid": "fa432626-e472-4eb6-8405-75b297a21beb",
     "filament_weight": 250,
     "diameter": 2.85,
     "gtin": "8720574299656",

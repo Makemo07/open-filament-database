@@ -32,12 +32,14 @@
     ]
   },
   {
+    "uuid": "b41f9933-302a-490c-b4c0-177ac707f190",
     "filament_weight": 250,
     "diameter": 1.75,
     "gtin": "8720574299601",
     "article_number": "EHPS-175GREY-00250"
   },
   {
+    "uuid": "42da3544-b2f1-4fc3-ba64-df23b73a77e7",
     "filament_weight": 250,
     "diameter": 2.85,
     "gtin": "8720574299618",

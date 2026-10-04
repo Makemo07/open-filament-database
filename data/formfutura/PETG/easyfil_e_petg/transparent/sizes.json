@@ -144,12 +144,14 @@
     ]
   },
   {
+    "uuid": "da8aaa02-cdf3-4360-87e6-81a6ca271e29",
     "filament_weight": 250,
     "diameter": 1.75,
     "gtin": "8720847052995",
     "article_number": "PTGE-175TRNS-00250"
   },
   {
+    "uuid": "fb4fd199-3c84-4d9f-b504-3527c31761a1",
     "filament_weight": 250,
     "diameter": 2.85,
     "gtin": "8720847057396",

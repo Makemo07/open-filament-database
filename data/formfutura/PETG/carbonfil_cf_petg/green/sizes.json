@@ -64,12 +64,14 @@
     ]
   },
   {
+    "uuid": "6e8a5f38-fb34-434f-8957-54b43ec165f2",
     "filament_weight": 250,
     "diameter": 1.75,
     "gtin": "8720574297973",
     "article_number": "CRBF-175GREN-00250"
   },
   {
+    "uuid": "863a3363-e37e-4465-9776-928efd161264",
     "filament_weight": 250,
     "diameter": 2.85,
     "gtin": "8720574297980",

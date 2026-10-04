@@ -32,12 +32,14 @@
     ]
   },
   {
+    "uuid": "4c8b9547-622c-447e-be38-1d7e8c62ffc5",
     "filament_weight": 250,
     "diameter": 1.75,
     "gtin": "8720574294583",
     "article_number": "EABS-175DGRN-00250"
   },
   {
+    "uuid": "e98bd7a7-2260-41be-a0c4-d4bcd96877a8",
     "filament_weight": 250,
     "diameter": 2.85,
     "gtin": "8720574294675",

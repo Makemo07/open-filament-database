@@ -32,12 +32,14 @@
     ]
   },
   {
+    "uuid": "3d231937-6cde-41a5-947b-744a3e8a3605",
     "filament_weight": 250,
     "diameter": 1.75,
     "gtin": "8720574295658",
     "article_number": "HDGL-175BPBU-00250"
   },
   {
+    "uuid": "1b37e156-4185-47da-a28b-5797bf32a76b",
     "filament_weight": 250,
     "diameter": 2.85,
     "gtin": "8720574295597",

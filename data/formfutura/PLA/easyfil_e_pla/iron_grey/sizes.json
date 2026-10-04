@@ -144,12 +144,14 @@
     ]
   },
   {
+    "uuid": "a47a8fc1-a1f6-4549-b399-586121159d8e",
     "filament_weight": 250,
     "diameter": 1.75,
     "gtin": "8720847050410",
     "article_number": "PLAE-175IGRY-00250"
   },
   {
+    "uuid": "6f609c6b-4399-495e-b328-482f2c17d884",
     "filament_weight": 250,
     "diameter": 2.85,
     "gtin": "8720847054814",
