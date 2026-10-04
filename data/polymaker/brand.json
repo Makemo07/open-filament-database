@@ -5,5 +5,8 @@
   "website": "https://polymaker.com/",
   "logo": "logo.svg",
   "origin": "CN",
-  "source": "openprinttag"
+  "source": "openprinttag",
+  "moved_from": [
+    "d158cdbf-3248-4fce-8410-ce7642f528a9"
+  ]
 }
