@@ -37,5 +37,10 @@
         "url": "https://addnorth.com/product/PETG/PETG%20-%201.75mm%20-%205000g%20-%20Black"
       }
     ]
+  },
+  {
+    "filament_weight": 1000,
+    "diameter": 1.75,
+    "gtin": "7340182903731"
   }
 ]

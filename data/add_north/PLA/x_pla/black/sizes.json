@@ -51,5 +51,10 @@
         "url": "https://addnorth.com/product/X-PLA/X-PLA%20-%202.85mm%20-%205000g%20-%20Black"
       }
     ]
+  },
+  {
+    "filament_weight": 1000,
+    "diameter": 1.75,
+    "gtin": "7340182904271"
   }
 ]

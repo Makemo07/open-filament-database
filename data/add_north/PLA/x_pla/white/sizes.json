@@ -38,5 +38,10 @@
         "url": "https://addnorth.com/product/X-PLA/X-PLA%20-%201.75mm%20-%205000g%20-%20White"
       }
     ]
+  },
+  {
+    "filament_weight": 1000,
+    "diameter": 1.75,
+    "gtin": "7340182904370"
   }
 ]
