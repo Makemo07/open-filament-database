@@ -1,0 +1,9 @@
+{
+  "id": "metallic_plum",
+  "name": "Metallic Plum",
+  "color_hex": "#81417E",
+  "traits": {
+    "imitates_metal": true,
+    "high_flow": true
+  }
+}

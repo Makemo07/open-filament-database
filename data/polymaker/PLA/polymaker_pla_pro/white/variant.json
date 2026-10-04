@@ -1,0 +1,11 @@
+{
+  "id": "white",
+  "name": "White",
+  "color_hex": "#FAFAFA",
+  "hex_variants": [
+    "#E2DEDB"
+  ],
+  "traits": {
+    "high_flow": true
+  }
+}

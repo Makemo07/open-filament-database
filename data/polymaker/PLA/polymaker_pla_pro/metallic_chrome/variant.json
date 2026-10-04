@@ -1,0 +1,9 @@
+{
+  "id": "metallic_chrome",
+  "name": "Metallic Chrome",
+  "color_hex": "#505A5D",
+  "traits": {
+    "imitates_metal": true,
+    "high_flow": true
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "id": "magenta",
+  "name": "Magenta",
+  "color_hex": "#FB3D7C",
+  "traits": {
+    "high_flow": true
+  }
+}

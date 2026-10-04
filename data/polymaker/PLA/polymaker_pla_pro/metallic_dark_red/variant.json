@@ -1,0 +1,9 @@
+{
+  "id": "metallic_dark_red",
+  "name": "Metallic Dark Red",
+  "color_hex": "#A10C0C",
+  "traits": {
+    "imitates_metal": true,
+    "high_flow": true
+  }
+}

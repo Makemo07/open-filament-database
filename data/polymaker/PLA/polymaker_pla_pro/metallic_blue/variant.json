@@ -1,0 +1,9 @@
+{
+  "id": "metallic_blue",
+  "name": "Metallic Blue",
+  "color_hex": "#2C3449",
+  "traits": {
+    "imitates_metal": true,
+    "high_flow": true
+  }
+}
