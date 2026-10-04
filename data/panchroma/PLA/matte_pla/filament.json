@@ -1,5 +1,9 @@
 {
   "uuid": "203bb048-7ca1-4d0b-a30a-0da84e0c79ad",
+  "moved_from": [
+    "6aed131e-d76e-4c65-9374-ad08d91dd8a4",
+    "841c872a-4943-428e-b84d-2d20aa6b2ec6"
+  ],
   "id": "matte_pla",
   "name": "Matte PLA",
   "diameter_tolerance": 0.02,
@@ -10,9 +14,5 @@
   "min_bed_temperature": 25,
   "max_bed_temperature": 60,
   "min_nozzle_diameter": 0.4,
-  "moved_from": [
-    "6aed131e-d76e-4c65-9374-ad08d91dd8a4",
-    "841c872a-4943-428e-b84d-2d20aa6b2ec6"
-  ],
   "discontinued": false
 }

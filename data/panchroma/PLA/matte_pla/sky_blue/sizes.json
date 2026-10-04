@@ -1,6 +1,9 @@
 [
   {
     "uuid": "001fbf7a-7505-4136-9d57-0531f72c23b9",
+    "moved_from": [
+      "69685622-4bc3-484c-b7ab-bd0185fbedd7"
+    ],
     "filament_weight": 1000,
     "diameter": 1.75,
     "empty_spool_weight": 145,
@@ -14,9 +17,6 @@
         "store_id": "polymaker",
         "url": "https://us.polymaker.com/products/panchroma-matte"
       }
-    ],
-    "moved_from": [
-      "69685622-4bc3-484c-b7ab-bd0185fbedd7"
     ]
   },
   {
