@@ -2,6 +2,12 @@
   {
     "uuid": "2260ceda-bcd8-40fc-ae9a-c4f69e2464eb",
     "filament_weight": 1000,
-    "diameter": 1.75
+    "diameter": 1.75,
+    "gtin": "850039562792"
+  },
+  {
+    "filament_weight": 500,
+    "diameter": 1.75,
+    "gtin": "640970863368"
   }
 ]
