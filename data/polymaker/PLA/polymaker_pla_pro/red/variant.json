@@ -1,0 +1,11 @@
+{
+  "id": "red",
+  "name": "Red",
+  "color_hex": "#FF4747",
+  "hex_variants": [
+    "#E20010"
+  ],
+  "traits": {
+    "high_flow": true
+  }
+}

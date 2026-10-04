@@ -1,0 +1,8 @@
+{
+  "id": "light_yellow",
+  "name": "Light Yellow",
+  "color_hex": "#EEE96F",
+  "traits": {
+    "high_flow": true
+  }
+}

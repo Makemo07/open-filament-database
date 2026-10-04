@@ -1,0 +1,11 @@
+{
+  "id": "polymaker_teal",
+  "name": "Polymaker Teal",
+  "color_hex": "#94F1F2",
+  "hex_variants": [
+    "#50DAE4"
+  ],
+  "traits": {
+    "high_flow": true
+  }
+}

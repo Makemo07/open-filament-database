@@ -1,0 +1,9 @@
+{
+  "id": "metallic_bronze",
+  "name": "Metallic Bronze",
+  "color_hex": "#926043",
+  "traits": {
+    "imitates_metal": true,
+    "high_flow": true
+  }
+}

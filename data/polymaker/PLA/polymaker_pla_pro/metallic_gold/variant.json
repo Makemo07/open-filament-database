@@ -1,0 +1,9 @@
+{
+  "id": "metallic_gold",
+  "name": "Metallic Gold",
+  "color_hex": "#DA9F1D",
+  "traits": {
+    "imitates_metal": true,
+    "high_flow": true
+  }
+}
