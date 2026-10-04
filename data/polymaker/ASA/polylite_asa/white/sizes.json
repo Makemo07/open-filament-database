@@ -5,5 +5,20 @@
     "diameter": 1.75,
     "gtin": "6938936709954",
     "article_number": "PF01002"
+  },
+  {
+    "filament_weight": 3000,
+    "diameter": 1.75,
+    "gtin": "6938936712626"
+  },
+  {
+    "filament_weight": 5000,
+    "diameter": 1.75,
+    "gtin": "6938936709213"
+  },
+  {
+    "filament_weight": 3000,
+    "diameter": 2.85,
+    "gtin": "6938936712664"
   }
 ]

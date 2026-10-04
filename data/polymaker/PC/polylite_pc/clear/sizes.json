@@ -5,5 +5,15 @@
     "diameter": 1.75,
     "gtin": "6938936710424",
     "article_number": "PC01001"
+  },
+  {
+    "filament_weight": 3000,
+    "diameter": 1.75,
+    "gtin": "6938936712688"
+  },
+  {
+    "filament_weight": 1000,
+    "diameter": 2.85,
+    "gtin": "6938936701910"
   }
 ]
