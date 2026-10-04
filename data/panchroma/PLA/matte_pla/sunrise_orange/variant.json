@@ -2,5 +2,12 @@
   "uuid": "7a523562-ad7a-4c5e-adc1-3479ae024f92",
   "id": "sunrise_orange",
   "name": "Sunrise Orange",
-  "color_hex": "#F78E0E"
+  "color_hex": "#F78E0E",
+  "traits": {
+    "matte": true,
+    "industrially_compostable": true
+  },
+  "moved_from": [
+    "0cbb46b0-7cd1-42bb-9709-2f32db697d45"
+  ]
 }
