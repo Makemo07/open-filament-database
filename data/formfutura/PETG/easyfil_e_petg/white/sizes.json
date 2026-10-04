@@ -142,5 +142,11 @@
         "url": "https://www.formfutura.com/easyfil-epetg"
       }
     ]
+  },
+  {
+    "filament_weight": 250,
+    "diameter": 2.85,
+    "gtin": "8720847057365",
+    "article_number": "PTGE-285TWHT-00250"
   }
 ]

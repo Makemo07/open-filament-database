@@ -4,5 +4,41 @@
     "filament_weight": 1000,
     "diameter": 1.75,
     "gtin": "8718924471852"
+  },
+  {
+    "filament_weight": 2300,
+    "diameter": 1.75,
+    "gtin": "8718924472613",
+    "article_number": "PPLA-175TRNP-02300"
+  },
+  {
+    "filament_weight": 4500,
+    "diameter": 1.75,
+    "gtin": "8718924478707",
+    "article_number": "PPLA-175TRNP-04500"
+  },
+  {
+    "filament_weight": 1000,
+    "diameter": 2.85,
+    "gtin": "8718924472040",
+    "article_number": "PPLA-285TRNP-01000"
+  },
+  {
+    "filament_weight": 2300,
+    "diameter": 2.85,
+    "gtin": "8718924472620",
+    "article_number": "PPLA-285TRNP-02300"
+  },
+  {
+    "filament_weight": 4500,
+    "diameter": 2.85,
+    "gtin": "8718924477441",
+    "article_number": "PPLA-285TRNP-04500"
+  },
+  {
+    "filament_weight": 8000,
+    "diameter": 2.85,
+    "gtin": "8719956552182",
+    "article_number": "PPLA-285TRNP-08000"
   }
 ]

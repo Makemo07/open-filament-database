@@ -128,7 +128,7 @@
   {
     "uuid": "6e1a9b66-45d2-4c0d-9bc0-dd06286d83b7",
     "filament_weight": 4500,
-    "diameter": 1.75,
+    "diameter": 2.85,
     "spool_refill": false,
     "empty_spool_weight": 785,
     "article_number": "RPET-285REDC-04500",
@@ -138,6 +138,13 @@
         "store_id": "formfutura",
         "url": "https://www.formfutura.com/reform-rpet"
       }
-    ]
+    ],
+    "gtin": "8720574290837"
+  },
+  {
+    "filament_weight": 250,
+    "diameter": 2.85,
+    "gtin": "8720574293319",
+    "article_number": "RPET-285REDC-00250"
   }
 ]

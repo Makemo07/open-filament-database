@@ -46,5 +46,11 @@
         "url": "https://www.formfutura.com/styx-pa6"
       }
     ]
+  },
+  {
+    "filament_weight": 500,
+    "diameter": 2.85,
+    "gtin": "8720574296365",
+    "article_number": "SX06-285TBLK-00500"
   }
 ]

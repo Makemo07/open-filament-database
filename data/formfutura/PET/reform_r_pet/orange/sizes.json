@@ -139,5 +139,11 @@
         "url": "https://www.formfutura.com/reform-rpet"
       }
     ]
+  },
+  {
+    "filament_weight": 250,
+    "diameter": 2.85,
+    "gtin": "8720574293333",
+    "article_number": "RPET-285ORAN-00250"
   }
 ]

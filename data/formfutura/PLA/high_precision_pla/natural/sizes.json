@@ -3,5 +3,23 @@
     "uuid": "a284d41c-937c-40a1-a4ed-b4da8ed5478b",
     "filament_weight": 1000,
     "diameter": 1.75
+  },
+  {
+    "filament_weight": 250,
+    "diameter": 1.75,
+    "gtin": "8720629062020",
+    "article_number": "HPPL-175NTRL-00250"
+  },
+  {
+    "filament_weight": 750,
+    "diameter": 1.75,
+    "gtin": "8720629061788",
+    "article_number": "HPPL-175NTRL-00750"
+  },
+  {
+    "filament_weight": 750,
+    "diameter": 2.85,
+    "gtin": "8720629061900",
+    "article_number": "HPPL-285NTRL-00750"
   }
 ]

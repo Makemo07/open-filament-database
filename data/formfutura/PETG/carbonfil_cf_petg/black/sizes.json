@@ -94,5 +94,11 @@
         "url": "https://www.formfutura.com/carbonfil"
       }
     ]
+  },
+  {
+    "filament_weight": 250,
+    "diameter": 1.75,
+    "gtin": "8720574298017",
+    "article_number": "CRBF-175BLCK-00250"
   }
 ]

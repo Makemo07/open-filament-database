@@ -4,5 +4,53 @@
     "filament_weight": 1000,
     "diameter": 1.75,
     "gtin": "8718924471876"
+  },
+  {
+    "filament_weight": 2300,
+    "diameter": 1.75,
+    "gtin": "8718924472286",
+    "article_number": "PPLA-175RGRY-02300"
+  },
+  {
+    "filament_weight": 4500,
+    "diameter": 1.75,
+    "gtin": "8718924479414",
+    "article_number": "PPLA-175RGRY-04500"
+  },
+  {
+    "filament_weight": 8000,
+    "diameter": 1.75,
+    "gtin": "8718924479438",
+    "article_number": "PPLA-175RGRY-08000"
+  },
+  {
+    "filament_weight": 250,
+    "diameter": 2.85,
+    "gtin": "8720574295931",
+    "article_number": "PPLA-285RGRY-00250"
+  },
+  {
+    "filament_weight": 1000,
+    "diameter": 2.85,
+    "gtin": "8718924472064",
+    "article_number": "PPLA-285RGRY-01000"
+  },
+  {
+    "filament_weight": 2300,
+    "diameter": 2.85,
+    "gtin": "8718924472316",
+    "article_number": "PPLA-285RGRY-02300"
+  },
+  {
+    "filament_weight": 4500,
+    "diameter": 2.85,
+    "gtin": "8718924477434",
+    "article_number": "PPLA-285RGRY-04500"
+  },
+  {
+    "filament_weight": 8000,
+    "diameter": 2.85,
+    "gtin": "8718924479421",
+    "article_number": "PPLA-285RGRY-08000"
   }
 ]

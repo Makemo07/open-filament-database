@@ -3,5 +3,23 @@
     "uuid": "a5368a9b-b738-48cb-991e-027f2e30b773",
     "filament_weight": 1000,
     "diameter": 1.75
+  },
+  {
+    "filament_weight": 250,
+    "diameter": 2.85,
+    "gtin": "8720574295009",
+    "article_number": "EPLA-285DBLU-00250"
+  },
+  {
+    "filament_weight": 750,
+    "diameter": 2.85,
+    "gtin": "8718924471050",
+    "article_number": "EPLA-285DBLU-00750"
+  },
+  {
+    "filament_weight": 2300,
+    "diameter": 2.85,
+    "gtin": "8718924478561",
+    "article_number": "EPLA-285DBLU-02300"
   }
 ]

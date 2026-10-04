@@ -30,5 +30,17 @@
         "url": "https://www.formfutura.com/easyfil-hips"
       }
     ]
+  },
+  {
+    "filament_weight": 250,
+    "diameter": 1.75,
+    "gtin": "8720574299601",
+    "article_number": "EHPS-175GREY-00250"
+  },
+  {
+    "filament_weight": 250,
+    "diameter": 2.85,
+    "gtin": "8720574299618",
+    "article_number": "EHPS-285GREY-00250"
   }
 ]

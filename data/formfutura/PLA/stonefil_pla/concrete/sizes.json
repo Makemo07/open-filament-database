@@ -3,5 +3,17 @@
     "uuid": "c5f37288-232c-485d-acf4-d0ec2fea2777",
     "filament_weight": 1000,
     "diameter": 1.75
+  },
+  {
+    "filament_weight": 500,
+    "diameter": 1.75,
+    "gtin": "8718924478370",
+    "article_number": "STNF-175CNCT-00500"
+  },
+  {
+    "filament_weight": 2000,
+    "diameter": 1.75,
+    "gtin": "8720629062204",
+    "article_number": "STNF-175CNCT-02000"
   }
 ]

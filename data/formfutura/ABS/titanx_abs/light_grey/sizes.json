@@ -110,5 +110,11 @@
         "url": "https://www.formfutura.com/titanx"
       }
     ]
+  },
+  {
+    "filament_weight": 250,
+    "diameter": 2.85,
+    "gtin": "8720574298758",
+    "article_number": "TITX-285LGRY-00250"
   }
 ]

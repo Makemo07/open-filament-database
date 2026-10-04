@@ -46,5 +46,11 @@
         "url": "https://www.formfutura.com/galaxy-pla"
       }
     ]
+  },
+  {
+    "filament_weight": 250,
+    "diameter": 2.85,
+    "gtin": "8720574298338",
+    "article_number": "GPLA-285RRED-00250"
   }
 ]

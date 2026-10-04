@@ -14,5 +14,11 @@
         "url": "https://www.formfutura.com/bulk-pla"
       }
     ]
+  },
+  {
+    "filament_weight": 2300,
+    "diameter": 1.75,
+    "gtin": "8720847069269",
+    "article_number": "BPLA-175MARD-02300"
   }
 ]

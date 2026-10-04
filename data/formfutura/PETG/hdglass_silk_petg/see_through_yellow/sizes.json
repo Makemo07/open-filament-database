@@ -30,5 +30,17 @@
         "url": "https://www.formfutura.com/hdglass"
       }
     ]
+  },
+  {
+    "filament_weight": 250,
+    "diameter": 1.75,
+    "gtin": "8720574295337",
+    "article_number": "HDGL-175STYL-00250"
+  },
+  {
+    "filament_weight": 250,
+    "diameter": 2.85,
+    "gtin": "8720574295399",
+    "article_number": "HDGL-285STYL-00250"
   }
 ]
