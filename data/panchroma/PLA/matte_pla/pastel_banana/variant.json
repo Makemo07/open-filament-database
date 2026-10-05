@@ -2,5 +2,12 @@
   "uuid": "2ee1db94-37a9-4f7b-8146-05121a81a5e8",
   "id": "pastel_banana",
   "name": "Pastel Banana",
-  "color_hex": "#F5CF6F"
+  "color_hex": "#F5CF6F",
+  "traits": {
+    "matte": true,
+    "industrially_compostable": true
+  },
+  "moved_from": [
+    "47b56d69-9d97-4d3e-90c0-4675260507fa"
+  ]
 }
