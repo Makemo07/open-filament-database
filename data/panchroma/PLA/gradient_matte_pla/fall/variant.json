@@ -2,5 +2,13 @@
   "uuid": "1ad08a87-22ce-48ee-a731-1291adec650c",
   "id": "fall",
   "name": "Fall",
-  "color_hex": "#e58363"
+  "color_hex": "#e58363",
+  "traits": {
+    "matte": true,
+    "gradual_color_change": true,
+    "industrially_compostable": true
+  },
+  "moved_from": [
+    "c500d3a7-1f97-453a-9a3f-fdccab3429f5"
+  ]
 }

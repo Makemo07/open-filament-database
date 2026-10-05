@@ -3,5 +3,8 @@
   "id": "marble_pla",
   "name": "Marble PLA",
   "diameter_tolerance": 0.02,
-  "density": 1.31
+  "density": 1.31,
+  "moved_from": [
+    "77d57c03-4df4-4c6e-8e09-c20746347766"
+  ]
 }

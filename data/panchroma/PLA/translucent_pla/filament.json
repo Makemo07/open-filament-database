@@ -3,5 +3,8 @@
   "id": "translucent_pla",
   "name": "Translucent PLA",
   "diameter_tolerance": 0.02,
-  "density": 1.19
+  "density": 1.19,
+  "moved_from": [
+    "c53bc912-3e61-4433-9368-db5903121a68"
+  ]
 }
