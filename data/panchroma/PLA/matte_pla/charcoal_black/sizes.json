@@ -13,6 +13,8 @@
     "container_outer_diameter": 200,
     "container_hole_diameter": 55,
     "discontinued": false,
+    "gtin": "6938936714927",
+    "article_number": "CA04015",
     "purchase_links": [
       {
         "store_id": "polymaker",
@@ -72,5 +74,12 @@
         "url": "https://us.polymaker.com/products/panchroma-matte"
       }
     ]
+  },
+  {
+    "filament_weight": 1000,
+    "diameter": 1.75,
+    "spool_refill": true,
+    "gtin": "6938936717713",
+    "article_number": "CA04068"
   }
 ]
