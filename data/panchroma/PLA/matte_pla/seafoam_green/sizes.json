@@ -24,6 +24,7 @@
     "diameter": 1.75,
     "spool_refill": true,
     "article_number": "PC1002024",
+    "gtin": "6938936719892",
     "purchase_links": [
       {
         "store_id": "polymaker",
