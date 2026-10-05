@@ -3,6 +3,7 @@
     "uuid": "83b4458e-e47d-410d-be2e-94b2273d9b5b",
     "filament_weight": 1000,
     "diameter": 1.75,
+    "spool_refill": true,
     "ean": "5905991405986",
     "article_number": "TF-24045",
     "purchase_links": [
