@@ -7,12 +7,14 @@
     "article_number": "HPPL-175TBLK-00750"
   },
   {
+    "uuid": "63fb4fcb-8fe0-4e88-9123-fcd3bcffddfc",
     "filament_weight": 250,
     "diameter": 2.85,
     "gtin": "8720629062037",
     "article_number": "HPPL-285TBLK-00250"
   },
   {
+    "uuid": "d18c3090-f1e5-48d9-bc28-bccd846a8ffd",
     "filament_weight": 750,
     "diameter": 2.85,
     "gtin": "8720629061795",
