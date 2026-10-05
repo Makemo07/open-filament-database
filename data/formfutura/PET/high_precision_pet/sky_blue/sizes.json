@@ -1,7 +1,15 @@
 [
   {
     "uuid": "05c39b1e-5fe5-4504-b73c-1f9debe9b819",
-    "filament_weight": 1000,
-    "diameter": 1.75
+    "filament_weight": 750,
+    "diameter": 1.75,
+    "gtin": "8720629061276",
+    "article_number": "HPPE-175SKBU-00750"
+  },
+  {
+    "filament_weight": 250,
+    "diameter": 1.75,
+    "gtin": "8720629061511",
+    "article_number": "HPPE-175SKBU-00250"
   }
 ]
