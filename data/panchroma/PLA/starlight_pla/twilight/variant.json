@@ -3,5 +3,12 @@
   "id": "twilight",
   "name": "Twilight",
   "color_hex": "#1E3445",
-  "discontinued": false
+  "discontinued": false,
+  "traits": {
+    "iridescent": true,
+    "industrially_compostable": true
+  },
+  "moved_from": [
+    "4e5ecfc5-972a-4407-be57-ae17981b313b"
+  ]
 }

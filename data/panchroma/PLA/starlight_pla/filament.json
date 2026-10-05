@@ -3,5 +3,8 @@
   "id": "starlight_pla",
   "name": "Starlight PLA",
   "diameter_tolerance": 0.02,
-  "density": 1.19
+  "density": 1.19,
+  "moved_from": [
+    "c9db9598-38ad-4038-b017-cd400e1b96a3"
+  ]
 }

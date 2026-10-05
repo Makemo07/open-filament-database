@@ -3,5 +3,8 @@
   "id": "metallic_pla",
   "name": "Metallic PLA",
   "diameter_tolerance": 0.02,
-  "density": 1.19
+  "density": 1.19,
+  "moved_from": [
+    "4645bbeb-271b-4685-863c-6e1a57c678a1"
+  ]
 }

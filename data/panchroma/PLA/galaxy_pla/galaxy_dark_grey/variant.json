@@ -3,5 +3,12 @@
   "id": "galaxy_dark_grey",
   "name": "Galaxy Dark Grey",
   "color_hex": "#4D5557",
-  "discontinued": false
+  "discontinued": false,
+  "traits": {
+    "glitter": true,
+    "industrially_compostable": true
+  },
+  "moved_from": [
+    "f0ed01ef-f718-4e85-988c-40e08e605474"
+  ]
 }

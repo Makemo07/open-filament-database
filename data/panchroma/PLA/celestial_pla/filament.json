@@ -3,5 +3,8 @@
   "id": "celestial_pla",
   "name": "Celestial PLA",
   "diameter_tolerance": 0.02,
-  "density": 1.19
+  "density": 1.19,
+  "moved_from": [
+    "9e73b464-006e-4985-b37e-9ef262efeeda"
+  ]
 }
