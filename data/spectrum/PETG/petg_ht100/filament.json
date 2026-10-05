@@ -12,5 +12,8 @@
         "prusaslicer": {
             "profile_name": "Spectrum PETG HT100"
         }
-    }
+    },
+    "moved_from": [
+        "77ba3d27-2da9-4ed5-ba0c-aa3e915043c7"
+    ]
 }

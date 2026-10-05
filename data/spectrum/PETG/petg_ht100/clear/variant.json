@@ -2,5 +2,11 @@
   "uuid": "b12510f2-6c62-430e-9652-c812026771ec",
   "id": "clear",
   "name": "Clear",
-  "color_hex": "#F8FAF9"
+  "color_hex": "#F8FAF9",
+  "traits": {
+    "high_temperature": true
+  },
+  "moved_from": [
+    "4e89f27b-40b6-4741-871e-0e5f182bac80"
+  ]
 }
