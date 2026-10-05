@@ -1,7 +1,21 @@
 [
   {
     "uuid": "21bf5dc0-89d3-4fa9-accc-cbd5cd26f936",
-    "filament_weight": 1000,
-    "diameter": 1.75
+    "filament_weight": 750,
+    "diameter": 1.75,
+    "gtin": "8719956554735",
+    "article_number": "VPLA-175LGRY-00750"
+  },
+  {
+    "filament_weight": 2300,
+    "diameter": 1.75,
+    "gtin": "8719956554810",
+    "article_number": "VPLA-175LGRY-02300"
+  },
+  {
+    "filament_weight": 250,
+    "diameter": 2.85,
+    "gtin": "8720629060156",
+    "article_number": "VPLA-285LGRY-00250"
   }
 ]

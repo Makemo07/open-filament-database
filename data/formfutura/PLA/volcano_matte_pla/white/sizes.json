@@ -1,7 +1,57 @@
 [
   {
     "uuid": "751f8978-606c-4532-b92a-58c3422e1326",
-    "filament_weight": 1000,
-    "diameter": 1.75
+    "filament_weight": 750,
+    "diameter": 1.75,
+    "gtin": "8718924479063",
+    "article_number": "VPLA-175WHTE-00750"
+  },
+  {
+    "filament_weight": 2300,
+    "diameter": 1.75,
+    "gtin": "8718924479100",
+    "article_number": "VPLA-175WHTE-02300"
+  },
+  {
+    "filament_weight": 4500,
+    "diameter": 1.75,
+    "gtin": "8718924479148",
+    "article_number": "VPLA-175WHTE-04500"
+  },
+  {
+    "filament_weight": 8000,
+    "diameter": 1.75,
+    "gtin": "8719956554605",
+    "article_number": "VPLA-175WHTE-08000"
+  },
+  {
+    "filament_weight": 250,
+    "diameter": 2.85,
+    "gtin": "8720629060217",
+    "article_number": "VPLA-285WHTE-00250"
+  },
+  {
+    "filament_weight": 750,
+    "diameter": 2.85,
+    "gtin": "8718924479070",
+    "article_number": "VPLA-285WHTE-00750"
+  },
+  {
+    "filament_weight": 2300,
+    "diameter": 2.85,
+    "gtin": "8718924479117",
+    "article_number": "VPLA-285WHTE-02300"
+  },
+  {
+    "filament_weight": 4500,
+    "diameter": 2.85,
+    "gtin": "8718924479155",
+    "article_number": "VPLA-285WHTE-04500"
+  },
+  {
+    "filament_weight": 8000,
+    "diameter": 2.85,
+    "gtin": "8719956554612",
+    "article_number": "VPLA-285WHTE-08000"
   }
 ]
