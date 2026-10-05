@@ -1,6 +1,9 @@
 [
   {
     "uuid": "537dab98-f544-490c-8013-ea05e1ba7486",
+    "moved_from": [
+      "5be734ef-cd31-4317-9424-383913555589"
+    ],
     "filament_weight": 1000,
     "diameter": 1.75,
     "empty_spool_weight": 145,
@@ -14,9 +17,6 @@
         "store_id": "polymaker",
         "url": "https://us.polymaker.com/products/panchroma-cope"
       }
-    ],
-    "moved_from": [
-      "5be734ef-cd31-4317-9424-383913555589"
     ]
   }
 ]
