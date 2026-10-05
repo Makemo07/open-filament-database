@@ -3,5 +3,8 @@
   "id": "pla",
   "name": "PLA",
   "diameter_tolerance": 0.02,
-  "density": 1.24
+  "density": 1.24,
+  "moved_from": [
+    "2cffd91e-e095-4dfa-8cec-8831369fb7cd"
+  ]
 }

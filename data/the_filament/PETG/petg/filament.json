@@ -3,5 +3,8 @@
   "id": "petg",
   "name": "PETG",
   "diameter_tolerance": 0.02,
-  "density": 1.27
+  "density": 1.27,
+  "moved_from": [
+    "c0ff41ca-be6e-4d4d-b209-809a3b9e80fa"
+  ]
 }
