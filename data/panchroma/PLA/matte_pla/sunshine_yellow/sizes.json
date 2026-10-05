@@ -12,9 +12,9 @@
     "container_width": 66,
     "container_outer_diameter": 200,
     "container_hole_diameter": 55,
-    "discontinued": false,
     "gtin": "6938936718222",
     "article_number": "CA04088",
+    "discontinued": false,
     "purchase_links": [
       {
         "store_id": "polymaker",
@@ -23,6 +23,7 @@
     ]
   },
   {
+    "uuid": "5d00b7ac-768f-4acb-b999-0e2eff1d4294",
     "filament_weight": 1000,
     "diameter": 1.75,
     "spool_refill": true,

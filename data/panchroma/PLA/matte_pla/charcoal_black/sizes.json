@@ -12,9 +12,9 @@
     "container_width": 66,
     "container_outer_diameter": 200,
     "container_hole_diameter": 55,
-    "discontinued": false,
     "gtin": "6938936714927",
     "article_number": "CA04015",
+    "discontinued": false,
     "purchase_links": [
       {
         "store_id": "polymaker",
@@ -76,6 +76,7 @@
     ]
   },
   {
+    "uuid": "1608104f-5f84-455a-b7a9-c0fb35d285bb",
     "filament_weight": 1000,
     "diameter": 1.75,
     "spool_refill": true,

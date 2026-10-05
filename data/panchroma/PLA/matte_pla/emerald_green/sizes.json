@@ -23,8 +23,8 @@
     "filament_weight": 1000,
     "diameter": 1.75,
     "spool_refill": true,
-    "article_number": "PC1002027",
     "gtin": "6938936719922",
+    "article_number": "PC1002027",
     "purchase_links": [
       {
         "store_id": "polymaker",
