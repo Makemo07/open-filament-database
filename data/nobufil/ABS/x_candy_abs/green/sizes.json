@@ -2,6 +2,13 @@
   {
     "uuid": "e07322c4-5635-44a0-bb98-80128d55e853",
     "filament_weight": 1000,
-    "diameter": 1.75
+    "diameter": 1.75,
+    "gtin": "9180010460184",
+    "purchase_links": [
+      {
+        "store_id": "3djake",
+        "url": "https://www.3djake.com/nobufil/absx-candy-green"
+      }
+    ]
   }
 ]
