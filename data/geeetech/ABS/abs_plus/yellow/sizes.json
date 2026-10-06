@@ -2,6 +2,13 @@
   {
     "uuid": "5be5cb6b-a08b-45aa-a35d-738a10f55c29",
     "filament_weight": 1000,
-    "diameter": 1.75
+    "diameter": 1.75,
+    "gtin": "6974994171074",
+    "purchase_links": [
+      {
+        "store_id": "3djake",
+        "url": "https://www.3djake.com/geeetech/abs-yellow-7"
+      }
+    ]
   }
 ]
