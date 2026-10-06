@@ -10,5 +10,16 @@
         "url": "https://esun3dstore.com/products/pla-pro"
       }
     ]
+  },
+  {
+    "filament_weight": 3000,
+    "diameter": 1.75,
+    "gtin": "6922572240049",
+    "purchase_links": [
+      {
+        "store_id": "3djake",
+        "url": "https://www.3djake.com/esun/pla-red-7"
+      }
+    ]
   }
 ]
