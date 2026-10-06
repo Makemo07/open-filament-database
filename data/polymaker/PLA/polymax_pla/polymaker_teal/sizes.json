@@ -1,6 +1,9 @@
 [
   {
     "uuid": "15004c82-dee1-49e0-bf51-398bfed9fba0",
+    "moved_from": [
+      "9d7a072d-0f9f-4561-bf7f-632eb888dc9a"
+    ],
     "filament_weight": 750,
     "diameter": 1.75,
     "gtin": "6938936710523",
@@ -10,13 +13,13 @@
         "store_id": "polymaker",
         "url": "https://shop.polymaker.com/products/polymax-pla?variant=39574348300345"
       }
-    ],
-    "moved_from": [
-      "9d7a072d-0f9f-4561-bf7f-632eb888dc9a"
     ]
   },
   {
     "uuid": "0dac7a80-949d-4120-9907-468ab90306e3",
+    "moved_from": [
+      "c0924125-32f7-4782-80eb-4d43ad02a010"
+    ],
     "filament_weight": 750,
     "diameter": 2.85,
     "gtin": "6938936711742",
@@ -26,9 +29,6 @@
         "store_id": "polymaker",
         "url": "https://shop.polymaker.com/products/polymax-pla?variant=39574349709369"
       }
-    ],
-    "moved_from": [
-      "c0924125-32f7-4782-80eb-4d43ad02a010"
     ]
   },
   {
