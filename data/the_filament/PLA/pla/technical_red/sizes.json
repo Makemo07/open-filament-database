@@ -15,6 +15,9 @@
   },
   {
     "uuid": "78815180-6721-48b6-b25c-36222b106906",
+    "moved_from": [
+      "b1175c42-c9f6-44ac-8a54-957d8f411e33"
+    ],
     "filament_weight": 1000,
     "diameter": 1.75,
     "ean": "5905991405122",
@@ -24,9 +27,6 @@
         "store_id": "spectrum",
         "url": "https://shop.spectrumfilaments.com/product-eng-2604-The-Filament-PLA-1-75mm-TECHNICAL-RED-1kg.html"
       }
-    ],
-    "moved_from": [
-      "b1175c42-c9f6-44ac-8a54-957d8f411e33"
     ]
   }
 ]

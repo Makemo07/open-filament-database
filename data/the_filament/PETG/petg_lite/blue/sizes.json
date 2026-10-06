@@ -15,6 +15,9 @@
   },
   {
     "uuid": "76b1d1fc-6f92-4b05-b0b8-b1e00aad09c8",
+    "moved_from": [
+      "563256e7-ae23-427f-b43c-12f60bf2bdb7"
+    ],
     "filament_weight": 1000,
     "diameter": 1.75,
     "ean": "5907138404289",
@@ -24,9 +27,6 @@
         "store_id": "spectrum",
         "url": "https://shop.spectrumfilaments.com/product-eng-3390-The-Filament-PETG-Lite-1-75mm-BLUE-1kg.html"
       }
-    ],
-    "moved_from": [
-      "563256e7-ae23-427f-b43c-12f60bf2bdb7"
     ]
   }
 ]

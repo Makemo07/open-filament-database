@@ -15,6 +15,9 @@
   },
   {
     "uuid": "d8570990-02ec-4b8b-a1b6-87db3c01582a",
+    "moved_from": [
+      "a99ada0e-53b1-46cd-aa3d-f00a850560c0"
+    ],
     "filament_weight": 1000,
     "diameter": 1.75,
     "ean": "5907138404296",
@@ -24,9 +27,6 @@
         "store_id": "spectrum",
         "url": "https://shop.spectrumfilaments.com/product-eng-3392-The-Filament-PETG-Lite-1-75mm-YELLOW-1kg.html"
       }
-    ],
-    "moved_from": [
-      "a99ada0e-53b1-46cd-aa3d-f00a850560c0"
     ]
   }
 ]

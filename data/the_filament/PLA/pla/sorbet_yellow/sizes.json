@@ -15,6 +15,9 @@
   },
   {
     "uuid": "648f40f1-da6b-40df-a3df-bc8e7a4c84f3",
+    "moved_from": [
+      "52ce3986-fe2f-4f51-bff5-6db78a374691"
+    ],
     "filament_weight": 1000,
     "diameter": 1.75,
     "ean": "5905991405153",
@@ -24,9 +27,6 @@
         "store_id": "spectrum",
         "url": "https://shop.spectrumfilaments.com/product-eng-2607-The-Filament-PLA-1-75mm-SORBET-YELLOW-1kg.html"
       }
-    ],
-    "moved_from": [
-      "52ce3986-fe2f-4f51-bff5-6db78a374691"
     ]
   }
 ]

@@ -15,6 +15,9 @@
   },
   {
     "uuid": "59513fba-90ef-452e-b953-c33d881ec6ee",
+    "moved_from": [
+      "51800dfd-1ce1-4502-90cd-561ed1374ef4"
+    ],
     "filament_weight": 1000,
     "diameter": 1.75,
     "ean": "5905991405146",
@@ -24,9 +27,6 @@
         "store_id": "spectrum",
         "url": "https://shop.spectrumfilaments.com/product-eng-2606-The-Filament-PLA-1-75mm-CIRCUIT-GREEN-1kg.html"
       }
-    ],
-    "moved_from": [
-      "51800dfd-1ce1-4502-90cd-561ed1374ef4"
     ]
   }
 ]

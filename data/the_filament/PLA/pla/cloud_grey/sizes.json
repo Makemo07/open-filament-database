@@ -15,6 +15,9 @@
   },
   {
     "uuid": "6d7c1b39-a5c7-4627-8b40-6cac2b3df1fc",
+    "moved_from": [
+      "ffbfce46-80d0-49b3-afcd-586e8df9dca6"
+    ],
     "filament_weight": 1000,
     "diameter": 1.75,
     "ean": "5905991405108",
@@ -24,9 +27,6 @@
         "store_id": "spectrum",
         "url": "https://shop.spectrumfilaments.com/product-eng-2602-The-Filament-PLA-1-75mm-CLOUD-GREY-1kg.html"
       }
-    ],
-    "moved_from": [
-      "ffbfce46-80d0-49b3-afcd-586e8df9dca6"
     ]
   }
 ]

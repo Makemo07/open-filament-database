@@ -15,6 +15,9 @@
   },
   {
     "uuid": "71486454-a9bf-4175-aa91-f5da6b175ac5",
+    "moved_from": [
+      "ae992f15-b712-4a3d-9faa-1b5678834736"
+    ],
     "filament_weight": 1000,
     "diameter": 1.75,
     "ean": "5905991405092",
@@ -24,9 +27,6 @@
         "store_id": "spectrum",
         "url": "https://shop.spectrumfilaments.com/product-eng-2601-The-Filament-PLA-1-75mm-BASALT-GREY-1kg.html"
       }
-    ],
-    "moved_from": [
-      "ae992f15-b712-4a3d-9faa-1b5678834736"
     ]
   }
 ]

@@ -15,6 +15,9 @@
   },
   {
     "uuid": "6fcc9347-2062-4835-a971-72f7a5662b9d",
+    "moved_from": [
+      "33a0b05b-b976-47a5-a99c-364842946b65"
+    ],
     "filament_weight": 1000,
     "diameter": 1.75,
     "ean": "5905991405160",
@@ -24,9 +27,6 @@
         "store_id": "spectrum",
         "url": "https://shop.spectrumfilaments.com/product-eng-2608-The-Filament-PLA-1-75mm-MACHINERY-ORANGE-1kg.html"
       }
-    ],
-    "moved_from": [
-      "33a0b05b-b976-47a5-a99c-364842946b65"
     ]
   }
 ]

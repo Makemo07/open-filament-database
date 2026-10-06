@@ -15,6 +15,9 @@
   },
   {
     "uuid": "a6763237-1909-454b-b966-4ee483f54365",
+    "moved_from": [
+      "fda2d756-54cc-4792-993f-b38ae646d51c"
+    ],
     "filament_weight": 1000,
     "diameter": 1.75,
     "ean": "5905991405139",
@@ -24,9 +27,6 @@
         "store_id": "spectrum",
         "url": "https://shop.spectrumfilaments.com/product-eng-2605-The-Filament-PLA-1-75mm-SILVER-ALUMINIUM-1kg.html"
       }
-    ],
-    "moved_from": [
-      "fda2d756-54cc-4792-993f-b38ae646d51c"
     ]
   }
 ]

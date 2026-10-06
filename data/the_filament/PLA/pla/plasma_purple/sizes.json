@@ -15,6 +15,9 @@
   },
   {
     "uuid": "bfa2cd14-f20f-4a84-be25-21058fcd59a2",
+    "moved_from": [
+      "70168140-b5fa-4bb4-be77-854966650e89"
+    ],
     "filament_weight": 1000,
     "diameter": 1.75,
     "ean": "5905991405184",
@@ -24,9 +27,6 @@
         "store_id": "spectrum",
         "url": "https://shop.spectrumfilaments.com/product-eng-2610-The-Filament-PLA-1-75mm-PLASMA-PURPLE-1kg.html"
       }
-    ],
-    "moved_from": [
-      "70168140-b5fa-4bb4-be77-854966650e89"
     ]
   }
 ]

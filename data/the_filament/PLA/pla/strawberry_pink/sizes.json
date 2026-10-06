@@ -15,6 +15,9 @@
   },
   {
     "uuid": "9c399fdd-9509-4cd5-91fa-276095089657",
+    "moved_from": [
+      "5e121968-d068-48e5-ad16-e8d24ccd28bf"
+    ],
     "filament_weight": 1000,
     "diameter": 1.75,
     "ean": "5905991405177",
@@ -24,9 +27,6 @@
         "store_id": "spectrum",
         "url": "https://shop.spectrumfilaments.com/product-eng-2609-The-Filament-PLA-1-75mm-STRAWBERRY-PINK-1kg.html"
       }
-    ],
-    "moved_from": [
-      "5e121968-d068-48e5-ad16-e8d24ccd28bf"
     ]
   }
 ]
