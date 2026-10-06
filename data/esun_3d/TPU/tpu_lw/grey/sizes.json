@@ -10,5 +10,16 @@
         "url": "https://esun3dstore.com/products/tpu-lw"
       }
     ]
+  },
+  {
+    "filament_weight": 750,
+    "diameter": 1.75,
+    "gtin": "6922572209251",
+    "purchase_links": [
+      {
+        "store_id": "3djake",
+        "url": "https://www.3djake.com/esun/tpu-lw-grey"
+      }
+    ]
   }
 ]

@@ -2,6 +2,13 @@
   {
     "uuid": "91ee8896-ba93-48a3-b17d-5c0f7bff9642",
     "filament_weight": 1000,
-    "diameter": 1.75
+    "diameter": 1.75,
+    "gtin": "6922572215368",
+    "purchase_links": [
+      {
+        "store_id": "3djake",
+        "url": "https://www.3djake.com/esun/pla-matte-rainbow-paddy-field"
+      }
+    ]
   }
 ]
