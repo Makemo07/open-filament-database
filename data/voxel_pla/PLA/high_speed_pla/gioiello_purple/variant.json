@@ -1,0 +1,9 @@
+{
+  "id": "gioiello_purple",
+  "name": "Gioiello Purple",
+  "color_hex": "#593F78",
+  "discontinued": false,
+  "traits": {
+    "high_flow": true
+  }
+}
