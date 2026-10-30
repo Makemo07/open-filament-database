@@ -1,0 +1,12 @@
+{
+  "id": "joybuy",
+  "name": "Joybuy",
+  "storefront_url": "https://www.joybuy.fr",
+  "logo": "logo.png",
+  "ships_from": [
+    "FR"
+  ],
+  "ships_to": [
+    "FR"
+  ]
+}
