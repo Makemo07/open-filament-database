@@ -14,4 +14,5 @@ jobs:
   relay:
     runs-on: ubuntu-24.04
     steps:
-      - run: echo "Review on PR #${{ github.event.pull_request.number }} - brand sign-off re-evaluates in its own run."
+      # Quoted: unquoted, YAML would read " #..." as a comment and truncate the command.
+      - run: 'echo "Review on PR #${{ github.event.pull_request.number }} - brand sign-off re-evaluates in its own run."'
