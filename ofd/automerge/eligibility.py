@@ -1,5 +1,10 @@
 """
-Whether a PR may merge without a maintainer: the E1-E21 checklist.
+Whether a PR may merge without a maintainer: the E1-E22 checklist.
+
+The bar depends on what the PR does. New data (whole new files, appended spool
+rows) only has to pass the validators and the AI review without a 🔴 finding.
+Changes to existing values must each be proven against the brand's site. Deletions,
+renames and anything structural always wait for a maintainer.
 
 ``evaluate(snapshot)`` is pure: it decides only from facts the script collected or
 verified itself, never from the model's opinion. ``collect()`` gathers those facts
@@ -11,7 +16,7 @@ import re
 from dataclasses import dataclass, field
 from datetime import datetime
 
-from ofd.automerge.proof import PROVABLE, classify
+from ofd.automerge.proof import HUMAN, NEW, PROVABLE, classify
 from ofd.brand_claims import brands_touched, latest_review_states
 
 HOLD_LABEL = "hold"
@@ -29,6 +34,9 @@ DELAY_MINUTES = 60
 _DATA_PATH = re.compile(
     r"^data/[^/]+/[^/]+/[^/]+/(?:filament\.json|[^/]+/(?:variant|sizes)\.json)$"
 )
+# Any new file under these may be added: brands, materials, filaments, colours,
+# spools, stores and their logos. The validators check what they are.
+_NEW_PATH = re.compile(r"^(?:data|stores)/")
 
 # Required on top of whatever the ruleset requires: a missing one fails, too. Not the
 # "AI review" job's own check: a re-review started by hand or by `/review` reports it on
@@ -130,65 +138,40 @@ def evaluate(s: Snapshot, at_merge: bool = False) -> Eligibility:
     )
 
     paths = [row[3] for row in s.raw_diff]
-    outside = [p for p in paths if not _DATA_PATH.match(p)]
+    outside = [
+        r[3]
+        for r in s.raw_diff
+        if not (_DATA_PATH.match(r[3]) or (r[0] == "A" and _NEW_PATH.match(r[3])))
+    ]
     check(
         "E6",
         paths and not outside,
-        "only filament, colour and spool files" if not outside else f"also changes {outside[0]}",
+        "only data files" if not outside else f"also changes {outside[0]}",
     )
-    odd = [r for r in s.raw_diff if r[0] != "M" or r[1] != "100644" or r[2] != "100644"]
+    odd = [
+        r
+        for r in s.raw_diff
+        if not (r[0] == "M" and r[1] == r[2] == "100644" or r[0] == "A" and r[2] == "100644")
+    ]
     check(
         "E7",
         not odd,
-        "only edits to existing files" if not odd else f"{odd[0][3]} is added, removed or renamed",
+        "only additions and edits" if not odd else f"{odd[0][3]} is removed, renamed or re-moded",
     )
     brands = brands_touched(paths)
     check(
         "E8",
-        len(paths) <= MAX_FILES and len(s.leaves) <= MAX_LEAVES and len(brands) == 1,
+        len(paths) <= MAX_FILES and len(s.leaves) <= MAX_LEAVES and len(brands) <= 1,
         f"{len(paths)} files, {len(s.leaves)} values, {len(brands)} brand(s)",
     )
-    human = [leaf for leaf in s.leaves if classify(leaf) != PROVABLE]
-    check(
-        "E9",
-        s.leaves and not human,
-        "every changed value can be proven"
-        if not human
-        else f"{len(human)} change(s) need a maintainer, e.g. `{human[0].path}` `{human[0].pointer or '(whole file)'}`",
-    )
-    unproven = [k for k, v in s.proofs.items() if not v.get("ok")]
-    missing = [
-        leaf.key for leaf in s.leaves if classify(leaf) == PROVABLE and leaf.key not in s.proofs
-    ]
-    check(
-        "E10",
-        not unproven and not missing and s.proofs,
-        "every changed value is proven by the brand's site"
-        if not unproven and not missing
-        else f"{len(unproven) + len(missing)} value(s) unproven",
-    )
-    contradictions = [v for v in s.finding_verdicts if v.get("verdict") == "verified"]
-    check("E11", not contradictions, f"{len(contradictions)} proven contradiction(s)")
-    serious = [f for f in review.get("findings", []) if f.get("level") in ("error", "warning")]
-    flips = review.get("flipflops", [])
-    check(
-        "E12",
-        not serious and not flips,
-        f"{len(serious)} check finding(s), {len(flips)} flip-flop(s)",
-    )
-    model = review.get("model") or {}
-    check("E13", bool(model) and not model.get("error"), "the AI pass completed on this commit")
-    claimed = sorted(brands & set(s.claims))
-    check(
-        "E14",
-        not claimed,
-        "brand not claimed" if not claimed else f"{claimed[0]} is claimed: needs its sign-off",
-    )
-    sus = review.get("sustainability") or {}
-    check(
-        "E15",
-        not sus.get("touched") and s.checks.get("Sustainability sources") == "success",
-        "no sustainability data, gate green",
+    items += content_items(
+        review,
+        s.leaves,
+        s.proofs,
+        s.finding_verdicts,
+        claimed=sorted(brands & set(s.claims)),
+        gate_green=s.checks.get("Sustainability sources") == "success",
+        has_changes=bool(s.leaves or paths),
     )
     required = sorted(set(s.ruleset_contexts) | set(REQUIRED_CONTEXTS))
     not_green = [c for c in required if s.checks.get(c) != "success"]
@@ -224,4 +207,86 @@ def evaluate(s: Snapshot, at_merge: bool = False) -> Eligibility:
     author = (s.pr.get("user") or {}).get("login", "")
     check("E21", author.lower() not in {u.lower() for u in s.blocked_users}, f"author {author}")
 
+    items.sort(key=lambda i: int(i.id[1:]))
     return Eligibility(all(i.ok for i in items), head, items)
+
+
+def content_items(
+    review: dict,
+    leaves: list,
+    proofs: dict,
+    finding_verdicts: list[dict],
+    claimed: list[str],
+    gate_green: bool,
+    has_changes: bool = True,
+) -> list[Item]:
+    """E9-E15 and E22: what the PR's content and its review say, without GitHub state.
+
+    Shared with the review comment (``ofd.review.render``), so the line it shows about
+    auto-merge can't drift from what this checklist decides.
+    """
+    items: list[Item] = []
+
+    def check(id_: str, ok: bool, detail: str) -> None:
+        items.append(Item(id_, bool(ok), detail))
+
+    kinds = [classify(leaf) for leaf in leaves]
+    human = [leaf for leaf, kind in zip(leaves, kinds, strict=True) if kind == HUMAN]
+    check(
+        "E9",
+        has_changes and not human,
+        "every change is new data or can be proven"
+        if not human
+        else f"{len(human)} change(s) to existing data need a maintainer, e.g. "
+        f"`{human[0].path}` `{human[0].pointer or '(whole file)'}`",
+    )
+    unproven = [k for k, v in proofs.items() if not v.get("ok")]
+    missing = [
+        leaf.key
+        for leaf, kind in zip(leaves, kinds, strict=True)
+        if kind == PROVABLE and leaf.key not in proofs
+    ]
+    check(
+        "E10",
+        not unproven and not missing,
+        "every changed value is proven by the brand's site"
+        if not unproven and not missing
+        else f"{len(unproven) + len(missing)} changed value(s) unproven",
+    )
+    contradictions = [v for v in finding_verdicts if v.get("verdict") == "verified"]
+    check("E11", not contradictions, f"{len(contradictions)} proven contradiction(s)")
+    serious = [f for f in review.get("findings", []) if f.get("level") in ("error", "warning")]
+    flips = review.get("flipflops", [])
+    check(
+        "E12",
+        not serious and not flips,
+        f"{len(serious)} check finding(s), {len(flips)} flip-flop(s)",
+    )
+    model = review.get("model") or {}
+    done = bool(model) and not model.get("error")
+    check(
+        "E13",
+        done,
+        "the AI pass completed on this commit" if done else "no completed AI review of this commit",
+    )
+    check(
+        "E14",
+        not claimed,
+        "brand not claimed" if not claimed else f"{claimed[0]} is claimed: needs its sign-off",
+    )
+    touched = (review.get("sustainability") or {}).get("touched")
+    check(
+        "E15",
+        not touched and gate_green,
+        "no sustainability data, gate green" if not touched else "touches sustainability data",
+    )
+    ai_errors = [f for f in model.get("findings") or [] if f.get("severity") == "error"]
+    blocked = NEW in kinds and ai_errors
+    check(
+        "E22",
+        not blocked,
+        "no 🔴 AI finding on new data"
+        if not blocked
+        else f"{len(ai_errors)} 🔴 AI finding(s), e.g. `{ai_errors[0].get('path', '')}`",
+    )
+    return items

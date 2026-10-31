@@ -1,9 +1,11 @@
 """
 Markdown for the summary comment and the inline review comments.
 
-The summary is one comment per PR, found by ``MARKER`` and edited in place. The AI
-part sits between ``AI_START``/``AI_END`` so a free re-check after a push can keep the
-last model review instead of wiping it.
+The summary is one comment per PR, found by ``MARKER`` and edited in place. It says
+only what needs doing: what the PR does, its problems, and whether it can auto-merge.
+The reasons behind the rules live in ``docs/automated-review.md``, linked from it.
+The AI part sits between ``AI_START``/``AI_END`` so a free re-check after a push can
+keep the last model review instead of wiping it.
 """
 
 import json
@@ -22,6 +24,7 @@ AI_SHA = re.compile(r"<!-- ofd-ai-review:sha=([0-9a-f]{7,40}) -->")
 SPEND = re.compile(r"<!-- ofd-ai-review:spent=([0-9.]+) -->")
 
 ICONS = {"error": "🔴", "warning": "🟡", "note": "🔵"}
+DOC = "docs/automated-review.md"
 
 
 def quiet(text) -> str:
@@ -53,7 +56,7 @@ def _value_line(e: dict) -> str:
 
 
 def suggestion_body(suggestion) -> str:
-    lines = ["**Suggested data**, from the linked sources. Commit it if it checks out:", ""]
+    lines = ["Found by the bot; check the source before committing:"]
     lines += [_value_line(e) for e in suggestion.enrichments]
     lines += ["", "```suggestion", *suggestion.replacement, "```"]
     return "\n".join(lines)
@@ -63,11 +66,11 @@ def finding_tag(finding: dict, verdicts: dict | None) -> str:
     """How far a model finding has been checked by a script."""
     verdict = (verdicts or {}).get((finding.get("path"), finding.get("pointer") or ""))
     if verdict and verdict.get("verdict") == "verified":
-        return " **(verified against the brand's site)**"
+        return " **(verified on the brand's site)**"
     if finding.get("evidence"):
         reason = f": {quiet(verdict['reason'])}" if verdict and verdict.get("reason") else ""
         return f" _(unverified{reason})_"
-    return " _(unverified: AI opinion)_"
+    return " _(AI opinion)_"
 
 
 def inline_comments(
@@ -115,65 +118,61 @@ def inline_comments(
     return comments, not_placed
 
 
+def doc_link(result: dict, anchor: str = "") -> str:
+    repo = result.get("repo") or ""
+    base = f"https://github.com/{repo}/blob/main/{DOC}" if repo else DOC
+    return base + (f"#{anchor}" if anchor else "")
+
+
 def ai_section(result: dict) -> str:
     model = result.get("model")
     if not model:
         return ""
-    lines = [AI_START, f"<!-- ofd-ai-review:sha={result['head_sha']} -->", "### AI review", ""]
+    reviewed = model.get("carried_from") or result["head_sha"]
+    lines = [AI_START, f"<!-- ofd-ai-review:sha={reviewed} -->"]
     if model.get("error"):
-        lines += [f"The model pass did not complete: {quiet(model['error'])}", ""]
+        lines += [f"_The AI review didn't complete: {quiet(model['error'])}_", ""]
         return "\n".join(lines + [AI_END])
+    if model.get("carried_from"):
+        lines += [
+            f"_AI review of `{reviewed[:7]}`, carried over: the new commits only apply its "
+            "suggestions._",
+            "",
+        ]
+    if model.get("summary", "").strip():
+        lines += [quiet(model["summary"].strip()), ""]
 
-    lines += [quiet(model.get("summary", "").strip()), ""]
+    verdicts = verdict_map(result)
+    lines += [
+        _bullet(f["severity"], f["path"], f["message"], f.get("pointer", ""))
+        + finding_tag(f, verdicts)
+        for f in _sorted(result.get("not_placed") or [], "severity")
+    ]
     unread = [s for s in result.get("sources", []) if not s.get("ok")]
     if unread:
-        lines += [
-            "Sources the bot couldn't read (a maintainer should check these by hand): "
-            + ", ".join(f"<{s['url']}> ({quiet(s['error'])})" for s in unread),
-            "",
-        ]
-    if result.get("not_placed"):
-        lines += ["**Other findings**", ""]
-        verdicts = verdict_map(result)
-        lines += [
-            _bullet(f["severity"], f["path"], f["message"], f.get("pointer", ""))
-            + finding_tag(f, verdicts)
-            for f in _sorted(result["not_placed"], "severity")
-        ]
+        lines.append(
+            "- ⚪ Couldn't read, check by hand: "
+            + ", ".join(f"<{s['url']}> ({quiet(s['error'])})" for s in unread)
+        )
+    inline = len(model.get("findings", [])) - len(result.get("not_placed") or [])
+    suggestions = result.get("suggestion_count", 0)
+    bits = []
+    if inline:
+        bits.append(f"{inline} comment{'s' if inline != 1 else ''}")
+    if suggestions:
+        bits.append(f"{suggestions} suggestion{'s' if suggestions != 1 else ''}")
+    if bits:
+        lines.append(f"- 💬 {' and '.join(bits)} on the diff")
+    if lines[-1] != "":
         lines.append("")
 
-    inline_findings = len(model.get("findings", [])) - len(result.get("not_placed", []))
-    suggestions = result.get("suggestion_count", 0)
-    if inline_findings or suggestions:
-        bits = []
-        if inline_findings:
-            bits.append(f"{inline_findings} finding{'s' if inline_findings != 1 else ''}")
-        if suggestions:
-            bits.append(
-                f"{suggestions} data suggestion{'s' if suggestions != 1 else ''} "
-                f"(**Commit suggestion** applies one)"
-            )
-        lines += [f"Inline on the diff: {', '.join(bits)}.", ""]
-
     if result.get("manual"):
-        lines += [
-            "<details><summary>Data found for lines outside this diff (add by hand)</summary>",
-            "",
-        ]
+        lines += ["<details><summary>Data found outside the diff (add by hand)</summary>", ""]
         for enrichment, why in result["manual"]:
             lines.append(f"`{enrichment['path']}`, {why}:")
             lines.append(_value_line(enrichment))
         lines += ["", "</details>", ""]
-    if result.get("rejected"):
-        lines += ["<details><summary>Proposed values dropped by validation</summary>", ""]
-        for enrichment, why in result["rejected"]:
-            lines.append(f"- `{enrichment.get('path')}` `{enrichment.get('pointer')}`: {why}")
-        lines += ["", "</details>", ""]
-
-    lines.append(
-        f"<sub>{model.get('model')} · ${model.get('cost_usd', 0):.2f} · reviewed "
-        f"{result['head_sha'][:7]}</sub>"
-    )
+    lines.append(f"<sub>{model.get('model')} · ${model.get('cost_usd', 0):.2f}</sub>")
     return "\n".join(lines + [AI_END])
 
 
@@ -182,59 +181,69 @@ def verdict_map(result: dict) -> dict:
 
 
 def proofs_section(result: dict) -> list[str]:
-    """Which changed values a script proved against the brand's site."""
+    """The changed values a script checked on the brand's site, folded away."""
     from ofd.automerge.proof import PROVABLE, Leaf, classify
+
+    provable = [
+        leaf
+        for leaf in (Leaf(**d) for d in result.get("leaves") or [])
+        if classify(leaf) == PROVABLE
+    ]
+    if not provable:
+        return []
+    proofs = result.get("proofs") or {}
+    proven = sum(1 for leaf in provable if (proofs.get(leaf.key) or {}).get("ok"))
+    lines = [
+        f"<details><summary>Changed values: {proven} of {len(provable)} proven</summary>",
+        "",
+        "| Value | | Source |",
+        "|---|---|---|",
+    ]
+    for leaf in provable:
+        verdict = proofs.get(leaf.key) or {}
+        value = quiet(json.dumps(leaf.after, ensure_ascii=False))
+        if verdict.get("ok"):
+            source = (verdict.get("proof") or {}).get("source_url", "")
+            cell = f"✅ | [brand page]({source})"
+        else:
+            cell = f"❌ | {quiet(verdict.get('reason') or 'no proof found')}"
+        lines.append(f"| `{leaf.path}` `{leaf.pointer}` = `{value}` | {cell} |")
+    return lines + ["", "</details>", ""]
+
+
+def automerge_section(result: dict) -> list[str]:
+    """One line: what in this PR holds auto-merge back, from the checklist itself.
+
+    Only the content conditions are known here; GitHub state (other checks, labels,
+    the hour's wait) is the Auto-merge check's to report.
+    """
+    from ofd.automerge.eligibility import content_items
+    from ofd.automerge.proof import Leaf
 
     leaves = [Leaf(**d) for d in result.get("leaves") or []]
     if not leaves:
         return []
-    provable = [leaf for leaf in leaves if classify(leaf) == PROVABLE]
-    human = len(leaves) - len(provable)
-    proofs = result.get("proofs") or {}
-    proven = sum(1 for leaf in provable if (proofs.get(leaf.key) or {}).get("ok"))
-    lines = [
-        f"### Changed values: {proven} of {len(leaves)} proven",
-        "",
-    ]
-    if provable:
-        lines += ["| Value | | Source |", "|---|---|---|"]
-        for leaf in provable:
-            verdict = proofs.get(leaf.key) or {}
-            value = quiet(json.dumps(leaf.after, ensure_ascii=False))
-            if verdict.get("ok"):
-                source = (verdict.get("proof") or {}).get("source_url", "")
-                lines.append(
-                    f"| `{leaf.path}` `{leaf.pointer}` = `{value}` | ✅ | [brand page]({source}) |"
-                )
-            else:
-                reason = quiet(verdict.get("reason") or "no proof found")
-                lines.append(f"| `{leaf.path}` `{leaf.pointer}` = `{value}` | ❌ | {reason} |")
-        lines.append("")
-    if human:
-        lines.append(
-            f"{human} change{'s' if human != 1 else ''} (names, colours, new or removed "
-            "entries, sustainability, density and similar) can't be proven by a script and "
-            "need a maintainer."
-        )
-        lines.append("")
-    return lines
-
-
-def automerge_section(result: dict) -> list[str]:
+    gate = (result.get("sustainability") or {}).get("gate") or {}
+    items = content_items(
+        result,
+        leaves,
+        result.get("proofs") or {},
+        result.get("finding_verdicts") or [],
+        claimed=sorted(result.get("claimed_brands") or {}),
+        gate_green=gate.get("state", "success") == "success",
+    )
+    holds = [quiet(i.detail) for i in items if not i.ok]
     repo = result.get("repo") or ""
-    if not result.get("leaves"):
-        return []
     link = f"https://github.com/{repo}/pull/{result['pr']}/checks" if repo else ""
-    check = f"[`Auto-merge` check]({link})" if link else "`Auto-merge` check"
-    return [
-        "### Auto-merge",
-        "",
-        f"The {check} decides, not this comment. A PR auto-merges after an hour (add the "
-        "`hold` label to stop it) only if every changed value is proven above, nothing "
-        "contradicts the brand, the brand isn't claimed, no sustainability data is touched "
-        "and every check is green. Anything else waits for a maintainer.",
-        "",
-    ]
+    check = f"[Auto-merge check]({link})" if link else "Auto-merge check"
+    if holds:
+        verdict = f"held back: {'; '.join(holds)}."
+    else:
+        verdict = (
+            "nothing in the content holds it, so it can merge on its own an hour after "
+            "every check is green (`hold` stops it)."
+        )
+    return [f"**Auto-merge:** {verdict} The {check} decides.", ""]
 
 
 def sustainability_section(result: dict) -> list[str]:
@@ -242,118 +251,68 @@ def sustainability_section(result: dict) -> list[str]:
     gate = sus.get("gate") or {}
     if not sus.get("touched"):
         return []
-    icon = (
-        "✅"
-        if gate.get("state") == "success" and not gate.get("override")
-        else ("⚠️" if gate.get("override") else "❌")
-    )
-    lines = [
-        f"### 🌱 Sustainability data {icon}",
-        "",
-        "This PR touches sustainability data, so every figure was checked against its "
-        "source (fetched, quote on the page, numbers in the quote, nothing invented) and "
-        "by the AI review. The `Sustainability sources` status blocks the merge until all "
-        "of it checks out.",
-        "",
-    ]
-    model_checked = {
-        (c.get("path"), c.get("pointer")): c
-        for c in ((result.get("model") or {}).get("sustainability") or {}).get("checked") or []
-    }
-    for entry in sus.get("entries", []):
-        ai = model_checked.get((entry["path"], entry["pointer"]))
-        ok = not entry["errors"] and ai is not None and ai.get("verdict") == "ok"
-        lines.append(
-            f"- {'✅' if ok else '❌'} `{entry['path']}` `{entry['pointer']}` ({entry['status']})"
-        )
-        lines += [f"  - 🔴 {quiet(e)}" for e in entry["errors"]]
-        lines += [f"  - 🟡 {quiet(w)}" for w in entry["warnings"]]
-        if ai is None:
-            lines.append("  - 🔴 not confirmed by the AI review")
-        elif ai.get("verdict") != "ok":
-            lines.append(f"  - 🔴 AI: {quiet(ai.get('note') or ai.get('verdict'))}")
-    for entry in sus.get("removed", []):
-        lines.append(f"- ❌ `{entry['path']}` `{entry['pointer']}` removed")
-    lines += [f"- Trait changed: {t}" for t in sus.get("traits", [])]
-    lines += [f"- ❌ Rule file changed: `{p}`" for p in sus.get("rule_paths", [])]
-    lines.append("")
+    why = f"([why]({doc_link(result, 'sustainability-data')}))"
     if gate.get("override"):
-        lines.append(
-            f"**Overridden by {gate['override']}** with the `sustainability-verified` label "
-            f"({len(gate.get('failures', []))} problem(s) above). Pushing new sustainability "
-            "changes removes the label."
-        )
-    elif gate.get("state") != "success":
-        lines.append(
-            "**Blocked.** Fix the problems above and push, or, if a source can't be fetched "
-            "automatically and a maintainer has checked it by hand, add the "
-            "`sustainability-verified` label."
-        )
-    else:
-        lines.append(f"**Verified:** {gate.get('description')}.")
-    return lines + [""]
+        return [
+            f"- 🌱 Sustainability: {len(gate.get('failures', []))} problem(s) overridden by "
+            f"{gate['override']}.",
+        ]
+    if gate.get("state") == "success":
+        return [f"- 🌱 Sustainability: {gate.get('description')}."]
+
+    lines = [f"- 🌱 **Sustainability blocked** {why}:"]
+    lines += [f"  - 🔴 {quiet(f)}" for f in gate.get("failures") or []]
+    for entry in sus.get("entries", []):
+        where = f"`{entry['path']}` `{entry['pointer']}`"
+        lines += [f"  - 🟡 {where}: {quiet(w)}" for w in entry["warnings"]]
+    return lines
 
 
 def claims_section(result: dict) -> list[str]:
-    claimed = result.get("claimed_brands") or {}
-    if not claimed:
-        return []
-    lines = ["### Claimed brands", ""]
-    lines += [
-        f"- `{brand}` is claimed by its manufacturer: {', '.join('@' + r for r in reps)} "
-        "must approve this PR (the `Brand sign-off` status)."
-        for brand, reps in claimed.items()
+    return [
+        f"- 🏷️ `{brand}` is claimed: {', '.join('@' + r for r in reps)} must approve "
+        "(`Brand sign-off`)."
+        for brand, reps in (result.get("claimed_brands") or {}).items()
     ]
-    return lines + [""]
 
 
 def summary(result: dict, previous_ai: str = "", run_url: str = "", merge_url: str = "") -> str:
     lines = [
         MARKER,
         f"<!-- ofd-ai-review:spent={result.get('spent_usd', 0):.2f} -->",
-        "## Automated review",
-        "",
-        f"Covers `{result['head_sha'][:7]}`.",
+        f"**Automated review** of `{result['head_sha'][:7]}` · "
+        f"[how this works]({doc_link(result)})",
         "",
     ]
-    lines += sustainability_section(result)
-    lines += claims_section(result)
-    lines += proofs_section(result)
-
-    findings = _sorted(result.get("findings", []), "level")
-    lines += ["### Checks", ""]
-    if findings:
-        lines += [
-            _bullet(f["level"], f["path"], f["message"], f.get("pointer", "")) for f in findings
-        ]
-    else:
-        lines.append("No issues found by the automated checks.")
-    lines.append("")
-
-    if result.get("flipflops"):
-        lines += ["### Values going back and forth", ""]
-        lines += [f"- `{ff['path']}`: {quiet(ff['message'])}" for ff in result["flipflops"]]
-        lines.append("")
-
     ai = ai_section(result)
     if not ai and previous_ai:
         ai = mark_outdated(previous_ai, result["head_sha"])
     if ai:
         lines += [ai, ""]
-    elif not result.get("model"):
-        lines += [
-            "<sub>No AI review on this run. A maintainer can ask for one by commenting "
-            "`/review`.</sub>",
-            "",
-        ]
+
+    issues = sustainability_section(result) + claims_section(result)
+    issues += [
+        _bullet(f["level"], f["path"], f["message"], f.get("pointer", ""))
+        for f in _sorted(result.get("findings", []), "level")
+    ]
+    issues += [
+        f"- 🔁 `{ff['path']}`: {quiet(ff['message'])}" for ff in result.get("flipflops") or []
+    ]
+    if issues:
+        lines += issues + [""]
+    if not ai and not result.get("model") and result.get("has_data"):
+        lines += ["<sub>No AI review on this run; comment `/review` for one.</sub>", ""]
 
     lines += automerge_section(result)
-    footer = f"<sub>Checks ran on {result['head_sha'][:7]}"
-    footer += f" · [workflow run]({run_url})</sub>" if run_url else "</sub>"
-    lines.append(footer)
+    lines += proofs_section(result)
+    footer = []
     if merge_url:
-        lines += ["", f"**Maintainers:** [✅ LGTM & merge]({merge_url})"]
-    return "\n".join(lines) + "\n"
+        footer.append(f"**Maintainers:** [✅ LGTM & merge]({merge_url})")
+    if run_url:
+        footer.append(f"<sub>[workflow run]({run_url})</sub>")
+    if footer:
+        lines.append(" · ".join(footer))
+    return "\n".join(lines).rstrip() + "\n"
 
 
 def mark_outdated(section: str, head: str) -> str:
@@ -363,12 +322,16 @@ def mark_outdated(section: str, head: str) -> str:
         return section
     old = f" (`{match.group(1)[:7]}`)" if match else ""
     notice = (
-        f"> ⚠️ **Outdated:** this AI review is of an earlier commit{old}, not "
-        f"`{head[:7]}`. Comment `/review` for a fresh one."
+        f"> ⚠️ **Outdated:** this AI review is of an earlier commit{old}. "
+        "Comment `/review` for a fresh one."
     )
     # Replace any earlier notice rather than stacking them.
     section = re.sub(r"> ⚠️ \*\*Outdated:\*\*.*\n\n", "", section)
-    return section.replace("### AI review\n", f"### AI review\n\n{notice}\n", 1)
+    head_line = AI_SHA.search(section)
+    if not head_line:
+        return f"{notice}\n\n{section}"
+    cut = head_line.end() + 1
+    return f"{section[:cut]}{notice}\n\n{section[cut:]}"
 
 
 def extract_ai_section(body: str) -> str:
