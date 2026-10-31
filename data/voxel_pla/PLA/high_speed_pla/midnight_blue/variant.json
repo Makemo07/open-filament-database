@@ -1,0 +1,9 @@
+{
+  "id": "midnight_blue",
+  "name": "Midnight Blue",
+  "color_hex": "#14213D",
+  "discontinued": false,
+  "traits": {
+    "high_flow": true
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "id": "aurora_green",
+  "name": "Aurora Green",
+  "color_hex": [
+    "#6D5980",
+    "#094A30"
+  ],
+  "discontinued": false,
+  "traits": {
+    "high_flow": true
+  }
+}
